@@ -10,6 +10,7 @@ const sourceFiles = (await readdir(path.join(projectDir, "src")))
   .filter((name) => name.endsWith(".js"))
   .map((name) => path.join(projectDir, "src", name));
 const scriptFiles = [
+  path.join(projectDir, "server.mjs"),
   path.join(projectDir, "scripts", "build_frontend.mjs"),
   path.join(projectDir, "scripts", "check_source.mjs"),
 ];

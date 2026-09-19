@@ -44,6 +44,9 @@ FUA_MAPPING_PATH = (
     PROJECT_ROOT
     / "reference/popularity_first_top1000_origin_fua_mapping_20260718.csv"
 )
+ORIGIN_AUDIT_PATH = (
+    PROJECT_ROOT / "data/processed/top1000_origin_fact_check_20260901.csv"
+)
 UK_OUTLINE_PATH = (
     PROJECT_ROOT
     / "data/raw/geography/natural_earth_50m_united_kingdom_20260723.geojson"
@@ -376,6 +379,12 @@ def build_dashboard() -> tuple[dict[str, object], dict[str, object]]:
     fua_population_rows = _read_csv(
         FUA_POPULATION_PATH, FUA_POPULATION_REQUIRED_COLUMNS
     )
+    origin_audit = _read_csv(
+        ORIGIN_AUDIT_PATH, {"returned_spotify_id", "final_status", "final_origin"}
+    )
+    audit_by_id = {row["returned_spotify_id"]: row for row in origin_audit}
+    if len(audit_by_id) != len(origin_audit):
+        raise ValueError("Origin audit contains duplicate Spotify IDs")
     if not UK_OUTLINE_PATH.is_file():
         raise FileNotFoundError(UK_OUTLINE_PATH)
     if not GENRE_CAPTURE_PATH.is_file():
@@ -443,6 +452,7 @@ def build_dashboard() -> tuple[dict[str, object], dict[str, object]]:
         )
         if fua_code and fua_code not in population_by_code:
             raise ValueError(f"No population record for {fua_code}")
+        audit = audit_by_id.get(band_id, {})
 
         bands.append(
             {
@@ -458,6 +468,13 @@ def build_dashboard() -> tuple[dict[str, object], dict[str, object]]:
                 "spotifyExtractedAtUtc": _utc(row["stats_extracted_at_utc"]),
                 "originCluster": origin,
                 "originResolution": row["origin_resolution"] or None,
+                "gameEligible": bool(
+                    location
+                    and location["location_status"] == "uk"
+                    and location["place_type"] == "locality"
+                    and audit.get("final_status") in {"confirmed", "corrected", "resolved"}
+                    and audit.get("final_origin") == origin
+                ),
                 "placeType": location["place_type"] if location else None,
                 "locationStatus": (
                     location["location_status"] if location else "unresolved"
@@ -675,6 +692,12 @@ def build_dashboard() -> tuple[dict[str, object], dict[str, object]]:
             "population": population_freshness,
         },
         "sources": [
+            {
+                "label": "Origin fact-check used for game eligibility",
+                "path": _relative(ORIGIN_AUDIT_PATH),
+                "capturedAtUtc": _capture_date_from_filename(ORIGIN_AUDIT_PATH),
+                "sourceUrl": None,
+            },
             {
                 "label": "Popularity-first top-1,000 catalog and Spotify snapshot",
                 "path": _relative(POPULARITY_FIRST_TOP1000_BANDS_PATH),

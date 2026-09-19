@@ -9,6 +9,7 @@ import {
 } from "./bar-chart.js";
 import { searchExplorer } from "./search.js";
 import { parseExplorerState, updateUrl } from "./state.js";
+import { initGames } from "./game-view.js";
 
 const numberFormat = new Intl.NumberFormat("en-GB");
 const dateFormat = new Intl.DateTimeFormat("en-GB", {
@@ -647,6 +648,7 @@ async function init() {
     render(false);
     elements.loading.hidden = true;
     elements.app.hidden = false;
+    initGames(document.querySelector("#games-main"), dashboard, loaded.outline);
   } catch (error) {
     elements.loading.hidden = true;
     elements.error.hidden = false;

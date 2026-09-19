@@ -7,6 +7,7 @@
     <meta name="description" content="Search bands and formation places in a reviewed catalog of 1,000 UK bands." />
     <title>UK Music Cities Explorer</title>
     <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="/src/games.css" />
   </head>
   <body>
     <a class="skip-link" href="#explorer-main">Skip to explorer</a>
@@ -18,6 +19,11 @@
     </div>
 
     <div id="app" hidden>
+      <nav class="app-nav" aria-label="Main navigation">
+        <a class="app-name" href="#explorer">UK Music Cities</a>
+        <div><a id="nav-explorer" href="#explorer">Explore</a><a id="nav-games" href="#games">Play</a></div>
+      </nav>
+      <main id="games-main" hidden></main>
       <main id="explorer-main">
         <section class="intro" aria-labelledby="page-title">
           <div class="intro-copy">

@@ -1,11 +1,12 @@
 const SVG_NS = "http://www.w3.org/2000/svg";
-const WIDTH = 760;
-const HEIGHT = 620;
+export const WIDTH = 760;
+export const HEIGHT = 620;
 const PADDING = 30;
 const ZOOM_STEP = 1.35;
 export const DEFAULT_MAP_ZOOM = ZOOM_STEP ** 2;
 const DEFAULT_TRANSLATE_X = (WIDTH * (1 - DEFAULT_MAP_ZOOM)) / 2;
 const DEFAULT_TRANSLATE_Y = HEIGHT - (HEIGHT - PADDING) * DEFAULT_MAP_ZOOM;
+export const DEFAULT_MAP_TRANSFORM = `translate(${DEFAULT_TRANSLATE_X},${DEFAULT_TRANSLATE_Y}) scale(${DEFAULT_MAP_ZOOM})`;
 const MIN_BUBBLE_RADIUS = 4;
 const MAX_BUBBLE_RADIUS = 24;
 const MAP_LABEL_FONT_SIZE = 8.5;
@@ -106,7 +107,7 @@ function geometryCoordinates(geometry) {
   throw new Error(`Unsupported map geometry: ${geometry.type}`);
 }
 
-function createProjection(outline) {
+export function createProjection(outline) {
   const points = outline.features.flatMap((feature) =>
     geometryCoordinates(feature.geometry).flat(),
   );
@@ -131,16 +132,21 @@ function createProjection(outline) {
   );
   const offsetX = (WIDTH - (bounds.maxX - bounds.minX) * scale) / 2;
   const offsetY = (HEIGHT - (bounds.maxY - bounds.minY) * scale) / 2;
-  return ([longitude, latitude]) => {
+  const project = ([longitude, latitude]) => {
     const [x, y] = mercator([longitude, latitude]);
     return [
       offsetX + (x - bounds.minX) * scale,
       offsetY + (y - bounds.minY) * scale,
     ];
   };
+  project.invert = ([x, y]) => [
+    (((x - offsetX) / scale) + bounds.minX) * 180 / Math.PI,
+    (2 * Math.atan(Math.exp(-(((y - offsetY) / scale) + bounds.minY))) - Math.PI / 2) * 180 / Math.PI,
+  ];
+  return project;
 }
 
-function featurePath(feature, project) {
+export function featurePath(feature, project) {
   return geometryCoordinates(feature.geometry)
     .map((ring) =>
       ring

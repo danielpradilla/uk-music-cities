@@ -520,13 +520,15 @@ test("the desktop map and band-title dividers share one alignment line", async (
   );
 });
 
-test("the explorer opens directly on the working surface without top navigation", async () => {
+test("the explorer keeps its working surface beneath Explore and Play navigation", async () => {
   const html = await readFile(path.join(projectDir, "index.html"), "utf8");
   const styles = await readFile(path.join(projectDir, "src/styles.css"), "utf8");
   assert.doesNotMatch(html, /class="site-header"|class="header-inner"|class="project-mark"|class="method-link"/);
   assert.doesNotMatch(styles, /\.site-header|\.header-inner|\.project-mark|\.method-link/);
   assert.match(html, /<main id="explorer-main">\s*<section class="intro"/);
   assert.match(html, /Read the post ↗/);
+  assert.match(html, /id="nav-explorer" href="#explorer"/);
+  assert.match(html, /id="nav-games" href="#games"/);
 });
 
 test("band detail keeps catalog rank beneath the links and exposes only supported Spotify metrics", async () => {

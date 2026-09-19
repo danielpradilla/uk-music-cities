@@ -1,14 +1,15 @@
-import { assetUrl, loadExplorerData } from "./data.js?v=a766bf76560f";
-import { BandMap } from "./map.js?v=a766bf76560f";
+import { assetUrl, loadExplorerData } from "./data.js?v=0a31d9880337";
+import { BandMap } from "./map.js?v=0a31d9880337";
 import {
   METRIC_CONFIG,
   PLACE_LEADERBOARD_LIMIT,
   renderAreaBandChart,
   renderBarChart,
   renderPlaceChart,
-} from "./bar-chart.js?v=a766bf76560f";
-import { searchExplorer } from "./search.js?v=a766bf76560f";
-import { parseExplorerState, updateUrl } from "./state.js?v=a766bf76560f";
+} from "./bar-chart.js?v=0a31d9880337";
+import { searchExplorer } from "./search.js?v=0a31d9880337";
+import { parseExplorerState, updateUrl } from "./state.js?v=0a31d9880337";
+import { initGames } from "./game-view.js?v=0a31d9880337";
 
 const numberFormat = new Intl.NumberFormat("en-GB");
 const dateFormat = new Intl.DateTimeFormat("en-GB", {
@@ -647,6 +648,7 @@ async function init() {
     render(false);
     elements.loading.hidden = true;
     elements.app.hidden = false;
+    initGames(document.querySelector("#games-main"), dashboard, loaded.outline);
   } catch (error) {
     elements.loading.hidden = true;
     elements.error.hidden = false;

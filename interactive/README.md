@@ -7,8 +7,8 @@ For the formal study's definitions of Functional Urban Areas, band assignment, S
 ## Requirements
 
 - Python 3.10 or newer
-- Node.js 20 or newer
-- No npm packages or runtime APIs
+- Node.js 24 or newer (the score server uses built-in SQLite)
+- No npm packages
 
 ## Build and test
 
@@ -16,15 +16,23 @@ From `interactive/`:
 
 ```sh
 npm run build:data
-npm test
 npm run build
+npm test
 ```
 
-`npm run check` runs all three steps. The production output is `interactive/dist/`. To preview it locally:
+`npm run check` builds the data, checks JavaScript, builds the frontend and runs the tests. The production output is `interactive/dist/`. To preview it locally:
 
 ```sh
 npm run preview
 ```
+
+Open `http://127.0.0.1:4173/#games` for the three games: Pin the Band, Odd Band Out and North or South?. Each offers untimed practice and a competitive daily challenge with the same questions for every player. Competitive clocks are 18 seconds for Pin the Band, 12 for Odd Band Out and 8 for North or South?. Fast answers earn up to 50% extra points. Competitive rounds advance automatically after 1.8 seconds.
+
+`server.mjs` serves the built app and calculates competitive answers, timing and scores. It stores each browser player's best daily score in `../.local-artifacts/music-game-scores.sqlite`, outside the build directory. Results show rank, the top ten scores and the percentage of other players outscored. Browser cookies identify players; nicknames are public. There are no seeded opponent scores. Rebuilding the app preserves scores; restarting the server preserves scores but ends unfinished runs.
+
+For public competition, run this Node server behind the site's HTTPS reverse proxy with persistent storage. `HOST`, `PORT`, `PUBLIC_BASE` and `SCORES_DB` configure the listener, URL prefix and database file. Build and serve with the same `PUBLIC_BASE`. Static hosting supports the explorer and untimed practice; competitive scores require the server.
+
+Geography questions use `gameEligible`: a confirmed, corrected or resolved origin from the captured origin audit that exactly matches a UK locality in the explorer. This excludes disputed origins, broad regions and wider-area groupings. The current pool contains 617 bands across 154 places.
 
 The app’s canonical browser pointers remain `/data/dashboard.json` and `/data/uk-outline.geojson`. The production build can prefix those stable paths for a subdirectory deployment without changing the source pointers:
 
