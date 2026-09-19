@@ -1,6 +1,6 @@
-import { GAMES, MusicGame, coordinates, prepareGameData, shuffled, ROUND_SECONDS } from "./games.js?v=0a31d9880337";
-import { createProjection, featurePath, WIDTH, HEIGHT, DEFAULT_MAP_ZOOM, DEFAULT_MAP_TRANSFORM } from "./map.js?v=0a31d9880337";
-import { assetUrl } from "./data.js?v=0a31d9880337";
+import { GAMES, MusicGame, coordinates, prepareGameData, shuffled, ROUND_SECONDS } from "./games.js?v=a7aca63ae0da";
+import { createProjection, featurePath, WIDTH, HEIGHT, DEFAULT_MAP_ZOOM, DEFAULT_MAP_TRANSFORM } from "./map.js?v=a7aca63ae0da";
+import { assetUrl } from "./data.js?v=a7aca63ae0da";
 
 const format = new Intl.NumberFormat("en-GB");
 
