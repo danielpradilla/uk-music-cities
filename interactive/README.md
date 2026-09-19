@@ -7,7 +7,8 @@ For the formal study's definitions of Functional Urban Areas, band assignment, S
 ## Requirements
 
 - Python 3.10 or newer
-- Node.js 24 or newer (the score server uses built-in SQLite)
+- Node.js 24 or newer (build, tests, and the local competitive-score preview server, which uses built-in SQLite)
+- PHP 8.1 or newer with `pdo_sqlite`, only needed to run/test the production `api/` competitive score service
 - No npm packages
 
 ## Build and test
@@ -28,9 +29,11 @@ npm run preview
 
 Open `http://127.0.0.1:4173/#games` for the three games: Pin the Band, Odd Band Out and North or South?. Each offers untimed practice and a competitive daily challenge with the same questions for every player. Competitive clocks are 18 seconds for Pin the Band, 12 for Odd Band Out and 8 for North or South?. Fast answers earn up to 50% extra points. Competitive rounds advance automatically after 1.8 seconds.
 
-`server.mjs` serves the built app and calculates competitive answers, timing and scores. It stores each browser player's best daily score in `../.local-artifacts/music-game-scores.sqlite`, outside the build directory. Results show rank, the top ten scores and the percentage of other players outscored. Browser cookies identify players; nicknames are public. There are no seeded opponent scores. Rebuilding the app preserves scores; restarting the server preserves scores but ends unfinished runs.
+Locally, `server.mjs` serves the built app and calculates competitive answers, timing and scores, storing each browser player's best daily score in `../.local-artifacts/music-game-scores.sqlite`, outside the build directory. Results show rank, the top ten scores and the percentage of other players outscored. Browser cookies identify players; nicknames are public. There are no seeded opponent scores. Rebuilding the app preserves scores; restarting the server preserves scores but ends unfinished runs.
 
-For public competition, run this Node server behind the site's HTTPS reverse proxy with persistent storage. `HOST`, `PORT`, `PUBLIC_BASE` and `SCORES_DB` configure the listener, URL prefix and database file. Build and serve with the same `PUBLIC_BASE`. Static hosting supports the explorer and untimed practice; competitive scores require the server.
+In production, `api/` is a PHP port of the same competitive logic (`lib/musicgame.php` mirrors `src/games.js` for the three live modes), since DreamHost shared hosting runs PHP, not a persistent Node process. It's deployed alongside the static build to `uk-music-cities/api/` and stores scores in `~/uk-music-cities-scores/scores.sqlite`, a sibling directory outside any web-servable path. `api/.htaccess` rewrites extensionless requests (`/api/start`) to the matching `.php` file, so the browser code is identical between local Node preview and the live PHP API — same `/api/start`, `/api/action`, `/api/leaderboard` paths, no client changes needed. Static hosting alone (no API deployed) supports the explorer and untimed practice; competitive scores require either server.
+
+The PHP port doesn't need to reproduce the Node server's exact byte-for-byte PRNG output — competitive rounds are only ever generated server-side, so each implementation only needs to be internally deterministic on its own. `npm run test:api` (`php api/tests/run.php`) checks that property directly: same mode and date always produces the same round sequence, scoring matches each mode's formula, answers stay redacted until a round is answered, and resuming a persisted run continues the same PRNG stream rather than restarting it.
 
 Geography questions use `gameEligible`: a confirmed, corrected or resolved origin from the captured origin audit that exactly matches a UK locality in the explorer. This excludes disputed origins, broad regions and wider-area groupings. The current pool contains 617 bands across 154 places.
 
