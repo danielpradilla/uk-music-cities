@@ -56,7 +56,7 @@ not refresh network data.
   high-confidence and Chumbawamba's Leeds assignment as medium-confidence
   because credible histories disagree.
 - Experiment 24 compared the editorial catalogue with popularity-selected
-  ten-band catalogues. Fifty of 80 comparable selections overlap, while the
+  ten-band catalogues. Sixty-seven of 80 comparable selections overlap, while the
   first four primary-index ranks remain unchanged. This is a follow-up branch,
   not part of the first article's claim.
 
