@@ -1,0 +1,12 @@
+{
+  "ok": false,
+  "stage": "verification",
+  "code": "horizontal_overflow",
+  "error": "Portable artifact overflows horizontally at 1440px. (desktop viewport)",
+  "screenshot": "/Users/dpradilla/dev/uk-music-cities/artifacts/reviews/top1000_20260905/report-layout-issue.png",
+  "timings": {
+    "browserRunMs": 683.1,
+    "verificationMs": 1299.5,
+    "totalMs": 2531.4
+  }
+}

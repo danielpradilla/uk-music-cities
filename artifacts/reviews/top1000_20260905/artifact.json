@@ -1,0 +1,731 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "Top 1,000 dataset: full quality review",
+    "description": "Audit of the frozen Spotify catalogue, its eligibility, formation origins, geographic denominators and main derivatives.",
+    "generatedAt": "2026-09-05T21:27:02.198602+00:00",
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "body": "# Top 1,000 dataset: full quality review"
+      },
+      {
+        "id": "summary",
+        "type": "markdown",
+        "body": "## Technical summary\n\n**Needs revision before it can support a bands-only or comprehensive city-scene claim.** The frozen catalogue is structurally clean: all 1,000 IDs, names and audience measures match the archived Spotify responses, and its selection, population aggregates, output shares, two scaling models and dashboard reconcile.\n\nThe main problems concern meaning and coverage. Five verified solo projects remain eligible; 334 acts lack even an extended FUA assignment; and 330 origin records are still proposals, source variations, unresolved or contested. These groups overlap and must not be added together. The five verified solo projects contribute only 0.23% of summed monthly listeners, so the eligibility defect is much smaller in reach than in its implications for the \u201cbands only\u201d definition.\n\nUse the dataset as a **Spotify-ranked catalogue drawn from one archived Wikidata candidate frame**, with explicit eligibility and geography caveats. Do not describe it as the definitive top 1,000 UK bands. Review date: 5 September 2026.",
+        "sourceId": "review"
+      },
+      {
+        "id": "scope",
+        "type": "markdown",
+        "body": "## What was reviewed\n\nThe unit is one selected Spotify artist linked to a Wikidata entity. Selection uses global Spotify monthly listeners captured in the batch dated **18 July 2026, 20:45:22 UTC**. The 1,000 artists sum to 2.304 billion monthly-listener counts and 927.8 million followers. Neither sum represents unique people across artists. Followers are a different stock metric; this catalogue is not the top 1,000 ranked by followers.\n\nCity calculations use 2024 populations for **83 OECD Functional Urban Areas**, totalling 53.90 million residents. This denominator is the supplied urban-area universe, not all UK residents. The two-year numerator/denominator mismatch is explicit. Origin labels, FUA assignments, genre/year enrichment, pageviews, source provenance, ranking gates and downstream consistency were checked. All rows received machine checks; independent manual biography checks were targeted to flagged cases.",
+        "sourceId": "review"
+      },
+      {
+        "id": "eligibility",
+        "type": "markdown",
+        "body": "## High: the bands-only rule still admits solo projects\n\n**Evidence and confidence: high.** The rule accepts the frozen label \u201cmusical group,\u201d which all five artists below carry, even when artist or label biographies identify solo work. The previous quality notebook's statement that selection gates pass is therefore too broad. [IAMX's press kit](https://iamxmusic.com/pages/electronic-press-kit), [Ex:Re's label](https://shop.4ad.com/format/1134848-exre), [Russ Davies' project list](https://www.russ-davies.com/alter-egos), [Hallucinogen's credits](https://hallucinogenmusic.bandcamp.com/album/twisted) and [Sidewalks and Skeletons' artist biography](https://ra.co/dj/sidewalksandskeletons/biography) provide the supporting evidence. Frozen Spotify biographies also support four of these classifications.\n\nThe table lists the verified minimum, not a complete manual eligibility adjudication. A catalogue-wide MusicBrainz screen yields **10 matching artist records typed Person**. The other five leads are The Streets, Nuages, Kareful, Klimeks and InsideInfo; they need individual decisions. A separate screen of 970 available Spotify biographies flags 67 rows, many simply mentioning band members' solo careers. Former groups/current solo acts such as The Prototypes and Antimatter require a consistent historical-membership rule.\n\n**Smallest fix:** use the existing reviewed exclusion table, adjudicate the remaining leads, and rebuild after reviewing replacement rows. A five-exclusion sensitivity would admit Greyhound, Demented Are Go, Ebbb, Tokyo Blade and Snuff under the current gates, reduce summed monthly listeners by 5.17 million (0.22%), and move the cutoff from 29,728 to 29,124. These are candidate replacements, not newly verified inclusions.",
+        "sourceId": "review"
+      },
+      {
+        "id": "solo-block",
+        "type": "table",
+        "tableId": "solo"
+      },
+      {
+        "id": "coverage",
+        "type": "markdown",
+        "body": "## High: origin completeness overstates usable city coverage\n\n**Evidence and confidence: high.** The headline 74.9% describes nonblank origin labels. Only 66.3% of acts have a strict FUA mapping, covering 90.7% of summed monthly listeners. Extended mapping adds three acts. Six \u201cresolved\u201d labels are only Scotland, Wales, Northern Ireland or United States; they do not establish a precise formation locality. Five non-UK-origin acts are intentionally excluded from UK FUA denominators but remain in the catalogue.\n\nThe coverage table separates counts from reach. Missingness is concentrated among less popular acts: 100 of the first 100 have origin labels, compared with 57 of ranks 801\u2013900 and 61 of ranks 901\u20131,000. **Implication:** captured-reach comparisons are better covered than band-count, genre-diversity or scene-breadth claims. Show FUA coverage beside every city result; do not substitute listener-weighted coverage for count coverage.",
+        "sourceId": "review"
+      },
+      {
+        "id": "coverage-block",
+        "type": "table",
+        "tableId": "coverage"
+      },
+      {
+        "id": "chart-reading",
+        "type": "markdown",
+        "body": "The chart shows the fraction with any origin label in each consecutive block of 100 ranks. Each bar has the same denominator. The fall toward the tail demonstrates systematic missingness; it is not a time trend, and a labelled origin can still be broad or disputed.",
+        "sourceId": "review"
+      },
+      {
+        "id": "deciles-block",
+        "type": "chart",
+        "chartId": "deciles"
+      },
+      {
+        "id": "origin-review",
+        "type": "markdown",
+        "body": "## High: 330 origins still need a decision or stronger evidence\n\n**Evidence and confidence: high for recorded status; variable for biographical truth.** The saved audit has 187 proposals for missing claims, 68 source variations, 73 unresolved records and two contested records. Together these account for 33.0% of acts and 7.63% of monthly-listener counts. The remaining 670 are confirmed, corrected or resolved under the current process; corroboration is not independent proof.\n\nThe status table describes the present audit, not a new manual verdict on every act. All **18 corrections and 11 resolutions already match the current catalogue**, including the reviewed origin changes for Royal Blood, Sigma, Editors and others. They do not need to be applied again.\n\n**Smallest fix:** review high-impact missing claims and source variations before promoting them. Wings, Erasure, FLO, HONNE, Snakehips and others still have unadopted proposals. Automatic promotion is unsafe: Studio Killers' multi-country evidence is reduced to \u201cFinland\u201d after the parser removes the generic UK entry, producing a country rather than a formation locality.",
+        "sourceId": "review"
+      },
+      {
+        "id": "origins-block",
+        "type": "table",
+        "tableId": "origins"
+      },
+      {
+        "id": "provenance",
+        "type": "markdown",
+        "body": "## Medium: audit evidence has identity and freshness limitations\n\n**MusicBrainz links \u2014 high confidence.** Four group records also carry eight individual-member IDs: DON BROCO, Climax Blues Band, Superorganism and Deaf Havana. The audit consumes all linked IDs without validating their identities. The extra records currently contribute no distinct begin-area, so no current origin change is demonstrated. Filter or adjudicate these links before using them as corroborating group evidence. The raw MusicBrainz capture marks itself complete despite returning 1,024 of 1,030 requested IDs; missing IDs need explicit accounting.\n\n**Audit prose \u2014 corrected 5 September 2026.** The origin and quality audit notebooks now match the live table: 18 corrected, 11 resolved, 68 source-variation and 73 unresolved records. They distinguish label coverage from FUA coverage, record the remaining eligibility issues and confirm that all 29 corrections/resolutions were already applied. Keep these narrative counts aligned with future audit rebuilds. The manual decision file has 57 records; 56 match this catalogue and Another Sunny Day lies outside it, an explainable difference.\n\n**Capture provenance \u2014 high confidence.** The candidate source preserves 1,928 bindings, but not the exact SPARQL text, URL/hash or complete selection intent. Every selected row shares the batch timestamp; individual response times are unavailable. July values are 49 calendar days old at review and are valid as a frozen snapshot, not current September reach. Save the exact query, timestamps and input hashes on the next capture; avoid inventing historical precision.",
+        "sourceId": "review"
+      },
+      {
+        "id": "selection",
+        "type": "markdown",
+        "body": "## The selection funnel reproduces but is not an exhaustive census\n\nThe source produces **1,775 candidate Spotify IDs**, 1,749 successful metric rows and 26 metric failures (1.46% of candidates). The latter have no measured audience count in this capture; do not assume they belong below the cutoff. After identity, type and duplicate gates, the pool contains 1,633 candidates and the selected cutoff is 29,728 monthly listeners. The next eligible row has 29,347: a gap of only **381 listeners (1.28%)**, with 53 eligible rows within \u00b110% of the cutoff. This is snapshot sensitivity, not a forecast of churn.\n\nOne lower-priority code risk was reproduced: duplicate flags are assigned before eligibility filtering, suppressing three otherwise accepted rows. Their captured counts are 371, 113 and 2, all below the cutoff; the present top 1,000 is unchanged. Filter before deduplicating when this selection routine is next revised.\n\nExact name matching and cross-file reconciliation establish consistency, not artist identity in every case. Missing artists outside the archived frame cannot be discovered by replaying that same frame.",
+        "sourceId": "review"
+      },
+      {
+        "id": "inference",
+        "type": "markdown",
+        "body": "## City rankings and models need coverage and concentration caveats\n\n**Evidence and confidence: high.** All 83 FUAs are retained in the output-share table; 59 have mapped acts, **25 of those have one selected act**, and 24 have zero selected acts. The one-band FUAs can lose their entire observed output when their leading act is removed. A zero means no mapped artist from this popularity-selected catalogue, not no music activity in that area.\n\nThe first 100 acts contribute **71.0%** of total captured monthly listeners and the first 200 contribute 86.6%. This concentration and uneven mapping make count and reach results answer different questions. Report largest-band sensitivity and band counts alongside per-resident reach; avoid describing the measure as local listening, historical cultural output or a causal city effect.\n\nBoth saved scaling outputs reproduce: the negative-binomial population exponent is 1.363 and the log\u2013log follower exponent is 1.410. The latter fits 59 positive-output FUAs and excludes 24 zeros. Numerical reproduction validates the saved calculation; it does not resolve selection bias, origin error, model specification uncertainty or the historical mismatch between band formation and current population.",
+        "sourceId": "review"
+      },
+      {
+        "id": "enrichment",
+        "type": "markdown",
+        "body": "## Medium: enrichment is incomplete and partly unequal in time\n\n**Evidence and confidence: high.** Genre labels cover 928 acts and inception years 828. Both enrichment tables retain the same 1,000 catalogue IDs and Spotify measures, but these automated labels and dates need historical review before genre-period interpretation. Inception extraction chooses a year from available Wikidata claims; this does not settle founding, renaming, reunion or first-release definitions.\n\nThe Wikipedia table marks 924 acts as usable: **922 have 12 months**, while Death Of Guitar Pop has 10 months and Black Tongue seven. Another 37 are not captured, 37 lack an English article and two have no pageview data. Comparing partial totals against full-year totals can distort attention residuals, especially for a very small count such as Black Tongue's six views. Keep incomplete windows separate or account for exposure; do not silently annualize them.\n\nPageviews cover July 2025\u2013June 2026, Spotify is a July 2026 snapshot, and population is from 2024. Their agreement is descriptive triangulation across different windows, not interchangeable measurement.",
+        "sourceId": "review"
+      },
+      {
+        "id": "validation",
+        "type": "markdown",
+        "body": "## Verification and limits\n\nThe companion notebook completes **99 assertions and reconciliations**, including all-row raw Spotify checks, deterministic candidate/catalogue reconstruction, both FUA views, the 83-FUA output-share table, both scaling-model outputs, dashboard totals and enrichment joins. The repository's existing **16 tests pass**. The row ledger covers every selected artist and retains eligibility leads, origin status and mapping tier; source SHA-256 hashes identify the inputs reviewed.\n\nThis review does not include a fresh Spotify capture, a new exhaustive UK-artist search, independent manual adjudication of every origin, or certification of every historical chart's rendering. It checks the current frozen data and main computed derivatives. Existing source datasets, publication files and application code were not changed. Tables provide exact audit counts; the rank-block chart visualizes the principal missingness pattern. No time-series chart is warranted by a single reviewed snapshot.\n\n**Display limitation:** the packaged HTML reader has horizontal overflow in desktop Chromium. Data/manifest validation passed, but full browser layout validation did not. The executed notebook is the calculation reference.",
+        "sourceId": "review"
+      },
+      {
+        "id": "actions",
+        "type": "markdown",
+        "body": "## Recommended next steps\n\n1. **Before a bands-only release:** decide the solo-project and former-group policy; apply verified exclusions through the existing overrides and review replacements.\n2. **Before city-breadth or historical claims:** resolve the highest-impact origin gaps and source variations; retain unassigned acts explicitly, and publish count and audience coverage separately.\n3. **Audit prose is updated.** Validate MusicBrainz identities and keep candidate-frame, snapshot-date and population-year caveats visible when sharing the findings.\n4. **For enrichment comparisons:** separate partial Wikipedia windows and curate formation-year semantics before cohort analysis.\n\nThe frozen captured-reach calculations can be shared with these limitations. A comprehensive top-1,000 UK-band or city-scene claim needs revised eligibility and a better-supported candidate frame.",
+        "sourceId": "review"
+      },
+      {
+        "id": "questions",
+        "type": "markdown",
+        "body": "## Decisions that could change the result\n\nShould a project that began as a group remain eligible after becoming solo? Does \u201cUK\u201d mean formation in the UK, affiliation with the UK, or the members' nationalities? How should multi-country and genuinely contested origins be represented? What independent source will test whether the Wikidata frame omitted important eligible acts?\n\nThese decisions should be documented before rebuilding. They were not silently imposed by this review."
+      }
+    ],
+    "tables": [
+      {
+        "id": "solo",
+        "title": "Verified solo-project inclusions",
+        "dataset": "solo",
+        "sourceId": "solo_calculation",
+        "defaultSort": {
+          "field": "popularity_rank",
+          "direction": "asc"
+        },
+        "columns": [
+          {
+            "field": "popularity_rank",
+            "label": "Rank"
+          },
+          {
+            "field": "spotify_name",
+            "label": "Artist"
+          },
+          {
+            "field": "monthly_listeners",
+            "label": "Listeners",
+            "format": "number"
+          }
+        ],
+        "source": {
+          "id": "solo_calculation",
+          "label": "Verified solo-project inclusions calculation",
+          "path": "artifacts/reviews/top1000_20260905/row_review.csv",
+          "query": {
+            "sql": "SELECT popularity_rank, spotify_name, monthly_listeners, eligibility_source_url FROM row_review WHERE eligibility_review = 'verified_solo_project' ORDER BY popularity_rank",
+            "language": "sql",
+            "engine": "SQLite",
+            "tables_used": [
+              "row_review"
+            ],
+            "description": "Independent SQLite calculation from the 1,000-row review ledger, whose columns preserve the frozen catalogue and origin/FUA audits plus explicitly adjudicated eligibility flags. Load row_review.csv into row_review; source hashes are in evidence.json."
+          }
+        }
+      },
+      {
+        "id": "coverage",
+        "title": "Origin and FUA coverage",
+        "dataset": "coverage",
+        "sourceId": "coverage_calculation",
+        "defaultSort": {
+          "field": "bands",
+          "direction": "desc"
+        },
+        "columns": [
+          {
+            "field": "coverage",
+            "label": "Definition"
+          },
+          {
+            "field": "bands",
+            "label": "Bands"
+          },
+          {
+            "field": "band_share",
+            "label": "Bands (%)",
+            "format": "percent"
+          },
+          {
+            "field": "listener_share",
+            "label": "Listeners (%)",
+            "format": "percent"
+          }
+        ],
+        "source": {
+          "id": "coverage_calculation",
+          "label": "Origin and FUA coverage calculation",
+          "path": "artifacts/reviews/top1000_20260905/row_review.csv",
+          "query": {
+            "sql": "WITH categories(label, ord) AS (VALUES ('Origin label present',1),('Strict FUA',2),('Extended FUA',3)) SELECT label AS coverage, COUNT(*) AS bands, COUNT(*) * 1.0 / (SELECT COUNT(*) FROM row_review) AS band_share, SUM(monthly_listeners) * 1.0 / (SELECT SUM(monthly_listeners) FROM row_review) AS listener_share, SUM(followers) * 1.0 / (SELECT SUM(followers) FROM row_review) AS follower_share FROM row_review CROSS JOIN categories WHERE (ord=1 AND origin_cluster <> '') OR (ord=2 AND mapping_tier='strict') OR (ord=3 AND mapping_tier IN ('strict','reviewed_extended')) GROUP BY ord, label ORDER BY ord",
+            "language": "sql",
+            "engine": "SQLite",
+            "tables_used": [
+              "row_review"
+            ],
+            "description": "Independent SQLite calculation from the 1,000-row review ledger, whose columns preserve the frozen catalogue and origin/FUA audits plus explicitly adjudicated eligibility flags. Load row_review.csv into row_review; source hashes are in evidence.json."
+          }
+        }
+      },
+      {
+        "id": "origins",
+        "title": "Current origin-audit status",
+        "dataset": "origins",
+        "sourceId": "origins_calculation",
+        "defaultSort": {
+          "field": "bands",
+          "direction": "desc"
+        },
+        "columns": [
+          {
+            "field": "status_label",
+            "label": "Status"
+          },
+          {
+            "field": "bands",
+            "label": "Bands"
+          },
+          {
+            "field": "band_share",
+            "label": "Band share",
+            "format": "percent"
+          },
+          {
+            "field": "listener_share",
+            "label": "Listener share",
+            "format": "percent"
+          }
+        ],
+        "source": {
+          "id": "origins_calculation",
+          "label": "Current origin-audit status calculation",
+          "path": "artifacts/reviews/top1000_20260905/row_review.csv",
+          "query": {
+            "sql": "SELECT final_status, COUNT(*) AS bands, SUM(monthly_listeners) AS monthly_listeners, COUNT(*) * 1.0 / (SELECT COUNT(*) FROM row_review) AS band_share, SUM(monthly_listeners) * 1.0 / (SELECT SUM(monthly_listeners) FROM row_review) AS listener_share FROM row_review GROUP BY final_status ORDER BY final_status",
+            "language": "sql",
+            "engine": "SQLite",
+            "tables_used": [
+              "row_review"
+            ],
+            "description": "Independent SQLite calculation from the 1,000-row review ledger, whose columns preserve the frozen catalogue and origin/FUA audits plus explicitly adjudicated eligibility flags. Load row_review.csv into row_review; source hashes are in evidence.json."
+          }
+        }
+      }
+    ],
+    "charts": [
+      {
+        "id": "deciles",
+        "title": "Origin-label coverage by popularity-rank block",
+        "type": "bar",
+        "dataset": "deciles",
+        "sourceId": "decile_calculation",
+        "valueFormat": "percent",
+        "encodings": {
+          "x": {
+            "field": "rank_range",
+            "type": "nominal",
+            "label": "Popularity ranks"
+          },
+          "y": {
+            "field": "origin_share",
+            "type": "quantitative",
+            "label": "Acts with an origin label"
+          },
+          "tooltip": [
+            {
+              "field": "origins",
+              "label": "Origin labels",
+              "type": "quantitative"
+            },
+            {
+              "field": "strict_fua",
+              "label": "Strict FUA assignments",
+              "type": "quantitative"
+            }
+          ]
+        },
+        "source": {
+          "id": "decile_calculation",
+          "label": "Origin-label coverage by rank block",
+          "path": "notebooks/reviews/top1000_full_review_20260905.ipynb",
+          "query": {
+            "language": "sql",
+            "engine": "SQLite",
+            "tables_used": [
+              "catalogue",
+              "fua_audit"
+            ],
+            "description": "Independent recomputation in SQLite. Load the frozen bands CSV into catalogue and the matching FUA audit CSV into fua_audit; join by returned_spotify_id and aggregate blocks of 100 popularity ranks. Exact source filenames and hashes are preserved in evidence.json.",
+            "sql": "WITH grouped AS (\n  SELECT CAST((c.popularity_rank - 1) / 100 AS INTEGER) + 1 AS rank_band,\n         COUNT(*) AS bands,\n         SUM(CASE WHEN c.origin_cluster <> '' THEN 1 ELSE 0 END) AS origins,\n         SUM(CASE WHEN f.mapping_tier = 'strict' THEN 1 ELSE 0 END) AS strict_fua,\n         SUM(c.monthly_listeners) AS monthly_listeners\n  FROM catalogue AS c JOIN fua_audit AS f USING (returned_spotify_id)\n  GROUP BY rank_band\n)\nSELECT *, ((rank_band - 1) * 100 + 1) || '\u2013' || (rank_band * 100) AS rank_range,\n       origins * 1.0 / bands AS origin_share,\n       strict_fua * 1.0 / bands AS strict_fua_share\nFROM grouped ORDER BY rank_band"
+          }
+        }
+      }
+    ],
+    "sources": [
+      {
+        "id": "review",
+        "label": "Frozen top-1,000 review and source hashes",
+        "path": "artifacts/reviews/top1000_20260905/evidence.json",
+        "query": {
+          "language": "python",
+          "engine": "Python / pandas",
+          "description": "All-row validation and recomputation in notebooks/reviews/top1000_full_review_20260905.ipynb; external eligibility evidence is linked in the narrative and row ledger.",
+          "tables_used": [
+            "data/processed/popularity_first_top1000_20260718T204522Z_bands.csv",
+            "data/interim/uk_group_spotify_candidates_20260718T201100Z.csv",
+            "data/processed/uk_group_spotify_metrics_20260718T204522Z.csv",
+            "data/interim/popularity_first_top1000_20260718T204522Z_identity_audit.csv",
+            "reference/popularity_first_top1000_overrides_20260718.csv",
+            "data/interim/popularity_first_top1000_20260718T204522Z_fua_mapping_audit.csv",
+            "reference/popularity_first_top1000_origin_fua_mapping_20260718.csv",
+            "data/processed/uk_fua_population_2024_20260830T221015Z.csv",
+            "data/processed/top1000_origin_fact_check_20260901.csv",
+            "data/processed/top1000_origin_fact_check_20260901_report.json",
+            "reference/top1000_origin_fact_check_decisions_20260902.csv",
+            "interactive/public/data/dashboard.json",
+            "data/raw/wikidata/review_extension_entities_20260725.json",
+            "data/raw/musicbrainz/top1000_origin_areas_20260901.json",
+            "data/raw/wikipedia/top1000_origin_infobox_20260901.json",
+            "data/raw/spotify/uk_group_spotify_metrics_20260718T204522Z_report.json",
+            "data/raw/spotify/uk_group_spotify_metrics_20260718T204522Z.json.gz",
+            "data/raw/wikidata/uk_group_candidates_with_spotify_20260718T201100Z.json",
+            "data/processed/popularity_first_top1000_20260718T204522Z_origins.csv",
+            "data/processed/popularity_first_top1000_20260718T204522Z_population_strict.csv",
+            "data/processed/popularity_first_top1000_20260718T204522Z_population_extended.csv",
+            "artifacts/experiments/top1000_output_share_vs_population/20260718T204522Z/fua_output_shares_extended.csv",
+            "artifacts/experiments/top1000_scaling_models/20260718T204522Z/negative_binomial_fua_results.csv",
+            "artifacts/experiments/top1000_scaling_models/20260718T204522Z/loglog_follower_fua_results.csv",
+            "artifacts/experiments/genre_city_histories/20260725/band_genre_year_audit.csv",
+            "artifacts/experiments/beyond_spotify/20250701_20260630/band_pageview_audit.csv"
+          ],
+          "filters": [
+            "Frozen July 18, 2026 snapshot; selected popularity ranks 1\u20131000"
+          ],
+          "metric_definitions": [
+            "Band coverage = covered selected acts / 1000",
+            "Audience coverage = covered artist-level audience sum / full selected audience sum; not deduplicated people"
+          ]
+        }
+      },
+      {
+        "id": "decile_calculation",
+        "label": "Origin-label coverage by rank block",
+        "path": "notebooks/reviews/top1000_full_review_20260905.ipynb",
+        "query": {
+          "language": "sql",
+          "engine": "SQLite",
+          "tables_used": [
+            "catalogue",
+            "fua_audit"
+          ],
+          "description": "Independent recomputation in SQLite. Load the frozen bands CSV into catalogue and the matching FUA audit CSV into fua_audit; join by returned_spotify_id and aggregate blocks of 100 popularity ranks. Exact source filenames and hashes are preserved in evidence.json.",
+          "sql": "WITH grouped AS (\n  SELECT CAST((c.popularity_rank - 1) / 100 AS INTEGER) + 1 AS rank_band,\n         COUNT(*) AS bands,\n         SUM(CASE WHEN c.origin_cluster <> '' THEN 1 ELSE 0 END) AS origins,\n         SUM(CASE WHEN f.mapping_tier = 'strict' THEN 1 ELSE 0 END) AS strict_fua,\n         SUM(c.monthly_listeners) AS monthly_listeners\n  FROM catalogue AS c JOIN fua_audit AS f USING (returned_spotify_id)\n  GROUP BY rank_band\n)\nSELECT *, ((rank_band - 1) * 100 + 1) || '\u2013' || (rank_band * 100) AS rank_range,\n       origins * 1.0 / bands AS origin_share,\n       strict_fua * 1.0 / bands AS strict_fua_share\nFROM grouped ORDER BY rank_band"
+        }
+      },
+      {
+        "id": "solo_calculation",
+        "label": "Verified solo-project inclusions calculation",
+        "path": "artifacts/reviews/top1000_20260905/row_review.csv",
+        "query": {
+          "sql": "SELECT popularity_rank, spotify_name, monthly_listeners, eligibility_source_url FROM row_review WHERE eligibility_review = 'verified_solo_project' ORDER BY popularity_rank",
+          "language": "sql",
+          "engine": "SQLite",
+          "tables_used": [
+            "row_review"
+          ],
+          "description": "Independent SQLite calculation from the 1,000-row review ledger, whose columns preserve the frozen catalogue and origin/FUA audits plus explicitly adjudicated eligibility flags. Load row_review.csv into row_review; source hashes are in evidence.json."
+        }
+      },
+      {
+        "id": "coverage_calculation",
+        "label": "Origin and FUA coverage calculation",
+        "path": "artifacts/reviews/top1000_20260905/row_review.csv",
+        "query": {
+          "sql": "WITH categories(label, ord) AS (VALUES ('Origin label present',1),('Strict FUA',2),('Extended FUA',3)) SELECT label AS coverage, COUNT(*) AS bands, COUNT(*) * 1.0 / (SELECT COUNT(*) FROM row_review) AS band_share, SUM(monthly_listeners) * 1.0 / (SELECT SUM(monthly_listeners) FROM row_review) AS listener_share, SUM(followers) * 1.0 / (SELECT SUM(followers) FROM row_review) AS follower_share FROM row_review CROSS JOIN categories WHERE (ord=1 AND origin_cluster <> '') OR (ord=2 AND mapping_tier='strict') OR (ord=3 AND mapping_tier IN ('strict','reviewed_extended')) GROUP BY ord, label ORDER BY ord",
+          "language": "sql",
+          "engine": "SQLite",
+          "tables_used": [
+            "row_review"
+          ],
+          "description": "Independent SQLite calculation from the 1,000-row review ledger, whose columns preserve the frozen catalogue and origin/FUA audits plus explicitly adjudicated eligibility flags. Load row_review.csv into row_review; source hashes are in evidence.json."
+        }
+      },
+      {
+        "id": "origins_calculation",
+        "label": "Current origin-audit status calculation",
+        "path": "artifacts/reviews/top1000_20260905/row_review.csv",
+        "query": {
+          "sql": "SELECT final_status, COUNT(*) AS bands, SUM(monthly_listeners) AS monthly_listeners, COUNT(*) * 1.0 / (SELECT COUNT(*) FROM row_review) AS band_share, SUM(monthly_listeners) * 1.0 / (SELECT SUM(monthly_listeners) FROM row_review) AS listener_share FROM row_review GROUP BY final_status ORDER BY final_status",
+          "language": "sql",
+          "engine": "SQLite",
+          "tables_used": [
+            "row_review"
+          ],
+          "description": "Independent SQLite calculation from the 1,000-row review ledger, whose columns preserve the frozen catalogue and origin/FUA audits plus explicitly adjudicated eligibility flags. Load row_review.csv into row_review; source hashes are in evidence.json."
+        }
+      }
+    ],
+    "notes": {
+      "audience": "technical",
+      "delivery": "portable HTML in Codex",
+      "structure": "Technical summary; scope before quantitative evidence; findings; methodology and limits; actions; open questions.",
+      "chart_contract": "10 rank blocks of 100 acts; categorical bars, zero baseline, decimal percent scale, one series, direct axis labels. Tables retain exact evidence; no temporal trend claimed.",
+      "test_evidence": "16 unittest tests passed on 5 September 2026; command PYTHONPATH=src .venv/bin/python -m unittest discover -s tests.",
+      "render_qa": "Data and manifest validation pass. Packaged Chromium verification failed twice on horizontal document overflow at 1440px; desktop narrow/source-dialog verification therefore did not complete. The shared reader uses a 100vw top bar; this is a likely renderer/scrollbar cause, not a demonstrated data issue. Source renderer left untouched.",
+      "prose_update": "5 September 2026: updated the origin/quality notebook prose and marked that remediation complete. Calculations, source datasets, chart data, code cells and saved outputs are unchanged."
+    }
+  },
+  "snapshot": {
+    "version": 1,
+    "status": "ready",
+    "datasets": {
+      "solo": [
+        {
+          "popularity_rank": 124,
+          "spotify_name": "Sidewalks and Skeletons",
+          "monthly_listeners": 4198181,
+          "eligibility_source_url": "https://ra.co/dj/sidewalksandskeletons/biography"
+        },
+        {
+          "popularity_rank": 332,
+          "spotify_name": "IAMX",
+          "monthly_listeners": 750077,
+          "eligibility_source_url": "https://iamxmusic.com/pages/electronic-press-kit"
+        },
+        {
+          "popularity_rank": 529,
+          "spotify_name": "Cinnamon Chasers",
+          "monthly_listeners": 269301,
+          "eligibility_source_url": "https://www.russ-davies.com/alter-egos"
+        },
+        {
+          "popularity_rank": 855,
+          "spotify_name": "Ex:Re",
+          "monthly_listeners": 58725,
+          "eligibility_source_url": "https://shop.4ad.com/format/1134848-exre"
+        },
+        {
+          "popularity_rank": 947,
+          "spotify_name": "Hallucinogen",
+          "monthly_listeners": 37698,
+          "eligibility_source_url": "https://hallucinogenmusic.bandcamp.com/album/twisted"
+        }
+      ],
+      "coverage": [
+        {
+          "coverage": "Origin label present",
+          "bands": 749,
+          "band_share": 0.749,
+          "listener_share": 0.9479370068236324,
+          "follower_share": 0.9626468617686058
+        },
+        {
+          "coverage": "Strict FUA",
+          "bands": 663,
+          "band_share": 0.663,
+          "listener_share": 0.907384753762667,
+          "follower_share": 0.923456343040247
+        },
+        {
+          "coverage": "Extended FUA",
+          "bands": 666,
+          "band_share": 0.666,
+          "listener_share": 0.9095926164763393,
+          "follower_share": 0.9256664311999686
+        }
+      ],
+      "origins": [
+        {
+          "final_status": "confirmed",
+          "bands": 641,
+          "monthly_listeners": 2061045048,
+          "band_share": 0.641,
+          "listener_share": 0.894441908051367,
+          "status_label": "Confirmed"
+        },
+        {
+          "final_status": "contested",
+          "bands": 2,
+          "monthly_listeners": 7293135,
+          "band_share": 0.002,
+          "listener_share": 0.0031650378488360955,
+          "status_label": "Contested"
+        },
+        {
+          "final_status": "corrected",
+          "bands": 18,
+          "monthly_listeners": 56284557,
+          "band_share": 0.018,
+          "listener_share": 0.024426087438388647,
+          "status_label": "Corrected"
+        },
+        {
+          "final_status": "evidence_for_missing_claim",
+          "bands": 187,
+          "monthly_listeners": 91778117,
+          "band_share": 0.187,
+          "listener_share": 0.03982940313046549,
+          "status_label": "Proposed origin"
+        },
+        {
+          "final_status": "resolved",
+          "bands": 11,
+          "monthly_listeners": 11209685,
+          "band_share": 0.011,
+          "listener_share": 0.004864722413410728,
+          "status_label": "Resolved"
+        },
+        {
+          "final_status": "source_variation",
+          "bands": 68,
+          "monthly_listeners": 33520419,
+          "band_share": 0.068,
+          "listener_share": 0.014547021938280943,
+          "status_label": "Source variation"
+        },
+        {
+          "final_status": "unresolved",
+          "bands": 73,
+          "monthly_listeners": 43149540,
+          "band_share": 0.073,
+          "listener_share": 0.018725819179251042,
+          "status_label": "Unresolved"
+        }
+      ],
+      "deciles": [
+        {
+          "rank_band": 1,
+          "bands": 100,
+          "origins": 100,
+          "strict_fua": 97,
+          "monthly_listeners": 1636569832,
+          "rank_range": "1\u2013100",
+          "origin_share": 1.0,
+          "strict_fua_share": 0.97
+        },
+        {
+          "rank_band": 2,
+          "bands": 100,
+          "origins": 86,
+          "strict_fua": 80,
+          "monthly_listeners": 358773600,
+          "rank_range": "101\u2013200",
+          "origin_share": 0.86,
+          "strict_fua_share": 0.8
+        },
+        {
+          "rank_band": 3,
+          "bands": 100,
+          "origins": 84,
+          "strict_fua": 77,
+          "monthly_listeners": 143670036,
+          "rank_range": "201\u2013300",
+          "origin_share": 0.84,
+          "strict_fua_share": 0.77
+        },
+        {
+          "rank_band": 4,
+          "bands": 100,
+          "origins": 78,
+          "strict_fua": 69,
+          "monthly_listeners": 67962154,
+          "rank_range": "301\u2013400",
+          "origin_share": 0.78,
+          "strict_fua_share": 0.69
+        },
+        {
+          "rank_band": 5,
+          "bands": 100,
+          "origins": 75,
+          "strict_fua": 61,
+          "monthly_listeners": 37975404,
+          "rank_range": "401\u2013500",
+          "origin_share": 0.75,
+          "strict_fua_share": 0.61
+        },
+        {
+          "rank_band": 6,
+          "bands": 100,
+          "origins": 69,
+          "strict_fua": 57,
+          "monthly_listeners": 24586884,
+          "rank_range": "501\u2013600",
+          "origin_share": 0.69,
+          "strict_fua_share": 0.57
+        },
+        {
+          "rank_band": 7,
+          "bands": 100,
+          "origins": 72,
+          "strict_fua": 60,
+          "monthly_listeners": 15642077,
+          "rank_range": "601\u2013700",
+          "origin_share": 0.72,
+          "strict_fua_share": 0.6
+        },
+        {
+          "rank_band": 8,
+          "bands": 100,
+          "origins": 67,
+          "strict_fua": 63,
+          "monthly_listeners": 9348695,
+          "rank_range": "701\u2013800",
+          "origin_share": 0.67,
+          "strict_fua_share": 0.63
+        },
+        {
+          "rank_band": 9,
+          "bands": 100,
+          "origins": 57,
+          "strict_fua": 48,
+          "monthly_listeners": 5985624,
+          "rank_range": "801\u2013900",
+          "origin_share": 0.57,
+          "strict_fua_share": 0.48
+        },
+        {
+          "rank_band": 10,
+          "bands": 100,
+          "origins": 61,
+          "strict_fua": 51,
+          "monthly_listeners": 3766195,
+          "rank_range": "901\u20131000",
+          "origin_share": 0.61,
+          "strict_fua_share": 0.51
+        }
+      ]
+    },
+    "generatedAt": "2026-09-05T21:27:02.198602+00:00"
+  },
+  "sources": [
+    {
+      "id": "review",
+      "label": "Frozen top-1,000 review and source hashes",
+      "path": "artifacts/reviews/top1000_20260905/evidence.json",
+      "query": {
+        "language": "python",
+        "engine": "Python / pandas",
+        "description": "All-row validation and recomputation in notebooks/reviews/top1000_full_review_20260905.ipynb; external eligibility evidence is linked in the narrative and row ledger.",
+        "tables_used": [
+          "data/processed/popularity_first_top1000_20260718T204522Z_bands.csv",
+          "data/interim/uk_group_spotify_candidates_20260718T201100Z.csv",
+          "data/processed/uk_group_spotify_metrics_20260718T204522Z.csv",
+          "data/interim/popularity_first_top1000_20260718T204522Z_identity_audit.csv",
+          "reference/popularity_first_top1000_overrides_20260718.csv",
+          "data/interim/popularity_first_top1000_20260718T204522Z_fua_mapping_audit.csv",
+          "reference/popularity_first_top1000_origin_fua_mapping_20260718.csv",
+          "data/processed/uk_fua_population_2024_20260830T221015Z.csv",
+          "data/processed/top1000_origin_fact_check_20260901.csv",
+          "data/processed/top1000_origin_fact_check_20260901_report.json",
+          "reference/top1000_origin_fact_check_decisions_20260902.csv",
+          "interactive/public/data/dashboard.json",
+          "data/raw/wikidata/review_extension_entities_20260725.json",
+          "data/raw/musicbrainz/top1000_origin_areas_20260901.json",
+          "data/raw/wikipedia/top1000_origin_infobox_20260901.json",
+          "data/raw/spotify/uk_group_spotify_metrics_20260718T204522Z_report.json",
+          "data/raw/spotify/uk_group_spotify_metrics_20260718T204522Z.json.gz",
+          "data/raw/wikidata/uk_group_candidates_with_spotify_20260718T201100Z.json",
+          "data/processed/popularity_first_top1000_20260718T204522Z_origins.csv",
+          "data/processed/popularity_first_top1000_20260718T204522Z_population_strict.csv",
+          "data/processed/popularity_first_top1000_20260718T204522Z_population_extended.csv",
+          "artifacts/experiments/top1000_output_share_vs_population/20260718T204522Z/fua_output_shares_extended.csv",
+          "artifacts/experiments/top1000_scaling_models/20260718T204522Z/negative_binomial_fua_results.csv",
+          "artifacts/experiments/top1000_scaling_models/20260718T204522Z/loglog_follower_fua_results.csv",
+          "artifacts/experiments/genre_city_histories/20260725/band_genre_year_audit.csv",
+          "artifacts/experiments/beyond_spotify/20250701_20260630/band_pageview_audit.csv"
+        ],
+        "filters": [
+          "Frozen July 18, 2026 snapshot; selected popularity ranks 1\u20131000"
+        ],
+        "metric_definitions": [
+          "Band coverage = covered selected acts / 1000",
+          "Audience coverage = covered artist-level audience sum / full selected audience sum; not deduplicated people"
+        ]
+      }
+    },
+    {
+      "id": "decile_calculation",
+      "label": "Origin-label coverage by rank block",
+      "path": "notebooks/reviews/top1000_full_review_20260905.ipynb",
+      "query": {
+        "language": "sql",
+        "engine": "SQLite",
+        "tables_used": [
+          "catalogue",
+          "fua_audit"
+        ],
+        "description": "Independent recomputation in SQLite. Load the frozen bands CSV into catalogue and the matching FUA audit CSV into fua_audit; join by returned_spotify_id and aggregate blocks of 100 popularity ranks. Exact source filenames and hashes are preserved in evidence.json.",
+        "sql": "WITH grouped AS (\n  SELECT CAST((c.popularity_rank - 1) / 100 AS INTEGER) + 1 AS rank_band,\n         COUNT(*) AS bands,\n         SUM(CASE WHEN c.origin_cluster <> '' THEN 1 ELSE 0 END) AS origins,\n         SUM(CASE WHEN f.mapping_tier = 'strict' THEN 1 ELSE 0 END) AS strict_fua,\n         SUM(c.monthly_listeners) AS monthly_listeners\n  FROM catalogue AS c JOIN fua_audit AS f USING (returned_spotify_id)\n  GROUP BY rank_band\n)\nSELECT *, ((rank_band - 1) * 100 + 1) || '\u2013' || (rank_band * 100) AS rank_range,\n       origins * 1.0 / bands AS origin_share,\n       strict_fua * 1.0 / bands AS strict_fua_share\nFROM grouped ORDER BY rank_band"
+      }
+    },
+    {
+      "id": "solo_calculation",
+      "label": "Verified solo-project inclusions calculation",
+      "path": "artifacts/reviews/top1000_20260905/row_review.csv",
+      "query": {
+        "sql": "SELECT popularity_rank, spotify_name, monthly_listeners, eligibility_source_url FROM row_review WHERE eligibility_review = 'verified_solo_project' ORDER BY popularity_rank",
+        "language": "sql",
+        "engine": "SQLite",
+        "tables_used": [
+          "row_review"
+        ],
+        "description": "Independent SQLite calculation from the 1,000-row review ledger, whose columns preserve the frozen catalogue and origin/FUA audits plus explicitly adjudicated eligibility flags. Load row_review.csv into row_review; source hashes are in evidence.json."
+      }
+    },
+    {
+      "id": "coverage_calculation",
+      "label": "Origin and FUA coverage calculation",
+      "path": "artifacts/reviews/top1000_20260905/row_review.csv",
+      "query": {
+        "sql": "WITH categories(label, ord) AS (VALUES ('Origin label present',1),('Strict FUA',2),('Extended FUA',3)) SELECT label AS coverage, COUNT(*) AS bands, COUNT(*) * 1.0 / (SELECT COUNT(*) FROM row_review) AS band_share, SUM(monthly_listeners) * 1.0 / (SELECT SUM(monthly_listeners) FROM row_review) AS listener_share, SUM(followers) * 1.0 / (SELECT SUM(followers) FROM row_review) AS follower_share FROM row_review CROSS JOIN categories WHERE (ord=1 AND origin_cluster <> '') OR (ord=2 AND mapping_tier='strict') OR (ord=3 AND mapping_tier IN ('strict','reviewed_extended')) GROUP BY ord, label ORDER BY ord",
+        "language": "sql",
+        "engine": "SQLite",
+        "tables_used": [
+          "row_review"
+        ],
+        "description": "Independent SQLite calculation from the 1,000-row review ledger, whose columns preserve the frozen catalogue and origin/FUA audits plus explicitly adjudicated eligibility flags. Load row_review.csv into row_review; source hashes are in evidence.json."
+      }
+    },
+    {
+      "id": "origins_calculation",
+      "label": "Current origin-audit status calculation",
+      "path": "artifacts/reviews/top1000_20260905/row_review.csv",
+      "query": {
+        "sql": "SELECT final_status, COUNT(*) AS bands, SUM(monthly_listeners) AS monthly_listeners, COUNT(*) * 1.0 / (SELECT COUNT(*) FROM row_review) AS band_share, SUM(monthly_listeners) * 1.0 / (SELECT SUM(monthly_listeners) FROM row_review) AS listener_share FROM row_review GROUP BY final_status ORDER BY final_status",
+        "language": "sql",
+        "engine": "SQLite",
+        "tables_used": [
+          "row_review"
+        ],
+        "description": "Independent SQLite calculation from the 1,000-row review ledger, whose columns preserve the frozen catalogue and origin/FUA audits plus explicitly adjudicated eligibility flags. Load row_review.csv into row_review; source hashes are in evidence.json."
+      }
+    }
+  ]
+}

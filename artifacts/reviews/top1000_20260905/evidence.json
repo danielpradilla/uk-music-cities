@@ -1,0 +1,901 @@
+{
+  "review_date": "2026-09-05",
+  "assessment": "Needs revision for bands-only and city-completeness claims",
+  "rows": 1000,
+  "columns": 33,
+  "total_monthly_listeners": 2304280501,
+  "total_followers": 927791496,
+  "capture_timestamp": [
+    "2026-07-18T20:45:22.974241+00:00"
+  ],
+  "funnel": {
+    "wikidata_bindings": 1928,
+    "candidate_ids": 1775,
+    "metric_rows": 1749,
+    "metric_failures": 26,
+    "eligible_pool": 1633,
+    "selected": 1000,
+    "cutoff": 29728,
+    "next_eligible": 29347,
+    "cutoff_gap": 381,
+    "near_cutoff_10pct": 53
+  },
+  "missing_fields": {
+    "city": 1000,
+    "formation_qid": 217,
+    "formation_label": 217,
+    "identity_decision": 975,
+    "origin_override": 961,
+    "reason": 937,
+    "source_url": 937,
+    "origin_cluster": 251
+  },
+  "coverage": [
+    {
+      "coverage": "Origin label present",
+      "bands": 749,
+      "band_share": 0.749,
+      "listener_share": 0.9479370068236324,
+      "follower_share": 0.9626468617686058
+    },
+    {
+      "coverage": "Strict FUA",
+      "bands": 663,
+      "band_share": 0.663,
+      "listener_share": 0.907384753762667,
+      "follower_share": 0.923456343040247
+    },
+    {
+      "coverage": "Extended FUA",
+      "bands": 666,
+      "band_share": 0.666,
+      "listener_share": 0.9095926164763393,
+      "follower_share": 0.9256664311999686
+    }
+  ],
+  "origin_status": [
+    {
+      "final_status": "confirmed",
+      "bands": 641,
+      "monthly_listeners": 2061045048,
+      "band_share": 0.641,
+      "listener_share": 0.894441908051367
+    },
+    {
+      "final_status": "contested",
+      "bands": 2,
+      "monthly_listeners": 7293135,
+      "band_share": 0.002,
+      "listener_share": 0.0031650378488360955
+    },
+    {
+      "final_status": "corrected",
+      "bands": 18,
+      "monthly_listeners": 56284557,
+      "band_share": 0.018,
+      "listener_share": 0.024426087438388647
+    },
+    {
+      "final_status": "evidence_for_missing_claim",
+      "bands": 187,
+      "monthly_listeners": 91778117,
+      "band_share": 0.187,
+      "listener_share": 0.03982940313046549
+    },
+    {
+      "final_status": "resolved",
+      "bands": 11,
+      "monthly_listeners": 11209685,
+      "band_share": 0.011,
+      "listener_share": 0.004864722413410728
+    },
+    {
+      "final_status": "source_variation",
+      "bands": 68,
+      "monthly_listeners": 33520419,
+      "band_share": 0.068,
+      "listener_share": 0.014547021938280943
+    },
+    {
+      "final_status": "unresolved",
+      "bands": 73,
+      "monthly_listeners": 43149540,
+      "band_share": 0.073,
+      "listener_share": 0.018725819179251042
+    }
+  ],
+  "origin_deciles": [
+    {
+      "rank_band": 1,
+      "bands": 100,
+      "origins": 100,
+      "strict_fua": 97,
+      "monthly_listeners": 1636569832,
+      "rank_range": "1\u2013100",
+      "origin_share": 1.0,
+      "strict_fua_share": 0.97
+    },
+    {
+      "rank_band": 2,
+      "bands": 100,
+      "origins": 86,
+      "strict_fua": 80,
+      "monthly_listeners": 358773600,
+      "rank_range": "101\u2013200",
+      "origin_share": 0.86,
+      "strict_fua_share": 0.8
+    },
+    {
+      "rank_band": 3,
+      "bands": 100,
+      "origins": 84,
+      "strict_fua": 77,
+      "monthly_listeners": 143670036,
+      "rank_range": "201\u2013300",
+      "origin_share": 0.84,
+      "strict_fua_share": 0.77
+    },
+    {
+      "rank_band": 4,
+      "bands": 100,
+      "origins": 78,
+      "strict_fua": 69,
+      "monthly_listeners": 67962154,
+      "rank_range": "301\u2013400",
+      "origin_share": 0.78,
+      "strict_fua_share": 0.69
+    },
+    {
+      "rank_band": 5,
+      "bands": 100,
+      "origins": 75,
+      "strict_fua": 61,
+      "monthly_listeners": 37975404,
+      "rank_range": "401\u2013500",
+      "origin_share": 0.75,
+      "strict_fua_share": 0.61
+    },
+    {
+      "rank_band": 6,
+      "bands": 100,
+      "origins": 69,
+      "strict_fua": 57,
+      "monthly_listeners": 24586884,
+      "rank_range": "501\u2013600",
+      "origin_share": 0.69,
+      "strict_fua_share": 0.57
+    },
+    {
+      "rank_band": 7,
+      "bands": 100,
+      "origins": 72,
+      "strict_fua": 60,
+      "monthly_listeners": 15642077,
+      "rank_range": "601\u2013700",
+      "origin_share": 0.72,
+      "strict_fua_share": 0.6
+    },
+    {
+      "rank_band": 8,
+      "bands": 100,
+      "origins": 67,
+      "strict_fua": 63,
+      "monthly_listeners": 9348695,
+      "rank_range": "701\u2013800",
+      "origin_share": 0.67,
+      "strict_fua_share": 0.63
+    },
+    {
+      "rank_band": 9,
+      "bands": 100,
+      "origins": 57,
+      "strict_fua": 48,
+      "monthly_listeners": 5985624,
+      "rank_range": "801\u2013900",
+      "origin_share": 0.57,
+      "strict_fua_share": 0.48
+    },
+    {
+      "rank_band": 10,
+      "bands": 100,
+      "origins": 61,
+      "strict_fua": 51,
+      "monthly_listeners": 3766195,
+      "rank_range": "901\u20131000",
+      "origin_share": 0.61,
+      "strict_fua_share": 0.51
+    }
+  ],
+  "verified_solo": [
+    {
+      "popularity_rank": 124,
+      "spotify_name": "Sidewalks and Skeletons",
+      "monthly_listeners": 4198181,
+      "eligibility_source_url": "https://ra.co/dj/sidewalksandskeletons/biography"
+    },
+    {
+      "popularity_rank": 332,
+      "spotify_name": "IAMX",
+      "monthly_listeners": 750077,
+      "eligibility_source_url": "https://iamxmusic.com/pages/electronic-press-kit"
+    },
+    {
+      "popularity_rank": 529,
+      "spotify_name": "Cinnamon Chasers",
+      "monthly_listeners": 269301,
+      "eligibility_source_url": "https://www.russ-davies.com/alter-egos"
+    },
+    {
+      "popularity_rank": 855,
+      "spotify_name": "Ex:Re",
+      "monthly_listeners": 58725,
+      "eligibility_source_url": "https://shop.4ad.com/format/1134848-exre"
+    },
+    {
+      "popularity_rank": 947,
+      "spotify_name": "Hallucinogen",
+      "monthly_listeners": 37698,
+      "eligibility_source_url": "https://hallucinogenmusic.bandcamp.com/album/twisted"
+    }
+  ],
+  "solo_listener_share": 0.0023061350376804668,
+  "solo_listener_total": 5313982,
+  "five_removal_sensitivity": {
+    "new_cutoff": 29124,
+    "added_names": [
+      "Greyhound",
+      "Demented Are Go",
+      "Ebbb",
+      "Tokyo Blade",
+      "Snuff"
+    ],
+    "net_listener_change": -5167835
+  },
+  "matching_person_leads": [
+    {
+      "popularity_rank": 124,
+      "spotify_name": "Sidewalks and Skeletons",
+      "monthly_listeners": 4198181
+    },
+    {
+      "popularity_rank": 227,
+      "spotify_name": "The Streets",
+      "monthly_listeners": 1675316
+    },
+    {
+      "popularity_rank": 332,
+      "spotify_name": "IAMX",
+      "monthly_listeners": 750077
+    },
+    {
+      "popularity_rank": 488,
+      "spotify_name": "Nuages",
+      "monthly_listeners": 303990
+    },
+    {
+      "popularity_rank": 529,
+      "spotify_name": "Cinnamon Chasers",
+      "monthly_listeners": 269301
+    },
+    {
+      "popularity_rank": 639,
+      "spotify_name": "Kareful",
+      "monthly_listeners": 162343
+    },
+    {
+      "popularity_rank": 855,
+      "spotify_name": "Ex:Re",
+      "monthly_listeners": 58725
+    },
+    {
+      "popularity_rank": 881,
+      "spotify_name": "Klimeks",
+      "monthly_listeners": 51676
+    },
+    {
+      "popularity_rank": 943,
+      "spotify_name": "InsideInfo",
+      "monthly_listeners": 39084
+    },
+    {
+      "popularity_rank": 947,
+      "spotify_name": "Hallucinogen",
+      "monthly_listeners": 37698
+    }
+  ],
+  "member_link_rows": [
+    {
+      "spotify_name": "DON BROCO",
+      "other_person_ids_in_musicbrainz_links": "Luke Rayner|Simon Delaney|Matthew Donnelly"
+    },
+    {
+      "spotify_name": "Climax Blues Band",
+      "other_person_ids_in_musicbrainz_links": "George Newsome"
+    },
+    {
+      "spotify_name": "Superorganism",
+      "other_person_ids_in_musicbrainz_links": "Soul|B|Harry"
+    },
+    {
+      "spotify_name": "Deaf Havana",
+      "other_person_ids_in_musicbrainz_links": "Ryan Mellor"
+    }
+  ],
+  "bios_available": 970,
+  "bio_keyword_leads": 67,
+  "broad_origin_labels": [
+    {
+      "spotify_name": "Gloryhammer",
+      "origin_cluster": "Scotland"
+    },
+    {
+      "spotify_name": "The Divine Comedy",
+      "origin_cluster": "Northern Ireland"
+    },
+    {
+      "spotify_name": "The Bluebells",
+      "origin_cluster": "Scotland"
+    },
+    {
+      "spotify_name": "The Alarm",
+      "origin_cluster": "Wales"
+    },
+    {
+      "spotify_name": "M\u00e0nran",
+      "origin_cluster": "Scotland"
+    },
+    {
+      "spotify_name": "Spinal Tap",
+      "origin_cluster": "United States"
+    }
+  ],
+  "pending_or_contested_rows": 330,
+  "pending_listener_share": 0.07626728209683357,
+  "share_coverage": {
+    "selected_bands": 1000,
+    "mapped_bands": 666,
+    "mapped_band_share": 0.666,
+    "selected_monthly_listeners": 2304280501,
+    "mapped_monthly_listener_share": 0.9095926164763393,
+    "selected_followers": 927791496,
+    "mapped_follower_share": 0.9256664311999685,
+    "population_fuas": 83,
+    "mapped_fuas": 59,
+    "zero_band_fuas": 24,
+    "population_total": 53896978
+  },
+  "one_band_fuas": 25,
+  "models": {
+    "negative_binomial": {
+      "model": "NB2 negative-binomial regression with log link",
+      "outcome": "mapped top-1000 band count per FUA",
+      "n_fuas": 83,
+      "positive_output_fuas": 59,
+      "zero_output_fuas": 24,
+      "observed_mapped_bands": 666,
+      "population_year": 2024,
+      "log_population_center": 12.724677711776176,
+      "intercept_at_centered_log_population": 0.6777830281609256,
+      "raw_log_population_intercept": -16.669518667761135,
+      "population_exponent_beta": 1.3632802408714706,
+      "beta_standard_error": 0.0998798341469617,
+      "beta_ci_low": 1.1675157659434257,
+      "beta_ci_high": 1.5590447157995155,
+      "beta_test_value": 1.0,
+      "beta_vs_one_z": 3.637173048735198,
+      "beta_equals_one_p_value": 0.00027564674932133707,
+      "dispersion_alpha": 0.3703282795742105,
+      "dispersion_theta": 2.700306876779063,
+      "log_likelihood": -162.24132465303032,
+      "aic": 330.48264930606064,
+      "mcfadden_pseudo_r_squared": 0.2642651750051863,
+      "poisson_aic": 370.102230209714,
+      "poisson_pearson_dispersion": 2.420901795467415,
+      "poisson_iterations": 6,
+      "poisson_converged": true,
+      "iterations": 8,
+      "converged": true
+    },
+    "loglog_follower": {
+      "model": "OLS log-log regression with HC3 robust covariance",
+      "outcome": "mapped follower total among positive-output FUAs",
+      "n_fuas_total": 83,
+      "n_fuas_included": 59,
+      "zero_output_fuas_excluded": 24,
+      "observed_mapped_followers": 858825443,
+      "selected_follower_denominator": 927791496,
+      "population_year": 2024,
+      "log_population_center": 12.940604923815982,
+      "intercept_at_centered_log_population": 14.206364082372044,
+      "raw_log_population_intercept": -4.034820041602135,
+      "population_exponent_beta": 1.4096083012628702,
+      "beta_standard_error_hc3": 0.17148737825101235,
+      "beta_ci_low_hc3": 1.073493039890886,
+      "beta_ci_high_hc3": 1.7457235626348544,
+      "beta_test_value": 1.0,
+      "beta_vs_one_z_hc3": 2.3885623854095637,
+      "beta_equals_one_p_value_hc3": 0.016914436353379744,
+      "r_squared_log_scale": 0.49171379009896055,
+      "rmse_log_scale": 1.4572920112147556,
+      "loocv_rmse_log_scale": 1.4768409476143836,
+      "smearing_factor": 2.5702704935875884,
+      "huber_population_exponent_beta": 1.4200994467159296,
+      "leave_one_out_beta_min": 1.3343518877415974,
+      "leave_one_out_beta_max": 1.4811599206637243,
+      "beta_without_london": 1.3343518877415974,
+      "most_influential_city": "Crawley",
+      "largest_cooks_distance": 0.1193047913078577,
+      "converged": true
+    }
+  },
+  "listener_concentration": {
+    "1": 0.03994049507430172,
+    "10": 0.21327860032089035,
+    "20": 0.33386584257694935,
+    "100": 0.7102303002129167,
+    "200": 0.8659290529664556
+  },
+  "enrichment": {
+    "with_genre": 928,
+    "with_year": 828,
+    "pageview_status": {
+      "ok": 924,
+      "not_captured": 37,
+      "no_enwiki_article": 37,
+      "no_pageview_data": 2
+    },
+    "partial_pageview_rows": [
+      {
+        "spotify_name": "Death Of Guitar Pop",
+        "pageview_months": 10,
+        "pageviews_total": 3214
+      },
+      {
+        "spotify_name": "Black Tongue",
+        "pageview_months": 7,
+        "pageviews_total": 6
+      }
+    ]
+  },
+  "dedup_order_suppressed_below_cutoff": [
+    {
+      "spotify_name": "Dave Stewart and the Spiritual Cowboys",
+      "monthly_listeners": 371
+    },
+    {
+      "spotify_name": "Johnny Duncan & His Blue Grass Boys",
+      "monthly_listeners": 113
+    },
+    {
+      "spotify_name": "Ray Noble & His New Mayfair Orchestra",
+      "monthly_listeners": 2
+    }
+  ],
+  "origin_corrections_and_resolutions_applied": 29,
+  "checks": [
+    {
+      "check": "Exactly 1,000 rows and contiguous ordered ranks",
+      "result": "passed"
+    },
+    {
+      "check": "Unique nonblank capture_key",
+      "result": "passed"
+    },
+    {
+      "check": "Unique nonblank returned_spotify_id",
+      "result": "passed"
+    },
+    {
+      "check": "Unique nonblank requested_spotify_id",
+      "result": "passed"
+    },
+    {
+      "check": "Unique nonblank wikidata_qid",
+      "result": "passed"
+    },
+    {
+      "check": "Identifier formats",
+      "result": "passed"
+    },
+    {
+      "check": "Nonnegative integer audience measures",
+      "result": "passed"
+    },
+    {
+      "check": "Descending popularity",
+      "result": "passed"
+    },
+    {
+      "check": "No exact duplicate rows",
+      "result": "passed"
+    },
+    {
+      "check": "Candidate frame rebuild",
+      "result": "passed"
+    },
+    {
+      "check": "Selected catalogue rebuild",
+      "result": "passed"
+    },
+    {
+      "check": "Identity audit rebuild",
+      "result": "passed"
+    },
+    {
+      "check": "Origin totals rebuild",
+      "result": "passed"
+    },
+    {
+      "check": "Capture outcomes partition the candidate frame",
+      "result": "passed"
+    },
+    {
+      "check": "All selected IDs, names and audience counts match raw Spotify responses",
+      "result": "passed"
+    },
+    {
+      "check": "All five documented solo-project conflicts exist in the reviewed catalogue",
+      "result": "passed"
+    },
+    {
+      "check": "All origin audit IDs and values reconcile",
+      "result": "passed"
+    },
+    {
+      "check": "Origin audit rebuild",
+      "result": "passed"
+    },
+    {
+      "check": "Origin status report matches saved audit",
+      "result": "passed"
+    },
+    {
+      "check": "All recorded corrections and resolutions reflected in current origin clusters",
+      "result": "passed"
+    },
+    {
+      "check": "Population keys, year and positive denominators",
+      "result": "passed"
+    },
+    {
+      "check": "FUA audit has exact catalogue ID order and measures",
+      "result": "passed"
+    },
+    {
+      "check": "FUA audit assignments from reference mapping",
+      "result": "passed"
+    },
+    {
+      "check": "Strict FUA aggregate rebuild",
+      "result": "passed"
+    },
+    {
+      "check": "Extended FUA aggregate rebuild",
+      "result": "passed"
+    },
+    {
+      "check": "83-FUA output share rebuild",
+      "result": "passed"
+    },
+    {
+      "check": "negative_binomial model output rebuild",
+      "result": "passed"
+    },
+    {
+      "check": "loglog_follower model output rebuild",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard id reconciles",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard name reconciles",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard catalogRank reconciles",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard monthlyListeners reconciles",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard followers reconciles",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard originCluster reconciles",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard uses strict FUA assignments",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Bath and North East Somerset",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Bedford",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Belfast",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Birmingham",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Blackpool",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Bracknell Forest",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Brighton and Hove",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Bristol",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Burnley",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Cambridge",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Cardiff",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Cheltenham",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Cheshire West and Chester",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Colchester",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Coventry",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Crawley",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Dacorum",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Derby",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Derry & Strabane Local Government District",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Dundee City",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Eastbourne",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Edinburgh",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Exeter",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Falkirk",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Glasgow",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Great Yarmouth",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Guildford",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Hastings",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Hull",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Ipswich",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Leeds",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Leicester",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Liverpool",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate London",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Luton",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Manchester",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Mansfield",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Middlesbrough",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Milton Keynes",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Newcastle",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Newport",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Northampton",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Norwich",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Nottingham",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Oxford",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Plymouth",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Reading",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Sheffield",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Southampton",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Stevenage",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Stoke-on-Trent",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Sunderland",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Swansea",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Swindon",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Torbay",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Warrington",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Worthing",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate Wrexham",
+      "result": "passed"
+    },
+    {
+      "check": "Dashboard aggregate York",
+      "result": "passed"
+    },
+    {
+      "check": "Genre/year has all 1,000 unique catalogue IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Genre/year frozen audience values match",
+      "result": "passed"
+    },
+    {
+      "check": "Wikipedia has all 1,000 unique catalogue IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Wikipedia frozen audience values match",
+      "result": "passed"
+    },
+    {
+      "check": "Deduplication ordering does not change this top 1,000 cutoff",
+      "result": "passed"
+    }
+  ],
+  "source_sha256": {
+    "data/processed/popularity_first_top1000_20260718T204522Z_bands.csv": "b193db9c268e2e8e07c50a99199a8fc27b47b793aedb44d9f8038de2c3c1baa9",
+    "data/interim/uk_group_spotify_candidates_20260718T201100Z.csv": "ec489dfd52595e5cb87bf576906c0c88a30806a14914bf9b7a37009c17e55d6e",
+    "data/processed/uk_group_spotify_metrics_20260718T204522Z.csv": "462bd545e4abc834512469482d14e31089e69f41cc86be24d962c2596d0eb9a3",
+    "data/interim/popularity_first_top1000_20260718T204522Z_identity_audit.csv": "c200c0557685f3d7272a63c611d446bea93205bd996a3adc9bbfe1099908a256",
+    "reference/popularity_first_top1000_overrides_20260718.csv": "8477e25f256fe7f152f5e121544a42137b85905ef754c5069244096ef8ec07cf",
+    "data/interim/popularity_first_top1000_20260718T204522Z_fua_mapping_audit.csv": "a6cb5c1f48c374357d9496e028575891e94ca51308ab27c2d348dfed3f030930",
+    "reference/popularity_first_top1000_origin_fua_mapping_20260718.csv": "f6a3afe40f906bf2a3bbb1ede3efe34c4d793f8516d2a336316355849f721ceb",
+    "data/processed/uk_fua_population_2024_20260830T221015Z.csv": "9c736872bc0817ae2f7a3c694c86cfb9dfce19db4b89c33df05f72915cb79c62",
+    "data/processed/top1000_origin_fact_check_20260901.csv": "92d740c273530ec818e300c81dd6feaa33eb89dc110510b8483cdae187ad1d23",
+    "data/processed/top1000_origin_fact_check_20260901_report.json": "afde945e0c80c9c3e5bc91edd497b6f352a0a1c8d607985e599c2277e1aaa39e",
+    "reference/top1000_origin_fact_check_decisions_20260902.csv": "56d5014437102771988bd8b212afd7273861625e7e8fe89108084fb20e5c349c",
+    "interactive/public/data/dashboard.json": "b57a0e7f6b46b8e78a30c638f2c3fd631ad452656e6849c317332e77241d62fd",
+    "data/raw/wikidata/review_extension_entities_20260725.json": "fa24dc7f8e785a017f03a2ac677ad54f13b8b8e0d7a0531c818d153cc542de2c",
+    "data/raw/musicbrainz/top1000_origin_areas_20260901.json": "9c7d9163d3f84d4fd8bc3de4d589c12bb0cd4e825112e019ca9a5c3128acbace",
+    "data/raw/wikipedia/top1000_origin_infobox_20260901.json": "5dd01013ce4038111e33f8440869696916437e5c1c45e66e228cee24fdc93bfd",
+    "data/raw/spotify/uk_group_spotify_metrics_20260718T204522Z_report.json": "2f2069360973c07c2089b3b4741d5475b09e7dce6a39da1025c2da9e6a23aaa3",
+    "data/raw/spotify/uk_group_spotify_metrics_20260718T204522Z.json.gz": "85d6138c9f133b2f8d2450332a07289ed98c4c712a942a7d527f27fa748c9060",
+    "data/raw/wikidata/uk_group_candidates_with_spotify_20260718T201100Z.json": "b78232336351a5454fec97b08a1187b5e5b66c9948ad318dea5061eaf7d63599",
+    "data/processed/popularity_first_top1000_20260718T204522Z_origins.csv": "da174e9e6e7aa72479df267d175f6b6a4f2e1e76f45546a6e88d427d32a4e982",
+    "data/processed/popularity_first_top1000_20260718T204522Z_population_strict.csv": "81c2d767bddc690a7720a3c559a7d0087b15fd5cc8ec4f44ff40bba7fe35daf4",
+    "data/processed/popularity_first_top1000_20260718T204522Z_population_extended.csv": "89645e78b166a67dd17324d8d91f09572e5225930b01e81360db88f2f8498c1d",
+    "artifacts/experiments/top1000_output_share_vs_population/20260718T204522Z/fua_output_shares_extended.csv": "32d4b30526bb76426c8b775501b08d05660fb4758a2d7bba1d0e5c5a5296da4b",
+    "artifacts/experiments/top1000_scaling_models/20260718T204522Z/negative_binomial_fua_results.csv": "b10b6aef6b0b74d1cedad4f0dfd891cd31e0e54c1a9b78389a6c56966b30c4e5",
+    "artifacts/experiments/top1000_scaling_models/20260718T204522Z/loglog_follower_fua_results.csv": "44e90c5a583fb6c08657087b9cf7cb4ad326ec2fb3457171df45a29bc72a87ce",
+    "artifacts/experiments/genre_city_histories/20260725/band_genre_year_audit.csv": "35f380429a4301bf70f6becd6565389461b602179960882eb09367273870ecd2",
+    "artifacts/experiments/beyond_spotify/20250701_20260630/band_pageview_audit.csv": "7d3d98e9f0a9dfb866aa9a4b4d0c27d200a358102e4905ec22224f69b11590fa"
+  }
+}

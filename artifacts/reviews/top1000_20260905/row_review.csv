@@ -1,0 +1,1001 @@
+popularity_rank,returned_spotify_id,wikidata_qid,spotify_name,monthly_listeners,followers,origin_cluster,origin_resolution,spotify_biography_present,biography_keyword_review,matching_musicbrainz_person,other_person_ids_in_musicbrainz_links,eligibility_review,eligibility_source_url,final_status,final_origin,manual_status,review_priority,mapping_tier,fua_code
+1,4gzpq5DPGxSnKTe4SA8HAU,Q45188,Coldplay,92034104,64732379,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+2,7Ln80lUS6He07XvHI8qqHH,Q170599,Arctic Monkeys,52301870,35028298,Sheffield,reported_place,True,True,,,,,confirmed,Sheffield,confirmed,high,strict,UK010F
+3,1dfeR4HaWDbWqFHLkxsg1d,Q15862,Queen,51601234,58004701,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+4,08GQAI4eElDnROBrJRGE0X,Q106648,Fleetwood Mac,50959935,15546243,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+5,4AK6F7OLvEQ5QYCBNiQWHq,Q146027,One Direction,45724043,41728665,London,reported_place,True,False,,,,,confirmed,London,confirmed,high,strict,UK001F
+6,4Z8W4fKeB5YxbusRsdQVPb,Q44190,Radiohead,43168156,16613975,Oxford,editorial_city_cluster,True,True,,,,,confirmed,Abingdon-on-Thames,not_reviewed,,strict,UK560F
+7,5NGO30tJxFlKixkPSgXcFE,Q178095,The Police,39887109,8458469,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+8,2DaxqgrOhkeH0fpeiQq2f4,Q382890,Oasis,39676473,13941515,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+9,3AA28KZvwAUcZuOKwyblJQ,Q189991,Gorillaz,38173160,16369649,London,reported_place,True,False,,,,,confirmed,London,confirmed,high,strict,UK001F
+10,3WrFJ7ztbogyGnTHbHJFl2,Q1299,The Beatles,37927636,32385954,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+11,6MDME20pz9RveH9rEXvrOM,Q11838808,Clean Bandit,35453400,6321202,Cambridge,reported_place,True,False,,,,,confirmed,Cambridge,not_reviewed,,strict,UK017F
+12,22bE4uQ6baNwSHPVcDxLCe,Q11036,The Rolling Stones,30690194,16651560,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+13,1LZEQNv7sE11VDY3SdxQeN,Q133405,Bee Gees,29286539,10121737,Redcliffe,reviewed_override,True,False,,,,,confirmed,Redcliffe,not_reviewed,,excluded_non_uk,
+14,4yvcSjfu4PC0CYQyLy4wSq,Q16839267,Glass Animals,27093208,4804844,Oxford,reported_place,True,False,,,,,confirmed,Oxford,not_reviewed,,strict,UK560F
+15,0k17h0D3J5VfsdmQ1iZtE9,Q2306,Pink Floyd,26546155,24145634,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+16,0WwSkZ7LtFUFjGjMZBMt6T,Q50040,Dire Straits,26242776,9643393,London,editorial_city_cluster,True,False,,,,,confirmed,Deptford,confirmed,high,strict,UK001F
+17,1moxjboGR7GNWYIMWsRjgG,Q217360,Florence + The Machine,25836943,7587105,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+18,7bu3H8JO7d0UbMoVzbo70s,Q484427,The Cure,25827890,7492117,Crawley,reported_place,True,False,,,,,confirmed,Crawley,not_reviewed,,strict,UK576F
+19,47zz7sob9NUcODy0BTDvKx,Q658182,Sade,25528819,6060389,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+20,6nS5roXSAGhTGr34W6n7Et,Q1228440,Disclosure,25360907,2482964,Reigate,reported_place,True,False,,,,,confirmed,Reigate,not_reviewed,,strict,UK001F
+21,4bthk9UfsYUYdcFyqxmSUU,Q269091,Tears For Fears,23781006,4593372,Bath,reported_place,True,False,,,,,confirmed,Bath,not_reviewed,,strict,UK031F
+22,53A0W3U0s8diEn9RhXQhVz,Q484311,Keane,23259577,4211743,Battle,reported_place,True,False,,,,,confirmed,Battle,not_reviewed,,strict,UK056F
+23,3yY2gUcIsjMr8hjo51PoJ8,Q180598,The Smiths,22515532,8767855,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+24,7EQ0qTo7fWT7DPxmxtSYEc,Q689,Bastille,22166012,5786448,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+25,12Chz98pHFMPJEknJQMWvI,Q22151,Muse,20942571,8949427,Teignmouth,reported_place,True,False,,,,,confirmed,Teignmouth,not_reviewed,,strict,UK018F
+26,36QJpDe2go2KgaRleHCDTp,Q2331,Led Zeppelin,20605707,16927470,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+27,3mIj9lX2MWuHmhNCA7LSCW,Q2811247,The 1975,18915018,8582651,Manchester,editorial_city_cluster,True,False,,,,,confirmed,Wilmslow,not_reviewed,,strict,UK008F
+28,7jefIIksOi1EazgRTfW2Pk,Q218255,Electric Light Orchestra,18330664,4748870,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+29,5M52tdBnJaKSvOpJGz8mfZ,Q47670,Black Sabbath,18288641,10711277,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+30,1zxDewzd2j1ZdSBGaYcr0y,Q2093178,The Outfield,17941634,893650,London,reviewed_override,True,False,,,,,corrected,London,corrected,high,strict,UK001F
+31,762310PdDnwsDxAQxzQkfX,Q482964,Depeche Mode,17667155,7949283,Basildon,reported_place,True,False,,,,,confirmed,Basildon,not_reviewed,,strict,UK001F
+32,35U9lQaRWSQISxQAB94Meo,Q126852,America,17384987,2286400,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+33,2cGwlqi3k18jFpUyTrsR84,Q488916,The Verve,16374768,3001478,Manchester,editorial_city_cluster,True,False,,,,,confirmed,Wigan,not_reviewed,,strict,UK008F
+34,0lZoBs4Pzo7R89JM9lxwoT,Q58381,Duran Duran,15134650,3958344,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+35,0NKDgy9j66h3DLnN8qu1bB,Q207706,Eurythmics,14843560,2546395,London,reviewed_override,True,False,,,,,corrected,London,corrected,,strict,UK001F
+36,3e7awlrlDSwF3iM0WBjGMp,Q158419,Little Mix,14779473,12405563,London,reviewed_override,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+37,3RGLhK1IP9jnYFH4BRFJBS,Q125603,The Clash,14589467,3508323,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+38,3gd8FJtBJtkRxdfbTu19U2,Q953918,Mumford & Sons,14381934,6882187,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+39,7MhMgCo0Bl0Kukl93PZbYS,Q485820,Blur,14009757,4274924,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+40,1Ffb6ejR6Fe5IamqA5oRUF,Q494784,Bring Me The Horizon,13707032,7131475,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+41,3rIZMv9rysU7JkLzEaC5Jp,Q188407,Snow Patrol,13274460,3465980,Dundee,reported_place,True,False,,,,,confirmed,Dundee,not_reviewed,,strict,UK550F
+42,0uq5PttqEjj3IH1bzwcrXF,Q55641,Spice Girls,12877807,4560204,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+43,3ICflSq6ZgYAIrm2CTkfVP,Q131422,The Animals,12324330,2812173,Newcastle upon Tyne,reported_place,True,False,,,,,confirmed,Newcastle upon Tyne,not_reviewed,,strict,UK013F
+44,4WN5naL3ofxrVBgFpguzKo,Q50971,Rudimental,11737472,1462225,London,editorial_city_cluster,True,False,,,,,confirmed,London Borough of Hackney,not_reviewed,,strict,UK001F
+45,5T4UKHhr4HGIC0VzdZQtAE,Q542071,Faithless,11726956,796754,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+46,5EehXjjMktLuJmbRsM7YfB,Q24025201,Disciples,11691137,299331,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+47,59oA5WbbQvomJz2BuRG071,Q17405943,Jungle,11614048,1886516,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+48,5jTtGLk1mGFMY5lQOvJYUj,Q285481,bôa,11444869,1380058,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+49,3cniTumSiUysiPWXapGx1i,Q977526,Cutting Crew,10972839,628518,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+50,0XNa1vTidXlvJ2gHSsRi4A,Q173180,Franz Ferdinand,10807735,3218082,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+51,6H1RjVyNruCmrBEWRbD0VZ,Q182890,Def Leppard,10792689,6056540,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+52,2ycnb8Er79LoH2AsR5ldjh,Q485625,Pet Shop Boys,10634217,2426999,London,reported_place,True,False,,,,,confirmed,London,confirmed,high,strict,UK001F
+53,6waa8mKu91GjzD4NlONlNJ,Q282925,The Hollies,10112715,1450461,Manchester,reported_place,True,False,,,,,confirmed,Manchester,confirmed,high,strict,UK008F
+54,5lpH0xAS4fVfLkACg9DAuM,Q744087,Wham!,10018855,3400543,London,editorial_city_cluster,True,False,,,,,confirmed,Bushey,not_reviewed,,strict,UK001F
+55,536BYVgOnRky0xjsPT96zl,Q777302,Two Door Cinema Club,9884423,2655723,Bangor,reported_place,True,False,,,,,confirmed,Bangor,not_reviewed,,strict,UK012F
+56,0RUEHcBiENFEqxgicqS2ig,Q1532854,The Stranglers,9836875,862339,Guildford,reported_place,True,False,,,,,confirmed,Guildford,not_reviewed,,strict,UK033F
+57,6hN9F0iuULZYWXppob22Aj,Q748836,Simple Minds,9628717,2504682,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+58,2wpWOzQE5TpA0dVnh5YD08,Q927927,Bronski Beat,9566679,730877,London,reported_place,True,False,,,,,confirmed,London,confirmed,high,strict,UK001F
+59,4Ly0KABsxlx4fNj63zJTrF,Q28109766,Seafret,9520023,1149369,Bridlington,reported_place,True,False,,,,,confirmed,Bridlington,confirmed,high,strict,UK026F
+60,3CkvROUTQ6nRi9yQOcsB50,Q151012,Genesis,9434858,3958098,Godalming,reviewed_multi_place_rule,True,True,,,,,confirmed,Godalming,not_reviewed,,strict,UK033F
+61,2urZrEdsq72kx0UzfYN8Yv,Q16011,Spandau Ballet,9335819,1587103,London,editorial_city_cluster,True,False,,,,,confirmed,London Borough of Islington,not_reviewed,,strict,UK001F
+62,69MEO1AADKg1IZrq2XLzo5,Q560153,UB40,9327767,2783787,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+63,1GhPHrq36VKCY3ucVaZCfo,Q208507,The Chemical Brothers,9143502,2435363,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+64,1fa0cOhromAZdq2xRA4vv8,Q339430,Simply Red,9097250,2960800,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+65,6J7biCazzYhU3gM9j1wfid,Q202041,Jamiroquai,9068742,3053662,London,reported_place,True,False,,,,,confirmed,London,confirmed,high,strict,UK001F
+66,6mdiAmATAx73kdxrNrnlao,Q42482,Iron Maiden,9029433,10931269,London,editorial_city_cluster,True,False,,,,,confirmed,Leyton,confirmed,high,strict,UK001F
+67,6xeFne1rkxMhKSW3ipvkdV,Q1742953,Toploader,8829850,146489,Eastbourne,reported_place,True,False,,,,,confirmed,Eastbourne,not_reviewed,,strict,UK055F
+68,0yNLKJebCb8Aueb54LYya3,Q214990,New Order,8786188,2651294,Manchester,editorial_city_cluster,True,False,,,,,confirmed,Salford,not_reviewed,,strict,UK008F
+69,6FXMGgJwohJLUSr5nVlf9X,Q357418,Massive Attack,8692931,2943616,Bristol,reported_place,True,False,,,,,confirmed,Bristol,not_reviewed,,strict,UK011F
+70,67ea9eGLXYMsO2eYQRui3w,Q93346,The Who,8659112,6100346,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+71,5VadK1havLhK1OpKYsXv9y,Q63313993,D-Block Europe,8351560,1930307,London,editorial_city_cluster,True,False,,,,,confirmed,Lewisham,not_reviewed,,strict,UK001F
+72,3XHO7cRUPCLOr6jwp8vsx5,Q47996,alt-J,8110938,3499216,Leeds,reported_place,True,False,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+73,1A92IAcd7A6npCA33oGM5i,Q289622,The Proclaimers,8100195,438174,Auchtermuchty,reported_place,True,False,,,,,confirmed,Auchtermuchty,not_reviewed,,excluded_no_defensible_fua,
+74,4QTVePrFu1xuGM9K0kNXkk,Q247259,Dexys Midnight Runners,7999321,384886,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+75,1SQRv42e4PjEYfPhS0Tk9E,Q188713,The Kinks,7864488,2958309,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+76,3JsMj0DEzyWc0VDlHuy9Bx,Q176457,Supertramp,7695790,4214119,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+77,5cIc3SBFuBLVxJz58W2tU9,Q21452721,Oh Wonder,7552797,1128715,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+78,2nm38smINjms1LtczR0Cei,Q65052503,Goodboys,7292613,130149,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+79,2NhdGz9EDv2FeUw6udu2g1,Q34918,The Wanted,7143333,2480552,London,reviewed_override,True,False,,,,,unresolved,London,not_reviewed,medium,strict,UK001F
+80,6kz53iCdBSqhQCZ21CoLcc,Q50037,Culture Club,7076755,1913999,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+81,568ZhdwyaiCyOGJRtNYhWf,Q101505,Deep Purple,6998809,6229490,Hertford,reviewed_multi_place_rule,True,False,,,,,confirmed,Hertford,confirmed,high,strict,UK001F
+82,1GLtl8uqKmnyCWxHmw9tL4,Q211768,The Kooks,6950019,2737101,Brighton,reported_place,True,False,,,,,confirmed,Brighton,not_reviewed,,strict,UK515F
+83,3K2zB87GZv1krx031en5VA,Q200002,La Roux,6858904,712440,London,reported_place,True,False,,,,,confirmed,London,confirmed,high,strict,UK001F
+84,6i6WlGzQtXtz7GcC5H5st5,Q169145,10cc,6808182,952868,Manchester,editorial_city_cluster,True,False,,,,,confirmed,Stockport,not_reviewed,,strict,UK008F
+85,240wlM8vDrf6S4zCyzGj2W,Q21008079,CamelPhat,6543464,572358,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+86,1XgFuvRd7r5g0h844A5ZUQ,Q152066,Take That,6539015,1517488,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+87,3UbyYnvNIT5DFXU4WgiGpP,Q189965,Whitesnake,6249726,3532823,Middlesbrough,reported_place,True,False,,,,,confirmed,Middlesbrough,confirmed,high,strict,UK559F
+88,7gAppWoH7pcYmphCVTXkzs,Q15042553,The Vamps,6167219,5952843,London,reported_place,True,False,,,,,unresolved,,not_reviewed,medium,strict,UK001F
+89,1aX2dmV8XoHYCOQRxjPESG,Q730158,The Human League,6085844,1370364,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+90,0GByy3DcfbQwDvXGCWmzv9,Q667389,Pretenders,6044974,1771319,Hereford,reported_place,True,True,,,,,confirmed,Hereford,not_reviewed,,excluded_no_defensible_fua,
+91,2VAnyOxzJuSAj7XIuEOT38,Q10353,AlunaGeorge,6010368,456793,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+92,6liAMWkVf5LH7YR9yfFy1Y,Q191352,Portishead,5958911,2540792,Bristol,reported_place,True,False,,,,,confirmed,Bristol,not_reviewed,,strict,UK011F
+93,6MUyqmIQ35inLjch0YzIEG,Q2629330,Frou Frou,5930276,419619,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+94,6aq8T2RcspxVOGgMrTzjWc,Q1329303,Soft Cell,5766246,869007,Leeds,reported_place,True,False,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+95,7bPU7cvfoD20ixGD9Qnqki,Q283638,Stealers Wheel,5726001,253056,Paisley,reported_place,True,False,,,,,confirmed,Paisley,not_reviewed,,strict,UK004F
+96,2TzHIUhVpeeDxyJPpQfnV3,Q934582,Katrina & The Waves,5671000,171867,Cambridge,reported_place,True,False,,,,,confirmed,Cambridge,not_reviewed,,strict,UK017F
+97,0HxX6imltnNXJyQhu4nsiO,Q113022702,LF SYSTEM,5611864,113693,West Lothian,reviewed_override,True,False,,,,,confirmed,West Lothian,not_reviewed,,strict,UK007F
+98,13ccXrK7AmXb4TddMkE7jy,Q313779,Everything But The Girl,5607393,480010,Kingston upon Hull,reported_place,True,False,,,,,confirmed,Kingston upon Hull,not_reviewed,,strict,UK026F
+99,47Z8LEl3LnQkcpva0xSthT,Q1860769,The La's,5581915,320009,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+100,3iOvXCl6edW5Um0fXEBRXy,Q869367,The xx,5459918,3911861,London,reported_place,True,False,,,,,confirmed,London,confirmed,high,strict,UK001F
+101,32ogthv0BdaSMPml02X9YB,Q1087300,The Cinematic Orchestra,5329785,811495,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+102,20p5D2KrE8CGuOjHtxsyTp,Q14528,Fine Young Cannibals,5309505,1018624,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+103,21UJ7PRWb3Etgsu99f8yo8,Q28963,Stereophonics,5187258,1843050,Cwmaman,reported_place,True,False,,,,,confirmed,Cwmaman,not_reviewed,,strict,UK009F
+104,78SHxLdtysAXgywQ4vE0Oa,Q247949,Bush,5127264,2264067,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+105,5Wabl1lPdNOeIn0SQ5A1mp,Q588820,Cocteau Twins,5124023,1683661,Grangemouth,reported_place,True,False,,,,,confirmed,Grangemouth,not_reviewed,,strict,UK551F
+106,7iWiAD5LLKyiox2grgfmUT,Q485385,Bullet For My Valentine,5036374,3716305,Bridgend,reported_place,True,False,,,,,confirmed,Bridgend,not_reviewed,,excluded_no_defensible_fua,
+107,4k1ELeJKT1ISyDv8JivPpB,Q7256860,The Prodigy,5031555,3074898,Braintree,reviewed_multi_place_rule,True,False,,,,,confirmed,Braintree,not_reviewed,,excluded_no_defensible_fua,
+108,2jgPkn6LuUazBoBk6vvjh5,Q1163207,The Zombies,5025277,1164571,St Albans,reported_place,True,False,,,,,confirmed,St Albans,not_reviewed,,strict,UK001F
+109,72VzFto8DYvKHocaHYNWSi,Q1368881,Hot Chocolate,5017699,393132,London,editorial_city_cluster,True,False,,,,,confirmed,West Hampstead,confirmed,high,strict,UK001F
+110,2m62cc253Xvd9qYQ8d2X3d,Q533478,The Alan Parsons Project,4991688,1804870,London,reviewed_override,True,False,,,,,corrected,London,corrected,high,strict,UK001F
+111,3jNkaOXasoc7RsxdchvEVq,Q1067983,Chase & Status,4913546,1285130,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+112,3sFhA6G1N0gG1pszb6kk1m,Q622988,Wings,4863252,1356305,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,high,excluded_no_defensible_fua,
+113,3w4VAlllkAWI6m0AV0Gn6a,Q493042,Hurts,4854547,380397,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+114,0z5DFXmhT4ZNzWElsM7V89,Q484885,Erasure,4832016,1261829,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,high,excluded_no_defensible_fua,
+115,0TcYeHEK9sBtv7xPbKhzHz,Q1089523,Chumbawamba,4700579,225650,Burnley,reported_place,True,False,,,,,contested,Burnley,contested,high,strict,UK050F
+116,0uAjBatvB4ubpd4kCfjmNt,Q300409,A Flock Of Seagulls,4670482,774464,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+117,72X6FHxaShda0XeQw3vbeF,Q1502037,Slowdive,4658345,1560399,Reading,reported_place,True,False,,,,,confirmed,Reading,not_reviewed,,strict,UK552F
+118,0sHeX8oQ6o7xic3wMf4NBU,Q1120684,Supergrass,4645328,719253,Oxford,reviewed_override,True,False,,,,,corrected,Oxford,corrected,,strict,UK560F
+119,74oJ4qxwOZvX6oSsu1DGnw,Q203736,Cream,4518268,2788886,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+120,1DFr97A9HnbV3SKTJFu62M,Q19697,Motörhead,4453633,4680274,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+121,7AC976RDJzL2asmZuz7qil,Q184386,Yes,4447983,2203167,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+122,6fvN9GmMCVKb5LY0WsnjFP,Q683695,Nazareth,4341186,1724966,Dunfermline,reported_place,True,False,,,,,confirmed,Dunfermline,not_reviewed,,reviewed_extended,UK007F
+123,6FQqZYVfTNQ1pCqfkwVFEa,Q728958,Foals,4201622,1504353,Oxford,reported_place,True,False,,,,,confirmed,Oxford,not_reviewed,,strict,UK560F
+124,48nHO1cuTbpx4ELhChsxX1,Q58884625,Sidewalks and Skeletons,4198181,530960,,unresolved_generic_or_missing,True,True,Sidewalks and Skeletons,,verified_solo_project,https://ra.co/dj/sidewalksandskeletons/biography,unresolved,,not_reviewed,medium,excluded_no_defensible_fua,
+125,6IZ4ctovY9dl7bgHClAvKJ,Q52397902,LSD,4191261,387536,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,medium,excluded_no_defensible_fua,
+126,0s4kXsjYeH0S1xRyVGN4NO,Q111548374,FLO,4183163,626883,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,high,excluded_no_defensible_fua,
+127,4GITZM5LCR2KcdlgEOrNLD,Q1421054,The Foundations,4165829,169026,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+128,3CjlHNtplJyTf9npxaPl5w,Q5118436,CHVRCHES,4152413,1434807,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+129,7zrkALJ9ayRjzysp4QYoEg,Q20711766,Maribou State,4147945,527128,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Hertfordshire,not_reviewed,high,excluded_no_defensible_fua,
+130,432R46LaYsJZV2Gmc4jUV5,Q172763,Joy Division,4140711,2965374,Manchester,editorial_city_cluster,True,False,,,,,confirmed,Salford,not_reviewed,,strict,UK008F
+131,7avo0PmlW8O1YLEt9DnWQT,Q860988,Studio Killers,4136257,305458,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Finland,not_reviewed,high,excluded_no_defensible_fua,
+132,3M4ThdJR28z9eSMcQHAZ5G,Q1127565,The Fratellis,4131358,958629,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+133,2tRsMl4eGxwoNabM08Dm4I,Q83468,Judas Priest,4112763,4744039,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+134,3dBVyJ7JuOMt4GE9607Qin,Q211770,T. Rex,4010971,1266989,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+135,54QMjE4toDfiCryzYWCpXX,Q151783,Metronomy,3971668,1135985,Totnes,reported_place,True,False,,,,,confirmed,Totnes,not_reviewed,,strict,UK516F
+136,7Fo8TAyGJr4VmhE68QamMf,Q595705,Talk Talk,3944807,712227,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+137,0Vw76uk7P8yVtTClWyOhac,Q20740961,HONNE,3880260,1667711,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bow,not_reviewed,high,excluded_no_defensible_fua,
+138,3sc7iUG1Wwpwx7bHeZolgx,Q725926,Bananarama,3805410,929042,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+139,1PXHzxRDiLnjqNrRn2Xbsa,Q849429,Underworld,3783264,827351,Cardiff,reviewed_override,True,False,,,,,corrected,Cardiff,corrected,high,strict,UK009F
+140,2yEkZBBjhzKzt6LF5XMaFi,Q32825,Blue,3677775,822804,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+141,11wRdbnoYqRddKBrpHt4Ue,Q272517,Kasabian,3649101,1926968,Leicester,reported_place,True,False,,,,,confirmed,Leicester,not_reviewed,,strict,UK014F
+142,1uRxRKC7d9zwYGSRflTKDR,Q104771175,SAULT,3625737,653952,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,medium,excluded_no_defensible_fua,
+143,5AEG63ajney2BoDXi0Vb84,Q745517,Bad Company,3616192,1458078,Westminster,reported_place,True,False,,,,,confirmed,Westminster,confirmed,high,strict,UK001F
+144,4AYkFtEBnNnGuoo8HaHErd,Q745741,Madness,3611935,912052,London,reported_place,True,True,,,,,confirmed,London,confirmed,high,strict,UK001F
+145,0kkxsdcaWmWU2yWAqclDh4,Q16672928,Rixton,3592716,784995,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+146,1kDGbuxWknIKx4FlgWxiSp,Q20684996,Nothing But Thieves,3587725,1421470,Southend-on-Sea,reported_place,True,False,,,,,confirmed,Southend-on-Sea,not_reviewed,,strict,UK001F
+147,2TwOrUcYnAlIiKmVQkkoSZ,Q107475751,Wet Leg,3584069,989381,Isle of Wight,reviewed_override,True,False,,,,,confirmed,Isle of Wight,not_reviewed,,excluded_no_defensible_fua,
+148,3btzEQD6sugImIHPMRgkwV,Q8029799,Wolf Alice,3575621,973763,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+149,1v5bOzXbhrQ57qSvRwGA6s,Q3020511,The Irrepressibles,3531545,266977,London,reported_place,True,False,,,,,confirmed,London,confirmed,high,strict,UK001F
+150,4FrXHrpbDLNyO3pbVv8RmF,Q100595483,Sophie and the Giants,3507868,90162,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,medium,excluded_no_defensible_fua,
+151,1lYT0A0LV5DUfxr6doRP3d,Q29606,The Stone Roses,3488308,1863145,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+152,057gc1fxmJ2vkctjQJ7Tal,Q201568,The Buggles,3487007,190767,Wimbledon,reported_place,True,False,,,,,confirmed,Wimbledon,not_reviewed,,strict,UK001F
+153,6RZUqkomCmb8zCRqc9eznB,Q484839,Placebo,3460472,2201483,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+154,4nlqDmbzFzbNITaqjJv7D7,Q3122789,The Sundays,3421091,684291,London,reported_place,True,False,,,,,confirmed,London,confirmed,high,strict,UK001F
+155,7wJ9NwdRWtN92NunmXuwBk,Q956500,Orchestral Manoeuvres In The Dark,3287803,949812,Meols,reported_place,True,False,,,,,confirmed,Meols,not_reviewed,,strict,UK006F
+156,5WWSL6rElJeUk3Uc1S2RyD,Q368961,Dead Or Alive,3275455,490402,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+157,67tgMwUfnmqzYsNAtnP6YJ,Q117522,Groove Armada,3267951,783480,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+158,2FwJwEswyIUAljqgjNSHgP,Q22116844,Snakehips,3159265,392037,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Sheffield,not_reviewed,high,excluded_no_defensible_fua,
+159,1inWec2E2UgfzMAhwjgTXe,Q1157004,Generation X,3158701,181331,Chelsea,reported_place,True,True,,,,,confirmed,Chelsea,not_reviewed,,strict,UK001F
+160,73A3bLnfnz5BoQjb4gNCga,Q28855240,BICEP,3141387,673233,Belfast,reviewed_override,True,False,,,,,resolved,Belfast,resolved,high,strict,UK012F
+161,1G1mX30GpUJqOr1QU2eBSs,Q1410055,Yazoo,3044119,802850,Basildon,reported_place,True,True,,,,,confirmed,Basildon,not_reviewed,,strict,UK001F
+162,3MM8mtgFzaEJsqbjZBSsHJ,Q205838,Bloc Party,3039480,1261856,London,reported_place,True,False,,,,,confirmed,London,confirmed,high,strict,UK001F
+163,4VNQWV2y1E97Eqo2D5UTjx,Q16839700,Gorgon City,3028602,552337,North London,reported_place,True,False,,,,,confirmed,North London,not_reviewed,,strict,UK001F
+164,7rZNSLWMjTbwdLNskFbzFf,Q193697,Sugababes,3027300,758443,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+165,3ZztVuWxHzNpl0THurTFCv,Q620454,Architects,3025569,1369211,Brighton,reported_place,True,False,,,,,confirmed,Brighton,not_reviewed,,strict,UK515F
+166,0LbLWjaweRbO4FDKYlbfNt,Q192308,Kaiser Chiefs,2999896,1422089,Leeds,reported_place,True,False,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+167,2J80qXI4NHKpq5RT3xUF7V,Q30597951,Third Party,2971418,151080,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,high,excluded_no_defensible_fua,
+168,4YrKBkKSVeqDamzBPWVnSJ,Q544018,Basement Jaxx,2938717,623916,London,reported_place,True,False,,,,,confirmed,London,confirmed,high,strict,UK001F
+169,3fhOTtm0LBJ3Ojn4hIljLo,Q334648,Roxy Music,2932733,1153536,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+170,6edGSAX5dVpeJVwu1Q0NwJ,Q707351,Lighthouse Family,2921952,660194,Newcastle upon Tyne,reported_place,True,False,,,,,confirmed,Newcastle upon Tyne,not_reviewed,,strict,UK013F
+171,3lDpdwM8KILepMHqBWUhIA,Q17587679,The Struts,2895181,468353,Derby,reported_place,True,False,,,,,confirmed,Derby,not_reviewed,,strict,UK518F
+172,0Ya43ZKWHTKkAbkoJJkwIB,Q1347289,The Wombats,2884656,1143548,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+173,3bUwxJgNakzYKkqAVgZLlh,Q160103,Travis,2884486,1176704,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+174,5KORW1YGiERJqfuYjXMCyz,Q21075,Mattafix,2878488,113982,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+175,2S5hlvw4CMtMGswFtfdK15,Q16632343,Royal Blood,2873864,1759451,Worthing,reviewed_override,True,False,,,,,corrected,Worthing,corrected,,strict,UK045F
+176,2e53aHBQdCMKWqHDuyJsjC,Q45650,Free,2860415,631085,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+177,3Bd1cgCjtCI32PYvDC3ynO,Q14557360,London Grammar,2832139,1695264,Nottingham,reported_place,True,False,,,,,confirmed,Nottingham,not_reviewed,,strict,UK029F
+178,36E7oYfz3LLRto6l2WmDcD,Q504464,Pulp,2830863,1164307,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+179,0bZCak2tcRMY1dzEIuwF42,Q181241,The Heavy,2796068,516287,Bath,reported_place,True,False,,,,,confirmed,Bath,not_reviewed,,strict,UK031F
+180,2TM0qnbJH4QPhGMCdPt7fH,Q16955493,Neck Deep,2790501,1843051,Wrexham,reported_place,True,False,,,,,confirmed,Wrexham,not_reviewed,,strict,UK022F
+181,2rGm8R7YDTbqDCVlNssQyL,Q1154629,DNA,2774617,18304,Bath,reported_place,False,False,,,,,confirmed,Bath,not_reviewed,,strict,UK031F
+182,1mZu3rO7qSD09GdDpePHhY,Q73597,Frankie Goes To Hollywood,2758706,960764,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+183,6JMHws5haIO6V35YNYDnDw,Q208392,Atomic Kitten,2751716,525204,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+184,3v4feUQnU3VEUqFrjmtekL,Q1136388,Faces,2718313,468654,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,high,excluded_no_defensible_fua,
+185,1bdytLV3FPjyhfrb6BhMej,Q726891,Asia,2716602,774209,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,high,excluded_no_defensible_fua,
+186,5TnuP42pw475UrjjeabtwZ,Q1422720,The Waterboys,2670888,371425,London,reviewed_override,True,False,,,,,resolved,London,resolved,high,strict,UK001F
+187,0HNGrIbq1ZNO2mTp3tMW4L,Q500759,S Club,2628603,692814,London,reported_place,False,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+188,4zKYrXs8iN4AeHmO8ZxNqp,Q7617018,Still Corners,2608941,415092,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+189,1caBfBEapzw8z2Qz9q0OaQ,Q731642,Asking Alexandria,2592556,2530673,York,reported_place,True,False,,,,,contested,York,contested,high,strict,UK533F
+190,2yTUYhIf8fxptTIy3KLuJD,Q653632,Mike + The Mechanics,2591206,794443,Dover,reported_place,True,False,,,,,confirmed,Dover,not_reviewed,,excluded_no_defensible_fua,
+191,5TDVKqW9uhqGjwwwKGuma4,Q165386,All Saints,2567281,609132,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+192,01pKrlgPJhm5dB4lneYAqS,Q16333772,Sigma,2550591,360513,Leeds,reviewed_override,True,False,,,,,corrected,Leeds,corrected,high,strict,UK003F
+193,2mbvqMGpwLsakeH45p1Jrb,Q1427200,Mungo Jerry,2528248,142677,Ashford,reported_place,True,False,,,,,confirmed,Ashford,not_reviewed,,excluded_no_defensible_fua,
+194,4aaBjq7VqqQvpSF69GglvO,Q1121732,Moloko,2507932,516418,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+195,4gIdjgLlvgEOz7MexDZzpM,Q322265,Status Quo,2503249,872142,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+196,5r1bdqzhgRoHC3YcCV6N5a,Q421794,The Darkness,2453090,510654,Lowestoft,reported_place,True,False,,,,,confirmed,Lowestoft,not_reviewed,,strict,UK569F
+197,5JsdVATHNPE0XdMFMRoSuf,Q916484,Texas,2420479,572024,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+198,1NRzxuPpdGushT8YmF5NAa,Q1116554,Edison Lighthouse,2393214,80780,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+199,6Zh3xrWlA0SA9Fsfj9AVwm,Q2030370,Wang Chung,2358411,413141,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+200,49DW3KvkyjHO35mK1JnSyS,Q887376,The Cult,2277310,852449,Bradford,reviewed_override,True,True,,,,,confirmed,Bradford,confirmed,high,strict,UK003F
+201,6SLAMfhOi7UJI0fMztaK0m,Q16005,Rainbow,2270623,1739107,Hertford,reported_place,True,True,,,,,confirmed,Hertford,confirmed,medium,strict,UK001F
+202,1KNXft7nnRQj82sENi7WGN,Q527586,Sohodolls,2252106,321285,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+203,0fgYKF9Avljex0L9Wt5b8Z,Q925641,Echo & the Bunnymen,2210172,1120606,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+204,0qLNsNKm8bQcMoRFkR8Hmh,Q1277864,James,2205349,661228,,unresolved_multiple_places,True,False,,,,,evidence_for_missing_claim,Manchester,not_reviewed,medium,excluded_no_defensible_fua,
+205,60FV7KyxIH9FH1uq7u8inP,Q664467,The Shapeshifters,2179710,99295,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+206,0MmnmsAuQKRFpo6vJElcaU,Q16821378,Amber Run,2165390,590700,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Nottingham,not_reviewed,medium,excluded_no_defensible_fua,
+207,2xaAOVImG2O6lURwqperlD,Q16825909,Catfish and the Bottlemen,2164420,1222331,,unresolved_multiple_places,True,False,,,,,evidence_for_missing_claim,Llandudno,not_reviewed,medium,excluded_no_defensible_fua,
+208,10gzBoINW3cLJfZUka8Zoe,Q323187,Above & Beyond,2160062,889088,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+209,46CitWgnWrvF9t70C2p1Me,Q5227901,Daughter,2134237,1446477,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+210,5BcZ22XONcRoLhTbZRuME1,Q211965,The Moody Blues,2129836,1500809,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+211,3JaAGmSTpJK35DqWrDUzBz,Q487919,Sweet,2128725,555143,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+212,7nkLRaWHImCvWGHdNGnhVE,Q630808,Ten Years After,2124380,656932,Nottingham,reported_place,True,False,,,,,source_variation,Nottingham,not_reviewed,medium,strict,UK029F
+213,0L9xkvBPcEp1nrhDrodxc5,Q123025,Level 42,2112387,788876,Isle of Wight,reviewed_override,True,False,,,,,confirmed,Isle of Wight,not_reviewed,,excluded_no_defensible_fua,
+214,6x33CmZWo2Ve4hxYl2Craq,Q114651,Foghat,2100357,1001735,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+215,6bWxFw65IEJzBYjx3SxUXd,Q749019,Morcheeba,2099112,988331,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+216,2sIx6SmAMw9IBySG3Uj0jf,Q977786,Soul II Soul,2087009,374840,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+217,5jVeqi3PNaTOajfvBa4uFn,Q1500069,Thompson Twins,2069490,750750,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+218,2u0gw0uCWBMiqV7h0N8kai,Q49871,Wet Wet Wet,2057236,614358,Clydebank,reported_place,True,False,,,,,confirmed,Clydebank,not_reviewed,,strict,UK004F
+219,4G9wSdX0klmoHfjm9i6DLd,Q30610109,Loathe,1996442,613049,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+220,6UL7BodGc5iVmQGlMwHR0g,Q1542680,Steel Pulse,1883347,736715,Birmingham,reported_place,True,False,,,,,source_variation,Birmingham,not_reviewed,medium,strict,UK002F
+221,0O0lrN34wrcuBenkqlEDZe,Q276463,The Psychedelic Furs,1846381,722130,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+222,1n65zfwYIj5kKEtNgxUlWb,Q323834,Siouxsie and the Banshees,1823237,1457428,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+223,2pH3wEn4eYlMMIIQyKPbVR,Q212715,DragonForce,1802181,1321799,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+224,7sjttK1WcZeyLPn3IsQ62L,Q194227,Noel Gallagher's High Flying Birds,1799845,1117710,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+225,5APEQlUaQ5K70LgPqAdTuU,Q122918147,Night Tapes,1719979,135032,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+226,14H7ag1wpQOsPPQJOD6Dqr,Q191915,Zero 7,1686407,592881,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+227,4GvOygVQquMaPm8oAc0vXi,Q316029,The Streets,1675316,601898,Birmingham,reported_place,True,False,The Streets,,,,source_variation,Birmingham,not_reviewed,medium,strict,UK002F
+228,0G8zjE6SsFTlbglCkU8pm3,Q1051417,Starsailor,1655319,247718,Manchester,editorial_city_cluster,True,False,,,,,source_variation,Wigan,not_reviewed,medium,strict,UK008F
+229,6Hd3xhv1sj3rlojjvGLkGR,Q442456,Black Box Recorder,1619909,243011,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+230,5rIqOJspxDq89aBBCUda1X,Q815849,Smokie,1611813,728999,Bradford,reviewed_override,True,False,,,,,confirmed,Bradford,not_reviewed,,strict,UK003F
+231,2P560DaOMNDUACoH8ZhOCR,Q916461,The Jam,1609992,862279,Woking,reported_place,True,False,,,,,confirmed,Woking,not_reviewed,,strict,UK001F
+232,0gcMPgunYh4rX1UOdvZKBn,Q1869183,Londonbeat,1590343,72136,London,reviewed_override,True,False,,,,,corrected,London,corrected,,strict,UK001F
+233,6w6z8m4WXX7Tub4Rb6Lu7R,Q192353,Jethro Tull,1535908,2025126,Luton,reported_place,True,True,,,,,source_variation,Luton,not_reviewed,medium,strict,UK532F
+234,1N2FgBLehaq77UEdJhCt7f,Q1430158,Saint Etienne,1513825,195555,Croydon,reported_place,True,True,,,,,confirmed,Croydon,not_reviewed,,strict,UK001F
+235,3jTlKw98Ql1jGRPYqhqHap,Q973760,Skindred,1507719,681458,Newport,reported_place,True,False,,,,,confirmed,Newport,not_reviewed,,strict,UK558F
+236,4uRYpUQZrNrY5t8tAv3XrD,Q1066310,NERO,1501385,808732,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+237,2utNxkLhreF1oIfO8kQT3q,Q1926913,Manfred Mann's Earth Band,1497096,487796,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+238,6rEzedK7cKWjeQWdAYvWVG,Q24791,Five,1473171,551020,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+239,5nSAh3wlH7VaqpnkiMjzDs,Q21475095,WSTRN,1459546,335397,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,West London,not_reviewed,medium,excluded_no_defensible_fua,
+240,3Eo78i1MPfle0XVjMvia8A,Q1165942,Dario G,1447823,37747,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Crewe,not_reviewed,medium,excluded_no_defensible_fua,
+241,6xnvNmSzmeOE1bLKnYXKW3,Q19057,The Specials,1432373,741585,Coventry,reported_place,True,False,,,,,confirmed,Coventry,not_reviewed,,strict,UK025F
+242,1NUD5By34MFynmuUynCfSj,Q458284,The Real Thing,1425692,112151,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+243,1EJWNhiYbOyeUHbsS7Kp1P,Q1754009,Sneaker Pimps,1412387,342340,Hartlepool,reported_place,True,False,,,,,confirmed,Hartlepool,not_reviewed,,strict,UK559F
+244,6zpPKMhpOoG646kJgZ7RKf,Q1294961,Johnny Hates Jazz,1399373,249325,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+245,0GbqW5TJr7n4is453VOY4C,Q214486,Procol Harum,1385101,564567,Southend-on-Sea,reported_place,True,False,,,,,confirmed,Southend-on-Sea,not_reviewed,,strict,UK001F
+246,7ai5TWiOG8g9Hds5AATS28,Q678410,Marillion,1370532,554699,Aylesbury,reported_place,True,False,,,,,confirmed,Aylesbury,not_reviewed,,excluded_no_defensible_fua,
+247,31lnFZEM6ysvjOx59VyxRE,Q15637787,Krept & Konan,1367407,506547,South London,reported_place,True,False,,,,,confirmed,South London,not_reviewed,,strict,UK001F
+248,39oSLGo3HkaeYXzUEGgAGQ,Q503037,EMF,1351005,106882,Cinderford,reported_place,True,False,,,,,confirmed,Cinderford,not_reviewed,,excluded_no_defensible_fua,
+249,1km0R7wy712AzLkA1WjKET,Q858365,Biffy Clyro,1330864,792584,Kilmarnock,reported_place,True,False,,,,,confirmed,Kilmarnock,not_reviewed,,excluded_no_defensible_fua,
+250,22RISwgVJyZu9lpqAcv1F5,Q23057702,Blossoms,1329106,515545,Manchester,editorial_city_cluster,True,False,,,,,confirmed,Stockport,not_reviewed,,strict,UK008F
+251,5lPsVvHVDr6R5mDxRUXdOs,Q279634,A1,1308390,574084,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+252,2Z7UcsdweVlRbAk5wH5fsf,Q862520,The Last Shadow Puppets,1305891,1251280,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+253,15ajdFAi5bjj5pS9laBfBL,Q427469,Right Said Fred,1289669,75075,East Grinstead,reported_place,True,False,,,,,confirmed,East Grinstead,not_reviewed,,excluded_no_defensible_fua,
+254,7vjRpVXoecwKTEsrb9iscj,Q110863918,Jadu Heart,1279776,169564,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+255,1ZVACPeq7ccGCoUXwtafUU,Q65327538,KNEECAP,1263438,558490,Belfast,reported_place,True,False,,,,,confirmed,Belfast,not_reviewed,,strict,UK012F
+256,6e9wIFWhBPHLE9bXK8gtBI,Q570393,Editors,1241937,786142,Stafford,reviewed_override,True,False,,,,,resolved,Stafford,resolved,medium,excluded_no_defensible_fua,
+257,2wvUfjKGoXvcnDHq7GgMOa,Q219939,The Ting Tings,1233876,445083,Manchester,editorial_city_cluster,True,False,,,,,confirmed,Salford,not_reviewed,,strict,UK008F
+258,1u7kkVrr14iBvrpYnZILJR,Q82545,Sex Pistols,1231532,2087179,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+259,6OqhFYFJDnBBHas02HopPT,Q19370850,Kero Kero Bonito,1201107,611925,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+260,6PwcexHTG0qJWQQwp05Bpm,Q1753527,Pilot,1181505,78328,Edinburgh,reported_place,True,False,,,,,confirmed,Edinburgh,not_reviewed,,strict,UK007F
+261,5HlXA01kcjssYDT7EoqUJF,Q167977,Skunk Anansie,1179800,449680,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+262,2VAvhf61GgLYmC6C8anyX1,Q722778,Boards of Canada,1177186,844402,Edinburgh,reported_place,True,False,,,,,source_variation,Edinburgh,not_reviewed,medium,strict,UK007F
+263,3wury2nd8idV4GecUg5xze,Q666697,Primal Scream,1165795,590819,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+264,3UmBeGyNwr4iDWi1vTxWi8,Q733400,Gerry & The Pacemakers,1163214,313722,Liverpool,reported_place,True,True,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+265,3iUjRVvYCsMfz7tuAQtBDI,Q316485,Ultravox,1162862,609815,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+266,45InkbGypoMk5nVX6dsHkt,Q1959629,N-Trance,1162155,82658,Oldham,reported_place,True,False,,,,,confirmed,Oldham,not_reviewed,,strict,UK008F
+267,3vEL65ycUboLH76pgdtqlF,Q131762147,South Arcade,1151351,332563,Guildford,reviewed_override,True,False,,,,,resolved,Guildford,resolved,medium,strict,UK033F
+268,4I2BJf80C0skQpp1sQmA0h,Q691568,Belle and Sebastian,1141204,747098,Glasgow,reported_place,True,True,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+269,0nCiidE5GgDrc5kWN3NZgZ,Q273171,"Emerson, Lake & Palmer",1139758,1194686,London,reviewed_override,True,False,,,,,resolved,London,resolved,medium,strict,UK001F
+270,4pJCawaKSZ40EnxN0YEYw3,Q798993,Badfinger,1128068,471790,Swansea,reported_place,True,False,,,,,confirmed,Swansea,not_reviewed,,strict,UK517F
+271,40nPYop0FOD9Syyu5y4dAU,Q135218611,PRESIDENT,1108071,247203,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+272,3i9hP422d2KMjaupTzBNVS,Q1049145,The Spencer Davis Group,1087690,317136,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+273,2CkhxuagMCG9uvlbKm5G3m,Q142904,Imagination,1083676,139019,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+274,4fomCZiFUMX73KJ0YQ0V90,Q1757677,The Beautiful South,1074612,498337,Kingston upon Hull,reported_place,True,False,,,,,confirmed,Kingston upon Hull,not_reviewed,,strict,UK026F
+275,3NZE8jDD2cCzd4vUyZ5CQQ,Q339626,Spacehog,1073095,164649,New York City,reported_place,True,False,,,,,confirmed,New York City,not_reviewed,,excluded_non_uk,
+276,5670CyWrIOA7702gNjsGMZ,Q319265,Manfred Mann,1070103,421269,,unresolved_generic_or_missing,True,True,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+277,2XIbOWDT5vZPW7jNyzdfcK,Q107981908,Caskets,1063882,255906,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Leeds,not_reviewed,medium,excluded_no_defensible_fua,
+278,75mafsNqNE1WSEVxIKuY5C,Q39070668,IDLES,1060008,893225,Bristol,reported_place,True,False,,,,,confirmed,Bristol,not_reviewed,,strict,UK011F
+279,3UCbp6D1lvILlxRJT9LnFa,Q106091172,Koven,1057644,149136,,unresolved_generic_or_missing,True,True,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+280,6csA2rxNLkQJXeEa7lyGXn,Q1303048,Mis-Teeq,1053166,147133,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+281,2Omy3P5hFZym7FKum1JA1s,Q251657,UFO,1051240,669681,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+282,6ssXMmc5EOUrauZxirM910,Q1331605,White Lies,1046821,560678,Ealing,reported_place,True,False,,,,,confirmed,Ealing,not_reviewed,,strict,UK001F
+283,0Ak6DLKHtpR6TEEnmcorKA,Q1458872,The Vaccines,1042137,807443,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+284,0fYPQBOx0vsRMmjUba9HgF,Q1691644,Modern English,1039829,242915,Colchester,reported_place,True,False,,,,,confirmed,Colchester,not_reviewed,,strict,UK546F
+285,67YNiSqhrx1P8oPvIIvbP5,Q1973228,The Lightning Seeds,1037603,189073,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+286,7M1FPw29m5FbicYzS2xdpi,Q189382,King Crimson,1036506,1414122,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+287,6Jrj26oAY96EEC2lqC6fua,Q591279,Squeeze,1034511,369318,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+288,2s79xe5F6eUQkjwjww27Fh,Q287078,ABC,1028147,431631,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+289,6QNkSI0c63lCTNXpHDBiqP,Q339889,Ace,1026309,40060,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+290,3Z6IRCo7umuk8K2XQy0ZDj,Q826185,Busted,1009124,307292,Southend-on-Sea,reported_place,True,False,,,,,confirmed,Southend-on-Sea,not_reviewed,,strict,UK001F
+291,12EtLdLfJ41vUOoVzPZIUy,Q205473,Girls Aloud,996906,552875,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+292,0nJaMZM8paoA5HEUTUXPqi,Q18357134,Bear's Den,996827,345964,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+293,0aeLcja6hKzb7Uz2ou7ulP,Q1811037,Noah And The Whale,995813,469876,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+294,4HxBVyHaUa60eCSsJWxwWR,Q751814,Sisters of Mercy,994856,771147,Leeds,reported_place,True,False,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+295,3KNZ9AOjBajjmr6ZR2VGfl,Q269813,Il Divo,977922,966587,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Multi-national (tenors from France,not_reviewed,medium,excluded_no_defensible_fua,
+296,4rjlerN21ygkIhmUv55irs,Q1126301,The Jesus and Mary Chain,975001,578109,East Kilbride,reported_place,True,False,,,,,confirmed,East Kilbride,not_reviewed,,strict,UK004F
+297,3pTE9iaJTkWns3mxpNQlJV,Q891829,Bombay Bicycle Club,970928,881071,Crouch End,reported_place,True,False,,,,,source_variation,Crouch End,not_reviewed,medium,strict,UK001F
+298,1kNQXvepPjaPgUfeDAF2h6,Q1512507,You Me At Six,967721,698799,Weybridge,reported_place,True,False,,,,,confirmed,Weybridge,not_reviewed,,strict,UK001F
+299,47izDDvtOxxz3FzHYuUptd,Q223768,McFly,964171,515965,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+300,7bKupnlF7XOfR1En3K8oAL,Q1533399,Go West,925778,281420,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+301,1CD77o9fbdyQFrHnUPUEsF,Q1048439,Traffic,924163,664568,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+302,3Kf7VEIRWquxrNIuyJZnfF,Q1134101,Cornershop,920853,85161,Leicester,reported_place,True,False,,,,,confirmed,Leicester,not_reviewed,,strict,UK014F
+303,37uLId6Z5ZXCx19vuruvv5,Q877512,Hot Chip,912686,723814,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+304,4fSPtBgFPZzygkY6MehwQ7,Q214350,The Libertines,911120,943427,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+305,6D7h7R79IZjqJC2GM2wzyY,Q1592619,Heatwave,907968,515706,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+306,2uH0RyPcX7fnCcT90HFDQX,Q217025,Manic Street Preachers,893282,751312,Blackwood,reported_place,True,False,,,,,confirmed,Blackwood,not_reviewed,,strict,UK009F
+307,0TJB3EE2efClsYIDQ8V2Jk,Q665798,Elbow,891884,578182,Ramsbottom,reported_place,True,False,,,,,source_variation,Ramsbottom,not_reviewed,medium,strict,UK008F
+308,6tCJN1fQNdFCEaOa8Da9Wf,Q47006918,JADED,891067,55678,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+309,57xdnSVt4ahJCIXYLieQ25,Q943253,The Troggs,883780,337104,Andover,reported_place,True,False,,,,,source_variation,Andover,not_reviewed,medium,strict,UK520F
+310,1MNeXu0284O7mQWgF1YRc0,Q2307431,Breathe,876466,38500,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+311,3csPCeXsj2wezyvkRFzvmV,Q515942,Orbital,874037,416016,Sevenoaks,reported_place,True,False,,,,,source_variation,Sevenoaks,not_reviewed,medium,strict,UK001F
+312,5BKsn7SCN2XmbF7apdCpRS,Q606250,Goldfrapp,864148,618403,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+313,60adCptqwRkANTtVja0bvf,Q337310,Academy of Ancient Music,863103,46459,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+314,75EZuo5MHV2572NRpMWotC,Q526130,Crystal Fighters,846287,356161,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+315,48YxSlb23RAaCd4RyHcV9V,Q693597,Herman's Hermits,843685,542791,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+316,15PIcAgtP1zCipRK3sniUN,Q6465241,La Serenissima,840773,10706,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+317,0un6YenPxWZ2VW4aFGMupM,Q3937955,Floetry,834779,827023,London,reviewed_override,True,False,,,,,corrected,London,corrected,,strict,UK001F
+318,3tx8fyu3c4OBP5nejYtUOb,Q583556,Average White Band,830950,473616,Dundee,reported_place,True,False,,,,,confirmed,Dundee,not_reviewed,,strict,UK550F
+319,4qmHkMxr6pTWh5Zo74odpH,Q7714866,Elvis Costello & The Attractions,830368,329467,,unresolved_generic_or_missing,False,False,,,,,evidence_for_missing_claim,California,not_reviewed,medium,excluded_no_defensible_fua,
+320,2Q4FnG5T6NTUcAAZwuMV5K,Q1183784,Del Amitri,827530,117032,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+321,1NfJU4hy56Z4UM4iyIa1B2,Q1352997,Courteeners,819255,366021,Middleton,reported_place,True,False,,,,,confirmed,Middleton,not_reviewed,,strict,UK008F
+322,7poQNrOwZoUcoqihg4Xex0,Q111865044,Wasia Project,815222,394807,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+323,3bpvhFSIErguVNQUiutctF,Q1101485,Climie Fisher,814321,91736,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+324,3u9rbdcmA6CxjxOAkjaeFr,Q104870323,Kokoroko,813289,405946,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+325,5N5tQ9Dx1h8Od7aRmGj7Fi,Q180582,Bauhaus,808555,1137691,Northampton,reported_place,True,False,,,,,confirmed,Northampton,not_reviewed,,strict,UK528F
+326,0f3kLT4wvi2mFHlHJgV8Hl,Q608271,Kajagoogoo,797085,292881,Leighton Buzzard,reported_place,True,False,,,,,confirmed,Leighton Buzzard,not_reviewed,,excluded_no_defensible_fua,
+327,17UkABEasVRlCcIFZ3wHb7,Q1457831,Steps,796161,446647,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+328,2qlAMLpUyBjZgnzuFXXZXI,Q840882,Klaxons,791164,327144,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+329,596ByjVYnslGJIHxEBGjF8,Q4356488,Ultrabeat,767735,60158,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+330,31jvzuB4ikftPQZJwrYfCF,Q912581,Enter Shikari,764839,522047,St Albans,reported_place,True,False,,,,,confirmed,St Albans,not_reviewed,,strict,UK001F
+331,3lcbKPLl0ci2mKRdcP5Etf,Q1882185,M People,762770,281163,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+332,223iUzG0kb5V166FJP9ovD,Q1990235,IAMX,750077,246831,London,reviewed_override,True,False,IAMX,,verified_solo_project,https://iamxmusic.com/pages/electronic-press-kit,resolved,London,resolved,medium,strict,UK001F
+333,3PP6ghmOlDl2jaKaH0avUN,Q66759333,"Black Country, New Road",741988,492540,Cambridgeshire,reported_place,True,False,,,,,confirmed,Cambridgeshire,not_reviewed,,excluded_no_defensible_fua,
+334,38LdIuxB548zgHoEY2AN7a,Q2543938,While She Sleeps,740851,528146,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+335,1JVoO5bwfU8GNuAZLpBoHe,Q2002188,The Dream Academy,735488,81792,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+336,6PHIK3kjWggLtVygsOtpqS,Q826255,Suede,713390,569692,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+337,6hl5k4gLl1p3sjhHcb57t2,Q18205953,Circa Waves,708315,319278,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+338,6OiHleP2bHM18dXq4aZQWt,Q1777045,The Coral,707737,287640,Hoylake,reported_place,True,False,,,,,confirmed,Hoylake,not_reviewed,,strict,UK006F
+339,2qT62DYO8Ajb276vUJmvhz,Q1413926,XTC,705276,391755,Swindon,reported_place,True,False,,,,,confirmed,Swindon,not_reviewed,,strict,UK535F
+340,5kwHgbzNHq1iHkUSrAmjjQ,Q758846,Audio Bullys,701846,83213,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+341,15qI5w4XJFLRMwOp2VrlD5,Q756220,The Saturdays,701836,736766,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+342,2U6J9Q89i1TNhesKreFD65,Q115816501,piri & tommy,690910,45851,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Manchester,not_reviewed,medium,excluded_no_defensible_fua,
+343,3OpqU68JpZlzvjAJj3B2Da,Q758934,Alestorm,684120,746082,Perth,reported_place,True,False,,,,,confirmed,Perth,not_reviewed,,excluded_no_defensible_fua,
+344,0ZZr6Y49NZWRJc0uCwqpMR,Q1049555,Feeder,679131,262471,Newport,reported_place,True,True,,,,,confirmed,Newport,not_reviewed,,strict,UK558F
+345,5gqoUf9vKKv96b1c0GBKwu,Q16249370,Dusky,666537,133667,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+346,7uwY65fDg3FVJ8MkJ5QuZK,Q85684673,hard life,664952,342751,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Leicester,not_reviewed,medium,excluded_no_defensible_fua,
+347,45O9BwPMyywM755SYUK0sP,Q108666,Uriah Heep,659174,860808,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+348,5k979N1TnPncUyqlXlaRSv,Q104759060,The Longest Johns,653167,272973,Bristol,reported_place,True,False,,,,,confirmed,Bristol,not_reviewed,,strict,UK011F
+349,339DNkQkuhHKEcHw6oK8f0,Q1141495,Happy Mondays,652616,462546,Little Hulton,reported_place,True,False,,,,,source_variation,Little Hulton,not_reviewed,medium,strict,UK008F
+350,3PALZKWkpwjRvBsRmhlVSS,Q28146294,Gunship,646183,298392,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+351,7pv3MRGkgkXa9Qn8sMctxT,Q6732352,Magoo,639865,22094,Norfolk,reported_place,True,False,,,,,source_variation,Norfolk,not_reviewed,medium,excluded_no_defensible_fua,
+352,2DxlS3lTLFIq70S7ap5H3y,Q939329,Buzzcocks,638182,490422,Bolton,reported_place,True,False,,,,,confirmed,Bolton,not_reviewed,,strict,UK008F
+353,0IEPb9ily3E5IAYMSkwtQ6,Q93890774,Arctic Lake,637713,65681,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+354,0ucLPotcQNI7AViFytdhBz,Q831841,Ladytron,637497,333134,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+355,1a5l3fWnzmaK7gDD2IkbHq,Q1749463,Tin Tin Out,633305,5681,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+356,7GvVTb8yFV0ZrdI30Qce6T,Q16864855,Delta Heavy,632637,190365,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+357,3loflELg7MzgrOyNqERolN,Q676522,The Style Council,626814,368853,Woking,reviewed_override,True,False,,,,,corrected,Woking,corrected,,strict,UK001F
+358,1h8YIw9HLr6E8gdXVDRbVJ,Q858738,Big Country,622663,271022,Dunfermline,reported_place,True,False,,,,,confirmed,Dunfermline,not_reviewed,,reviewed_extended,UK007F
+359,2WuKU0SYZOQyY3MmE4vtez,Q28677824,New Hope Club,617401,986109,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+360,33tFkBLsl6f8TjKkV0uF0C,Q109558113,Lovejoy,617221,1099469,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Brighton,not_reviewed,medium,excluded_no_defensible_fua,
+361,5jqKIZLB5WA5KquEihB3ND,Q1180767,Deacon Blue,612759,256096,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+362,10n5lhNDoSMUHWLlnST1yw,Q156872,Slade,612385,473230,Wolverhampton,reported_place,True,False,,,,,confirmed,Wolverhampton,not_reviewed,,strict,UK002F
+363,49H2dQUNhIlso7VNkS8nFR,Q1453598,Freemasons,607845,65062,Brighton,reported_place,True,False,,,,,confirmed,Brighton,not_reviewed,,strict,UK515F
+364,5vIOGcdmx1eIkq3ZtuS12U,Q1332158,Ocean Colour Scene,606956,454701,Birmingham,reported_place,True,False,,,,,source_variation,Birmingham,not_reviewed,medium,strict,UK002F
+365,26GHRG8x1F4AzbCKzUaIbw,Q17279149,Aquilo,602693,328001,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Lancashire,not_reviewed,medium,excluded_no_defensible_fua,
+366,6T6T5RCps6bHzTSDq8pyFj,Q664789,Fiction Factory,601160,34517,Perth,reported_place,True,False,,,,,confirmed,Perth,not_reviewed,,excluded_no_defensible_fua,
+367,3NUtpWpGDoffm3RCGhSHtl,Q1359424,Mount Kimbie,601000,362804,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+368,5BaHqGtf6UAZnHfqdPaTDA,Q1338638,Them,598923,155177,Belfast,reported_place,True,False,,,,,confirmed,Belfast,not_reviewed,,strict,UK012F
+369,2nszamLjZFgu3Yx77mKxuC,Q2032426,UNKLE,596520,420500,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+370,69QKcDt724e93ZYkBSjsYP,Q514541,LMC,593636,10262,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+371,5xi3SZpllRPAkoPVbjB6nc,Q1165439,JLS,591899,520107,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+372,1aOt6LvXOV6I8dv1A5Diia,Q5292322,DON BROCO,584790,285868,Bedford,reported_place,True,False,,Luke Rayner|Simon Delaney|Matthew Donnelly,,,confirmed,Bedford,not_reviewed,,strict,UK549F
+373,6EL5GD53kaaVgJCHgdtdLz,Q1431236,Steve Harley & Cockney Rebel,584745,66094,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+374,1054JdBVMCPm9VpvkUcOYX,Q1377724,Sweet Female Attitude,582178,31030,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+375,53RkHTcl0SJZjpzqogkBf4,Q1460975,The Fixx,569663,284550,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+376,52Syw7gkGRePCAYvEY2X9D,Q1140107,N-Dubz,569050,307419,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+377,7sbwBqdkynNUDgiWU3TQ5J,Q794148,Aztec Camera,568826,155418,East Kilbride,reported_place,True,False,,,,,confirmed,East Kilbride,not_reviewed,,strict,UK004F
+378,16kd5X3pBMOtXdLlX5LcAw,Q28340958,BONES UK,568133,106452,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+379,2WRStKp4ihGVUzlzWfv1Qt,Q1501348,The Undertones,562915,274928,Derry,reported_place,True,False,,,,,confirmed,Derry,not_reviewed,,strict,UK586F
+380,5suoHSdDiYsjikHNVdYYKe,Q863504,Binary Finary,556404,45535,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Portsmouth,not_reviewed,medium,excluded_no_defensible_fua,
+381,4OoHneMX97SjUXKWgsyrP4,Q100414305,GPF,547879,111016,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+382,1tttI1iC4FsS6BM5l38oe5,Q1281029,Marmalade,545335,89242,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+383,4eeRviM714mXXeILmKHxh2,Q490339,Climax Blues Band,545160,127118,Stafford,reported_place,True,False,,George Newsome,,,confirmed,Stafford,not_reviewed,,excluded_no_defensible_fua,
+384,2lxX1ivRYp26soIavdG9bX,Q192725,The Yardbirds,543254,1006505,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+385,3Rj0tDHoX7C5NFq5DKIpHt,Q334652,Stereolab,542759,428315,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+386,5G49Sq5mMzAkGL4ZP6eVPY,Q7766423,The Staves,540680,235928,Watford,reported_place,True,False,,,,,confirmed,Watford,not_reviewed,,strict,UK001F
+387,0Zy4ncr8h1jd7Nzr9946fD,Q250421,Killing Joke,538563,397648,Notting Hill,reported_place,True,False,,,,,source_variation,Notting Hill,not_reviewed,medium,strict,UK001F
+388,0LVrQUinPUBFvVD5pLqmWY,Q126128,Doves,533297,299777,Manchester,editorial_city_cluster,True,False,,,,,source_variation,Wilmslow,not_reviewed,medium,strict,UK008F
+389,0ZhPS80sMbmVgzOkMPKNpn,Q2094985,Precious,530748,9402,,unresolved_generic_or_missing,False,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+390,5GUVj2b1lJ4DolQyHlzyaO,Q548656,Blind Faith,529325,474336,Ripley,reported_place,True,False,,,,,confirmed,Ripley,not_reviewed,,strict,UK033F
+391,47qTcvYlqJGAEsCI7BcENC,Q398101,T'Pau,525174,223072,Shropshire,reported_place,True,False,,,,,source_variation,Shropshire,not_reviewed,medium,excluded_no_defensible_fua,
+392,5NXHXK6hOCotCF8lvGM1I0,Q213923,Porcupine Tree,514183,808818,Hemel Hempstead,reported_place,True,False,,,,,confirmed,Hemel Hempstead,not_reviewed,,strict,UK556F
+393,14Gi3Uph96lpNB3utkoVAD,Q1123510,Hard-Fi,508027,200592,Staines-upon-Thames,reported_place,True,False,,,,,confirmed,Staines-upon-Thames,not_reviewed,,strict,UK001F
+394,6FlOCziOXI157pvUREAh3E,Q1856023,Los Campesinos!,507510,209086,Cardiff,reported_place,True,False,,,,,confirmed,Cardiff,not_reviewed,,strict,UK009F
+395,7jZycSvTyx0W9poD4PjEIG,Q27792569,The Hunna,506302,268983,Watford,reported_place,True,False,,,,,confirmed,Watford,not_reviewed,,strict,UK001F
+396,77zrvBORXcnTyysjjKRfBU,Q502967,The Art Of Noise,506277,199618,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+397,4phr5rAgWhcZtWJu8w8lKv,Q955863,Swing Out Sister,502370,183037,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+398,3r9TXuXfOUxXjgYgAR0fP8,Q812073,Bay City Rollers,499865,225644,Edinburgh,reported_place,True,False,,,,,confirmed,Edinburgh,not_reviewed,,strict,UK007F
+399,5fScAXreYFnuqwOgBsJgSd,Q1542958,The Charlatans,498770,412618,West Midlands,reported_place,True,True,,,,,confirmed,West Midlands,not_reviewed,,excluded_no_defensible_fua,
+400,6BD4lgmnh4vy6kkCaZRDWt,Q1017202,Bury Tomorrow,497979,357588,Southampton,reported_place,True,False,,,,,confirmed,Southampton,not_reviewed,,strict,UK520F
+401,0r2TmTSwK6XAhAxNxTDOb4,Q2019953,Olive,491693,31488,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+402,4O1s9iVG46lSn1mD9ek1ES,Q10313519,K-Klass,486338,26378,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Wrexham,not_reviewed,medium,excluded_no_defensible_fua,
+403,0NTSMFFapnyZfvmCwzcYPd,Q487479,Cradle Of Filth,484589,676119,Suffolk,reported_place,True,False,,,,,source_variation,Suffolk,not_reviewed,medium,excluded_no_defensible_fua,
+404,1eVEVL20zNLcGrPDOR691N,Q2165980,The English Beat,483379,170891,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+405,3QvfzWcCo67s7bhOYEz5Tr,Q137673339,December 10,474904,104735,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+406,1I9HNoVK6kOQGVZfulXVnm,Q60751165,TENDER,469691,164082,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+407,3AmWjMXXtBJOmNGpUFSOAl,Q1130624,Gang Of Four,469462,292732,Leeds,reported_place,True,False,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+408,4BntNFyiN3VGG4hhRRZt9d,Q1470472,The Subways,467832,220739,Welwyn Garden City,reported_place,True,False,,,,,confirmed,Welwyn Garden City,not_reviewed,,strict,UK001F
+409,4AOiNpcmfXTiWDB3uFszgn,Q135854861,The Big Push,466052,233766,Brighton,reported_place,True,False,,,,,unresolved,Brighton,not_reviewed,low,strict,UK515F
+410,1NRudBLaT84LXxfsYdFMhB,Q108696271,WARGASM (UK),465557,153921,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+411,03hfAxVdAWj7kxDnSG0fLD,Q212168,The Shadows,463312,265554,Cheshunt,reviewed_override,True,False,,,,,resolved,Cheshunt,resolved,medium,excluded_no_defensible_fua,
+412,71vVmHeNgCVSa5SVmfvscU,Q504090,Saxon,460256,685716,Barnsley,reported_place,True,False,,,,,confirmed,Barnsley,not_reviewed,,strict,UK010F
+413,6VeL8VhaMjHTPc5uovFl3h,Q940536,The Damned,459791,442692,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+414,7zYGAXxAaq15C9eM29M8Fj,Q540500,Eternal,453940,128019,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+415,6ysQi6NI88X627t2srsWz6,Q1126287,Mott The Hoople,453631,262051,Herefordshire,reported_place,True,False,,,,,confirmed,Herefordshire,not_reviewed,,excluded_no_defensible_fua,
+416,5ZvwJikDgdP1PFU4PkAPVG,Q883441,Bleed From Within,451660,289069,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+417,1mlZXof4sEGLFspPzlQdFL,Q8041505,X-Press 2,450693,21792,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+418,4ddt8PPvmWrI9mJQy1VrIG,Q2413479,Band Of Skulls,446823,272436,Southampton,reported_place,True,False,,,,,confirmed,Southampton,not_reviewed,,strict,UK520F
+419,4LlDtNr8qFwhrT8eL2wzH4,Q634158,The Hoosiers,438135,219418,Bracknell,reported_place,True,False,,,,,source_variation,Bracknell,not_reviewed,medium,strict,UK573F
+420,0Ism1B2cF9NxpXAwdUCkxK,Q6936028,Mungo's Hi Fi,436483,140154,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Glasgow,not_reviewed,medium,excluded_no_defensible_fua,
+421,6lOC7lwSO1ql4Gc2Y3QObY,Q1277715,East 17,434704,135562,Walthamstow,reported_place,True,False,,,,,confirmed,Walthamstow,not_reviewed,,strict,UK001F
+422,2evydP72Z45DouM4uMGsIE,Q724582,Ash,433333,204152,Downpatrick,reported_place,True,False,,,,,confirmed,Downpatrick,not_reviewed,,excluded_no_defensible_fua,
+423,3xByNj8XW17oW0wsJhgzYL,Q19604547,SOFT PLAY,433170,288282,Royal Tunbridge Wells,reported_place,True,False,,,,,confirmed,Royal Tunbridge Wells,not_reviewed,,strict,UK001F
+424,1YqGsKpdixxSVgpfaL2AEQ,Q222628,Small Faces,431362,358793,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+425,6VR4TJ20WGiho2xZWMuuWb,Q112123144,Lambrini Girls,420857,159689,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Brighton,not_reviewed,medium,excluded_no_defensible_fua,
+426,33ZOI0WTjYkLh5WuwucLhc,Q797832,Baby D,418514,20248,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+427,2h3ooJn8m8X8cL2g1BZ1Rd,Q110269845,Yard Act,416371,155450,Leeds,reported_place,True,False,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+428,1O7aMVbDeSXY2LiVBhb13w,Q2499301,The Herbaliser,415029,165562,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+429,37f9cjf8Ic4t7vYNRYAzI7,Q619067,Apollo 440,414420,160231,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+430,0ZXKT0FCsLWkSLCjoBJgBX,Q487396,Anathema,413525,447557,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+431,0zg9mF9dX2knvdTKnL22T1,Q2384799,Freestylers,411981,84251,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+432,74K7bX12L8GBAWvPuyIgJ7,Q1335100,Embrace,411812,181930,Bailiff Bridge,reported_place,True,False,,,,,confirmed,Bailiff Bridge,not_reviewed,,strict,UK003F
+433,048FBwXjFYBWxSggPDipic,Q833332,Maximo Park,411159,259584,Newcastle upon Tyne,reported_place,True,False,,,,,confirmed,Newcastle upon Tyne,not_reviewed,,strict,UK013F
+434,4w3QqrcmBv8dasemwBXmxf,Q1506813,Prefab Sprout,410644,238201,Witton Gilbert,reported_place,True,False,,,,,confirmed,Witton Gilbert,not_reviewed,,excluded_no_defensible_fua,
+435,4WjeQi9wm84lYTIWZ95QoM,Q48700689,Boston Manor,410364,192021,Blackpool,reported_place,True,False,,,,,confirmed,Blackpool,not_reviewed,,strict,UK553F
+436,3lN1TG4RIoaJCff6Ck9KUR,Q1428876,The Farm,408875,76908,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+437,0Wkm45quqfx3NepJpXDvwE,Q47137654,Superorganism,402523,263802,London,reported_place,True,False,,Soul|B|Harry,,,confirmed,London,not_reviewed,,strict,UK001F
+438,0ddfjKqJfbSiddqOvpZRWu,Q839817,Runrig,402383,98336,Isle of Skye,reviewed_override,True,False,,,,,resolved,Isle of Skye,resolved,,excluded_no_defensible_fua,
+439,5moJNCJeiNwuQAhDLJXULs,Q615207,Incognito,401799,231010,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+440,4htjQW3lgIwL6fEJlTOez4,Q1325974,Electric Wizard,401179,459777,Dorset,reported_place,True,False,,,,,confirmed,Dorset,not_reviewed,,excluded_no_defensible_fua,
+441,1W4SfNO5hb1tdX0wQ87zxl,Q922363,Racey,401016,50878,Weston-super-Mare,reported_place,True,False,,,,,confirmed,Weston-super-Mare,not_reviewed,,strict,UK011F
+442,7dkEByOe0oHqc54qU4hwzV,Q11838832,Gloryhammer,399088,302272,Scotland,reported_place,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+443,5mZC7ndY6oGMxJentRwsuV,Q8058113,Young Fathers,397759,272197,Edinburgh,reported_place,True,False,,,,,confirmed,Edinburgh,not_reviewed,,strict,UK007F
+444,70MMkLXtue3Edj3RJhJkYp,Q845265,Public Image Ltd.,397001,359205,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+445,0vW8z9pZMGCcRtGPGtyqiB,Q174627,The Maccabees,394513,379450,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+446,0wOej91SVqB1zcYkW6xUtA,Q45964015,Pale Waves,390813,387390,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+447,72hqBMsw7x5jnfxxwkii8L,Q277479,Leftfield,390024,258734,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+448,6bGcpvHbRHg8s0wiNyIZK1,Q611878,Kula Shaker,387963,266533,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+449,7fh7bwX9qV60tLxxsp9bTe,Q1724658,The Durutti Column,384367,141887,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+450,2gmeFH5Iz8UEA7K0OHDePQ,Q3596068,Ant & Dec,382816,21248,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+451,3ysp8GwsheDcBxP9q65lBg,Q1668512,Lush,382347,315449,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+452,06YQ6XwCdPUn8rAXV70gge,Q2139991,Republica,382250,84002,Windsor,reported_place,True,False,,,,,confirmed,Windsor,not_reviewed,,excluded_no_defensible_fua,
+453,0vBDEQ1aLZpe4zgn2fPH6Z,Q780072,Cast,381917,183638,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+454,4jSYHcSo85heWskYvAULio,Q656978,Mojave 3,381875,206333,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+455,2413I9w4sRbBz4zi5zgwjX,Q123148190,Cassia,377418,69239,Macclesfield,reported_place,True,False,,,,,confirmed,Macclesfield,not_reviewed,,strict,UK008F
+456,34UhPkLbtFKRq3nmfFgejG,Q645980,Mogwai,370209,647271,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+457,3xYNGCooNIzKMAtJYKSOyq,Q624661,Electronic,367540,164721,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+458,5zYJziKktyqWwmoAWXrShP,Q1860033,Modestep,363041,344694,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+459,2YzUXecwzcOdlJsnpnJfkJ,Q631226,Fluke,358816,104332,Buckinghamshire,reported_place,True,False,,,,,confirmed,Buckinghamshire,not_reviewed,,excluded_no_defensible_fua,
+460,4ogwGU9VPWrnVBs1GEwZVV,Q14832136,Temples,356937,279903,Kettering,reported_place,True,False,,,,,confirmed,Kettering,not_reviewed,,excluded_no_defensible_fua,
+461,4QmkLL9JOqM9dusHS1Hghe,Q1132434,The Searchers,355906,216702,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+462,1koutXdSFq2PHqtxSWj9tK,Q115247043,Hot Milk,353065,170694,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Manchester,not_reviewed,medium,excluded_no_defensible_fua,
+463,2ARO60gI5do88ho6azmzab,Q328221,Django Django,347616,252535,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+464,6dYrdRlNZSKaVxYg5IrvCH,Q741316,The KLF,343591,144352,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+465,5PYuBRQMHh7nWmdV076sH9,Q741663,Heaven 17,342911,273309,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+466,1QCANeffsBIHjzhMqUIxBh,Q116385,Babybird,342115,21473,Sheffield,reported_place,True,True,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+467,1wzBqAvtFexgKHjt7i3ena,Q13431488,Fred V & Grafix,340452,83743,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Exeter,not_reviewed,medium,excluded_no_defensible_fua,
+468,0otAqZw8htTsGHfqR491Yh,Q18162306,Sleaford Mods,336962,304620,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Nottingham,not_reviewed,medium,excluded_no_defensible_fua,
+469,0gIo6kGl4KsCeIbqtZVHYp,Q750593,Paradise Lost,336657,395901,Halifax,reported_place,True,False,,,,,confirmed,Halifax,not_reviewed,,strict,UK003F
+470,12KsgeavNVg66cW2frw3j2,Q3522451,The Real Tuesday Weld,334907,34267,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+471,08YvZ2qzFrDSITfHLbPKMP,Q1259392,Lamb,332261,269420,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+472,7ooOn6bokl4mGV4CEaUz6A,Q527789,Shakespears Sister,331052,126106,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+473,2DppeCnNtvrLfEobq9Pw5r,Q1798554,Adam & The Ants,328644,352561,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+474,3iejrAcqxYoVgyxp6zkWgs,Q2277663,Shed Seven,327277,175249,York,reported_place,True,False,,,,,confirmed,York,not_reviewed,,strict,UK533F
+475,2LMR8u7DOMF0FBseDpTsRa,Q1775665,The Beta Band,325029,135396,St Andrews,reviewed_override,True,False,,,,,corrected,St Andrews,corrected,,excluded_no_defensible_fua,
+476,7J7YRBSoiXpdTmcbkKZL2C,Q648841,The Honeydrippers,321812,57290,Worcestershire,reported_place,True,True,,,,,confirmed,Worcestershire,not_reviewed,,excluded_no_defensible_fua,
+477,1Q776wzj2mrtXrNu3iH6nk,Q635772,Archive,318451,330186,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+478,1dekSPU23UC5hw5b8Uxk9W,Q1234401,Dodgy,318066,70095,Hounslow,reported_place,True,False,,,,,confirmed,Hounslow,not_reviewed,,strict,UK001F
+479,1HOeqtP7tHkKNJNLzQ2tnr,Q1382296,Everything Everything,317529,310570,Manchester,reported_place,True,False,,,,,source_variation,Manchester,not_reviewed,medium,strict,UK008F
+480,6htUPs3clIStnkvg5jimKZ,Q1823053,Liberty X,317064,157028,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+481,2ScuQMRWThcifBRIvNDFDC,Q886072,John Mayall & The Bluesbreakers,316818,446310,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+482,09mvgMBvJkxarNIDGdwPWg,Q643299,Love and Rockets,313702,235396,Northampton,reported_place,True,True,,,,,confirmed,Northampton,not_reviewed,,strict,UK528F
+483,4XO18kRHLT6F5RhomZGrpc,Q3219976,Layo & Bushwacka!,313503,36386,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+484,1WQky50vkzSvSCUl0ejWqb,Q1758107,Matt Bianco,312847,107297,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+485,0WUphJOGHE5i95IeR87hsO,Q1073261,China Crisis,306242,149310,Kirkby,reported_place,True,False,,,,,source_variation,Kirkby,not_reviewed,medium,strict,UK006F
+486,4fgXfJCQnK6c44u4KzAtQP,Q29862757,Sundara Karma,305536,206350,Reading,reported_place,True,False,,,,,confirmed,Reading,not_reviewed,,strict,UK552F
+487,3Uz6jx81OY2J5K8Z4wmy2P,Q612471,Camel,305476,441790,Guildford,reported_place,True,False,,,,,confirmed,Guildford,not_reviewed,,strict,UK033F
+488,30tUlKZ8oLo0BnN6n0GZKD,Q59418184,Nuages,303990,100431,,unresolved_generic_or_missing,False,False,nuages,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+489,5lhaM01nwvsMZpmPY2HVER,Q283835,Carcass,303826,495994,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+490,2pVMD4bFwl4AyoYyyo51Qg,Q807957,Barclay James Harvest,303511,187986,Oldham,reported_place,True,False,,,,,confirmed,Oldham,not_reviewed,,strict,UK008F
+491,4IdvJZeciaa37wYr2qBpjm,Q46510292,Cliff Richard & The Shadows,303431,118840,,unresolved_generic_or_missing,False,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+492,3H7pODXycF821OnRyAw2VT,Q3648767,911,302164,186144,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Carlisle,not_reviewed,medium,excluded_no_defensible_fua,
+493,1sAkg8871iPVI0wPbOfIZa,Q238641,Fairground Attraction,301377,48326,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+494,4Bgfzia8wyaGaTn42egzTv,Q1050456,Catatonia,301265,90480,Cardiff,reported_place,True,False,,,,,confirmed,Cardiff,not_reviewed,,strict,UK009F
+495,52y1cRHUkI0kQqIXCg6JuZ,Q6669284,Johnny Kidd & The Pirates,300280,37258,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+496,4AbDWrmJPSOeIbT2Ou60ik,Q916973,Funeral For A Friend,298448,268224,Bridgend,reported_place,True,False,,,,,confirmed,Bridgend,not_reviewed,,excluded_no_defensible_fua,
+497,4Q6EFOghPrRjdwsF4p7Nzm,Q1470712,Nailbomb,297670,203781,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Phoenix,not_reviewed,medium,excluded_no_defensible_fua,
+498,0WPY9nnBy01s5QOt4o4oQX,Q4371,Ride,296215,272871,Oxford,reported_place,True,False,,,,,confirmed,Oxford,not_reviewed,,strict,UK560F
+499,6bkF6GDcyXZn2T0D5Fwldl,Q21722983,Hang Massive,296134,180715,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+500,48VgYEfRllDfyLl4BEMVSF,Q128077193,The Oozes,295667,208913,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+501,5E704N5StxMVKpalhaJ5L3,Q587713,The Shamen,295405,81056,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Aberdeen,not_reviewed,medium,excluded_no_defensible_fua,
+502,5gInJ5P5gQnOKPM3SUEVFt,Q1028565,Camera Obscura,295126,206573,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+503,6Pwy6Wat9hp8g83y6gih5g,Q5211877,Damage,294456,21732,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+504,2LIdnZDzySb04oH40be1fR,Q1145652,Fairport Convention,294353,149174,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+505,4jrTNltJtTMUfXybDdsHDn,Q934498,The New Seekers,294222,68961,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+506,4GzIiGnHYrOnq2LUiD6zdo,Q1689719,Jive Bunny and the Mastermixers,294182,63077,Rotherham,reported_place,True,False,,,,,source_variation,Rotherham,not_reviewed,medium,strict,UK010F
+507,7243txmysJ4KbRmH8UAMKO,Q28754328,The Amazons,294130,149873,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Reading,not_reviewed,medium,excluded_no_defensible_fua,
+508,09K1H1DgyIXHsMx2j7KTFX,Q1956918,Mystery Jets,291320,170699,Eel Pie Island,reported_place,True,False,,,,,source_variation,Eel Pie Island,not_reviewed,medium,strict,UK001F
+509,7EV6jW6dotBdvsHj6xPixi,Q1543686,The Divine Comedy,291037,174650,Northern Ireland,reported_place,True,True,,,,,evidence_for_missing_claim,Enniskillen,not_reviewed,medium,excluded_no_defensible_fua,
+510,6lHC2EQMEMZiEmSfFloarn,Q1256943,Peter And Gordon,290650,38450,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+511,45FqwUG4hTT6d39r2HUsUe,Q3476673,Sea Girls,289846,161623,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+512,19f2JXwlRU26376TCKmp6L,Q18151740,GoGo Penguin,289811,295895,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+513,3oxkIoEAyXXQlLTZXlffLJ,Q64832876,Zola Blood,286256,87001,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+514,66GWpx9iLxrvvfhDsG9STP,Q500492,Inspiral Carpets,285082,169178,Oldham,reported_place,True,False,,,,,confirmed,Oldham,not_reviewed,,strict,UK008F
+515,4K3NWDwBIxgktui14SccR2,Q1504687,The Vapors,284360,63462,Guildford,reported_place,True,False,,,,,confirmed,Guildford,not_reviewed,,strict,UK033F
+516,0GShYlUdyLahdsvgKdselx,Q798739,Bad Manners,283186,175516,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+517,31DXlldabwPHwu6dYevuzK,Q585470,Simian Mobile Disco,281669,182922,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+518,7DEseTqRODmSu3C7jxCHl5,Q1633685,The Boxer Rebellion,280654,126547,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+519,0roeI3yPusDWwWRzAqTopw,Q4387765,Jesus Jones,280634,66527,Bradford-on-Avon,reported_place,True,False,,,,,confirmed,Bradford-on-Avon,not_reviewed,,excluded_no_defensible_fua,
+520,1GWV70Reko15eV2nHCm0bM,Q1970440,The Blue Nile,278387,109768,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+521,2HBbky0Z08ZcCKVsXWbNE4,Q1141454,The Dave Clark Five,278011,252497,Tottenham,reported_place,True,False,,,,,confirmed,Tottenham,not_reviewed,,strict,UK001F
+522,3qQloBz05T6e0rKubNCmjG,Q100599254,Young Gun Silver Fox,276802,77208,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+523,0aTdKgInKeMlNnwWSa1YPT,Q1971039,OceanLab,276395,83360,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+524,51Eq6WMVEOjjx9KQMAnneG,Q1146764,The Cribs,276100,212021,Wakefield,reported_place,True,False,,,,,confirmed,Wakefield,not_reviewed,,strict,UK003F
+525,3VQXCMRCSzdKek71OkAL3Q,Q135966902,World News,276065,17710,London,reviewed_override,True,False,,,,,corrected,London,corrected,,strict,UK001F
+526,2i8ynmFv4qgRksyDlBgi6d,Q1135620,Wire,272502,240002,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+527,14GEKKALFIO2oB9IdGXg2e,Q2146848,Reverend And The Makers,271305,95993,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+528,191Koh7PSIi28IrGAGoINO,Q652420,Reef,269572,68741,Glastonbury,reported_place,True,False,,,,,confirmed,Glastonbury,confirmed,medium,excluded_no_defensible_fua,
+529,3q7uty73JMtjzCSJdGQD7B,Q2669700,Cinnamon Chasers,269301,52546,,unresolved_generic_or_missing,True,False,Cinnamon Chasers,,verified_solo_project,https://www.russ-davies.com/alter-egos,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+530,5pL8Q5xbDLEDE6JvYMXX9u,Q7067693,Nu:Logic,269288,41401,Cambridge,reported_place,True,True,,,,,confirmed,Cambridge,not_reviewed,,strict,UK017F
+531,2bt3I0VkmYuPvP57sxokab,Q1538935,Stiff Little Fingers,266703,236374,Belfast,reported_place,True,False,,,,,confirmed,Belfast,not_reviewed,,strict,UK012F
+532,1DlbW0TOOja6uqR4CHAaeg,Q5590943,Grace,266321,9154,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+533,7KnaZr690xW0sCihF9Z8oP,Q18852,lostprophets,264396,179652,Pontypridd,reported_place,True,False,,,,,confirmed,Pontypridd,not_reviewed,,strict,UK009F
+534,5fEKZRCUa0JApec5Xy095q,Q18712447,Moose Blood,263954,194936,Canterbury,reported_place,True,False,,,,,confirmed,Canterbury,not_reviewed,,excluded_no_defensible_fua,
+535,194g4SFwSSzyPtgkH7v3Cx,Q389095,After The Fire,261736,24888,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+536,52K4ArhA4OgMO7AsyEgqCT,Q895390,Bow Wow Wow,261338,131599,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+537,2qsc1hUhG2UrNZhByveJ6x,Q365099,Danny Wilson,260573,29191,Dundee,reviewed_override,True,False,,,,,corrected,Dundee,corrected,,strict,UK550F
+538,231kUXNyI5BYxIvZacVbCu,Q6535703,Levitation,260389,7922,London,reported_place,False,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+539,5HAtRoEPUvGSA7ziTGB1cF,Q924993,The Orb,260320,214298,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+540,3cqIsBnzV3BabbPWKz8Txf,Q1471676,Mud,259860,92756,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+541,4UwR1ir6PovnQiwX5jRPvF,Q113199573,Anti Up,259333,52163,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+542,3IXtskFMls8KXRipcIJT9y,Q19654688,AS IT IS,259244,161720,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Brighton,not_reviewed,medium,excluded_no_defensible_fua,
+543,3Z7thZHrtFvqp8OpPffPKp,Q1426055,Propellerheads,258314,173478,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bath,not_reviewed,medium,excluded_no_defensible_fua,
+544,3cohAS2UQTaOo80kCn8qjT,Q56757496,Ten Fé,257636,50901,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+545,2qV7axHq9Jk7QqFcB3f05A,Q1142296,The Zutons,254373,160719,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+546,6ydvoGN30eRfE78bjTANF7,Q128482668,Sad Night Dynamite,253077,83934,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+547,5ZfzzHE7rxONfoksJsLXrX,Q839831,Bucks Fizz,252247,70385,,unresolved_generic_or_missing,True,True,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+548,7sYipTRgDXS2JVOPEhRutx,Q3399302,Portico Quartet,251925,213988,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+549,6fVcDUckTwxqg56qNsEvUr,Q1464866,Frightened Rabbit,251709,255039,Selkirk,reported_place,True,False,,,,,confirmed,Selkirk,not_reviewed,,excluded_no_defensible_fua,
+550,7GeAzBsalYANXTi1ReOm1R,Q7600283,Stanton Warriors,251667,70322,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bristol,not_reviewed,medium,excluded_no_defensible_fua,
+551,7EFB09NxZrMi9pGlOnuBpd,Q1138555,The Horrors,251304,296621,Southend-on-Sea,reported_place,True,False,,,,,confirmed,Southend-on-Sea,not_reviewed,,strict,UK001F
+552,6EK2381dTQEvcn3KrnMOWQ,Q1476064,Uniting Nations,251123,11305,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+553,7DruTvBV7owt1aSAZHsU58,Q22712305,Viola Beach,245749,146142,Warrington,reported_place,True,False,,,,,confirmed,Warrington,not_reviewed,,strict,UK531F
+554,4KlYg0F5KG9QNDFKaeTNAy,Q727124,VNV Nation,245699,225268,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+555,7hqZBHSgDs1odG9aupMzEI,Q239474,Big Audio Dynamite,244576,159697,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+556,2VL8sLEJ6lHEwocjc1pN9w,Q177364,The Tremeloes,239363,158758,Dagenham,reviewed_override,True,False,,,,,corrected,Dagenham,corrected,,excluded_no_defensible_fua,
+557,2IkHcHKErbWa0TA14yHkbl,Q1228291,Dirty Vegas,237782,57837,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+558,2RiGIRDi4GoJpDbjDnPVJl,Q1631741,Sylosis,236596,189903,Reading,reported_place,True,False,,,,,confirmed,Reading,not_reviewed,,strict,UK552F
+559,5OK8j1JnhoBlivN32G7yOO,Q1754136,This Mortal Coil,236565,200368,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Wandsworth,not_reviewed,medium,excluded_no_defensible_fua,
+560,4qobOrZpdUri80gScwsHfs,Q15528102,Bondax,235766,111883,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Lancaster,not_reviewed,medium,excluded_no_defensible_fua,
+561,2CxLP749mup3ncPrXgCnvU,Q664459,Humble Pie,234347,375622,Moreton,reported_place,True,False,,,,,confirmed,Moreton,not_reviewed,,strict,UK001F
+562,6imyM8T1Xbe8v2iZe41dR7,Q366679,Haircut 100,233270,99361,Beckenham,reported_place,True,False,,,,,confirmed,Beckenham,not_reviewed,,excluded_no_defensible_fua,
+563,41yDmxekjnWShKi6nRmzZ4,Q22080889,Rivers & Robots,233180,136616,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Manchester,not_reviewed,medium,excluded_no_defensible_fua,
+564,0ZUyFEafMwocvApBjTXvdo,Q15044932,This Is The Kit,229902,129605,Winchester,reported_place,True,False,,,,,confirmed,Winchester,not_reviewed,,excluded_no_defensible_fua,
+565,1TrwMxRrrlk0hZxJkw4jUF,Q1380135,Levellers,228842,94240,Brighton,reported_place,True,False,,,,,confirmed,Brighton,not_reviewed,,strict,UK515F
+566,7n1EM42Fseebd9H2p8eWWS,Q1501951,New Model Army,226980,124775,Bradford,reviewed_override,True,False,,,,,confirmed,Bradford,not_reviewed,,strict,UK003F
+567,3gnrmLahFhVXRI9DA1MImH,Q1488607,We Were Promised Jetpacks,226591,142629,Edinburgh,reported_place,True,False,,,,,confirmed,Edinburgh,not_reviewed,,strict,UK007F
+568,6C0JkmxU2cgkVzotHJgfW7,Q580268,Athlete,225403,142136,London,editorial_city_cluster,True,False,,,,,confirmed,Deptford,not_reviewed,,strict,UK001F
+569,4W2dcPOyD7eSfJCPHCfwoA,Q1866528,Living In A Box,223338,94130,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+570,3SUI6pbPumjijbLHHY6vss,Q14957024,The Temperance Movement,223097,80272,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bishopbriggs,not_reviewed,medium,excluded_no_defensible_fua,
+571,6DKmuXxXASTF6xaJwcTfjv,Q1144015,Spiritualized,222247,285400,Rugby,reported_place,True,True,,,,,confirmed,Rugby,not_reviewed,,strict,UK025F
+572,3LtBdgNHdH0Ix8hCFZ4NJG,Q594199,Blancmange,221240,123820,Harrow,reported_place,True,False,,,,,source_variation,Harrow,not_reviewed,medium,strict,UK001F
+573,2H32fphWQj9hhVuCOKkchM,Q1038777,The Nolans,217117,39473,Dublin,reported_place,True,False,,,,,confirmed,Dublin,not_reviewed,,excluded_non_uk,
+574,2KB6LGMBaOYYYdvvgyptFH,Q2036827,Utah Saints,216105,53925,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Harrogate,not_reviewed,medium,excluded_no_defensible_fua,
+575,3mZqziCJj4pq3P2VBpmK6p,Q1464530,Friendly Fires,215715,235528,St Albans,reported_place,True,False,,,,,confirmed,St Albans,not_reviewed,,strict,UK001F
+576,5gS1uXayWA0WJPgcRqNIae,Q1538236,Jon & Vangelis,215210,216463,Greece,reported_place,True,False,,,,,confirmed,Greece,not_reviewed,,excluded_no_defensible_fua,
+577,5wnhqlZzXIq8aO9awQO2ND,Q698224,Coldcut,214514,66493,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+578,2SRIVGDkdqQnrQdaXxDkJt,Q774774,Haken,213215,248459,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+579,1Pe3z1UqRzKsQtHsl25dm6,Q1410018,Juno Reactor,212577,99783,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+580,1dmEUAQBopYUrsMnQnScWL,Q1473992,Fun Boy Three,210879,123794,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+581,3RP50pmG8Wz1mhNCidQj68,Q60752425,RITUAL,208784,49910,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+582,4hzCcF4Leos2sKnz79nwhz,Q732151,The Sound,207467,119926,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+583,497rp5TEzJffeBnUT0BeE1,Q18984313,Mammal Hands,205120,143732,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Norwich,not_reviewed,medium,excluded_no_defensible_fua,
+584,6VsiDFMZJlJ053P1uO4A6h,Q7257602,Public Service Broadcasting,204661,191872,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+585,33W24YuaMUEk85MwRX6cRs,Q2050633,Paper Lace,203759,42819,Nottingham,reported_place,True,False,,,,,confirmed,Nottingham,not_reviewed,,strict,UK029F
+586,3Q9P0SbpaP9xsBtLUVK0Be,Q7201145,Planet Perfecto,203707,10221,,unresolved_generic_or_missing,False,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+587,5fwaejlOHVBAw1KhIPPaQe,Q192861,Venom,203523,617815,Newcastle upon Tyne,reported_place,True,False,,,,,confirmed,Newcastle upon Tyne,not_reviewed,,strict,UK013F
+588,5uh8Bhewltd8j0TLZjNImc,Q1444372,Lemon Jelly,203232,188511,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+589,6veTV9sF06FBf2KN0xAdvo,Q1514317,The Go! Team,202864,101993,Brighton,reported_place,True,False,,,,,confirmed,Brighton,not_reviewed,,strict,UK515F
+590,3tgiOZXeC1DIimfprvfL64,Q2115414,Sam And The Womp,201092,49372,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+591,0NV5eY4Jzg4ldg2ikGnV4n,Q14158679,Virus Syndicate,200462,68866,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Manchester,not_reviewed,medium,excluded_no_defensible_fua,
+592,6e6GkaF6uiSEFuTrlvDJUF,Q750092,The Twilight Sad,199417,116543,Kilsyth,reported_place,True,False,,,,,confirmed,Kilsyth,not_reviewed,,excluded_no_defensible_fua,
+593,3UqRgrDIQ208yNGiWKRMNt,Q321762,Napalm Death,199401,453164,Meriden,reviewed_override,True,False,,,,,corrected,Meriden,corrected,,excluded_no_defensible_fua,
+594,77zwstbi3x1IxnbDFg6uns,Q137758,Wishbone Ash,199281,239755,Torquay,reported_place,True,False,,,,,confirmed,Torquay,not_reviewed,,strict,UK561F
+595,0THUMJMWUd5L8os9K6O4FE,Q2504465,World Party,199197,59109,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+596,1fQDzf4lnUF4DYngrLJH0m,Q16960515,letherette,199074,72744,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Wolverhampton,not_reviewed,medium,excluded_no_defensible_fua,
+597,3z3KnhKZObj216IgfHYGVf,Q552377,Diamond Head,199057,216505,Stourbridge,reported_place,True,False,,,,,confirmed,Stourbridge,not_reviewed,,strict,UK002F
+598,4zPGlyitRvJo7iz6OKlETa,Q1536853,Gomez,198405,139162,Southport,reported_place,True,False,,,,,confirmed,Southport,not_reviewed,,strict,UK006F
+599,0IBAqjHG8DSaD7PPCGnGiZ,Q797992,Babyshambles,198309,291010,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+600,4Cyr5aqgXza16isOrQNOvo,Q832745,Brotherhood of Man,196558,61658,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+601,5zhn89Em2jWUUWdpcLO3YL,Q920131,Sea Power,196069,106520,,unresolved_multiple_places,True,False,,,,,evidence_for_missing_claim,Reading,not_reviewed,medium,excluded_no_defensible_fua,
+602,35S20clEkkSNUo23ViaslZ,Q806231,Band Aid,195618,53354,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+603,1fy3AQc7grjf5LnCd7snSg,Q578954,The View,195510,156449,Dundee,reported_place,True,False,,,,,confirmed,Dundee,not_reviewed,,strict,UK550F
+604,1USHlPahTZrCeJXS2v5pkF,Q2165685,Thunderclap Newman,194255,20516,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+605,3vldh5Ceynytj6Iglw4haP,Q115209312,Tommy Lefroy,192772,94042,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+606,4JKHXlntTvmZnLxjbeRcPL,Q2974592,City of London Sinfonia,190860,4379,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+607,6WoTvA9qinpHtSRJuldYh6,Q909916,The Fall,190295,224200,Prestwich,reported_place,True,False,,,,,confirmed,Prestwich,not_reviewed,,strict,UK008F
+608,6WH1V41LwGDGmlPUhSZLHO,Q247237,Autechre,187473,284945,Rochdale,reported_place,True,False,,,,,confirmed,Rochdale,not_reviewed,,strict,UK008F
+609,2Sp19cOHSqAUlE64hekARW,Q1515611,Teenage Fanclub,186449,164920,Bellshill,reported_place,True,False,,,,,source_variation,Bellshill,not_reviewed,medium,strict,UK004F
+610,7FPkZue0zzjHaOPJb4WCw3,Q1469656,The Pigeon Detectives,184605,214476,Rothwell,reported_place,True,False,,,,,source_variation,Rothwell,not_reviewed,medium,strict,UK003F
+611,2McLd7klWE4UjkPLqqMwLv,Q2067701,The Qemists,184241,105080,Brighton,reported_place,True,False,,,,,confirmed,Brighton,not_reviewed,,strict,UK515F
+612,1G3Eh23f2hwhEnAMw7HsZ6,Q891757,Bomb The Bass,184150,54515,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+613,3HghjRl8Mo6OJWG0WElY2z,Q1431341,Way Out West,183677,50191,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bristol,not_reviewed,medium,excluded_no_defensible_fua,
+614,7vPXrGlSGukcwpaPxUfKKR,Q174933,Japan,183396,251906,Catford,reported_place,True,False,,,,,confirmed,Catford,not_reviewed,,strict,UK001F
+615,4SXsNXgRundFdewI58vbZT,Q21288873,King King,182479,31218,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Lincoln,not_reviewed,medium,excluded_no_defensible_fua,
+616,2qhmNI4ZHPpeDutdg473Z3,Q168031,The Future Sound Of London,181260,179121,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+617,6RDAHUqUqJab8TZmyRHFss,Q1346917,Stooshe,180657,81733,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+618,3EbMlZ7ZKmFWPTHrLzpzvs,Q662463,Bolt Thrower,180166,285017,Coventry,reported_place,True,False,,,,,confirmed,Coventry,not_reviewed,,strict,UK025F
+619,3zIIUxcnIoUMouVQdphkeC,Q731797,Showaddywaddy,178641,93848,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Leicester,not_reviewed,medium,excluded_no_defensible_fua,
+620,3TBfn8PtXr42OrTPaoC3E8,Q141703,The Futureheads,175654,108938,Sunderland,reported_place,True,True,,,,,confirmed,Sunderland,not_reviewed,,strict,UK510F
+621,3MomZRiJwdZmYnysgtF4Ey,Q1130493,Therapy?,175573,123041,Larne,reported_place,True,False,,,,,source_variation,Larne,not_reviewed,medium,excluded_no_defensible_fua,
+622,0PFM64sKw3GG4Sk8kqNIcp,Q19881622,Until The Ribbon Breaks,174393,44423,Cardiff,reported_place,True,False,,,,,confirmed,Cardiff,not_reviewed,,strict,UK009F
+623,3mbVe260Kgvs1P8YFcCyY7,Q7762808,The Seahorses,173184,134499,York,reported_place,True,True,,,,,confirmed,York,not_reviewed,,strict,UK533F
+624,2Ah7S4oLgEBYRbz2V0cZzU,Q1076,Lawson,172494,182546,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Dorset,not_reviewed,medium,excluded_no_defensible_fua,
+625,7hC74DRW4q3obXLB5lTq4F,Q112039696,swim school,172006,31979,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Edinburgh,not_reviewed,medium,excluded_no_defensible_fua,
+626,57YVY9QP1mhqc51WqHln0e,Q526586,Tom Robinson Band,171964,37011,London,reviewed_override,False,False,,,,,resolved,London,resolved,medium,strict,UK001F
+627,5BEYGWk6aPdNXxBx9pwU8S,Q3066755,The Soup Dragons,171856,50553,Bellshill,reported_place,True,False,,,,,confirmed,Bellshill,not_reviewed,,strict,UK004F
+628,37QFe07xXVifiZf6t6t3PE,Q1349385,The Corries,171307,37863,Edinburgh,reported_place,True,False,,,,,confirmed,Edinburgh,not_reviewed,,strict,UK007F
+629,6XgIk9Y6qy6JCMZVime6DQ,Q111685240,Bob Vylan,171179,188980,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+630,4pE3KE9J1Z1LKzjwLtWU21,Q354427,Sailor,168700,47029,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+631,25IRTisJjqI6JlkyCVMBsV,Q1253897,Dr. Feelgood,167923,120205,Essex,reported_place,True,False,,,,,source_variation,Essex,not_reviewed,medium,excluded_no_defensible_fua,
+632,4NPManowiyiGa72hezruf2,Q600311,Cock Sparrer,166468,137956,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+633,3SfrwwVPGtjYTI3vwQ4hEU,Q678521,Thunder,165055,122168,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+634,6NB4b8lltHCjOhW7vQZkAy,Q117684,The Exploited,164967,272998,Edinburgh,reported_place,True,False,,,,,confirmed,Edinburgh,not_reviewed,,strict,UK007F
+635,5O0RrEgz4NLCPLrDZiPggz,Q677115,The Slits,164826,155815,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+636,6msJKphD3VXZPItnztefdH,Q3497309,Stateless,164345,31770,Leeds,reported_place,True,False,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+637,5yBDILLJyNFAjFpECkk7ys,Q753648,Beady Eye,164088,205926,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+638,3k7uMwc8FLJmH8RHMh2HF8,Q696624,Babylon Zoo,163876,17699,Wolverhampton,reported_place,True,True,,,,,confirmed,Wolverhampton,not_reviewed,,strict,UK002F
+639,7y4breKexfBWgdyMgHMEHK,Q59563575,Kareful,162343,17678,,unresolved_generic_or_missing,False,False,Kareful,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+640,5gNduPlUGHsgy1w7f71obH,Q1310839,The Swinging Blue Jeans,161534,71064,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+641,0umDTRGYujQH31KZq9FdrU,Q15052759,Loadstar,160497,38144,Bristol,reported_place,False,False,,,,,confirmed,Bristol,not_reviewed,,strict,UK011F
+642,0P2q6xyNc2hVFkG3ThjYcJ,Q1474849,The Magic Numbers,160113,102124,Ealing,reported_place,True,False,,,,,confirmed,Ealing,not_reviewed,,strict,UK001F
+643,0uhNYfjHJyAmHh2xNZ4vqf,Q1428002,Oxide & Neutrino,159474,27287,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+644,3lGO6uBIzoFyU6OoGMER1B,Q112031241,Dead Pony,158291,55682,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Glasgow,not_reviewed,medium,excluded_no_defensible_fua,
+645,4A9xtvezlouTD7H0kyUje9,Q2365012,Twin Atlantic,158180,154793,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+646,0m5XJwKGYyUjd3VMfcINCQ,Q1134411,Shpongle,157586,331485,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Chobham,not_reviewed,medium,excluded_no_defensible_fua,
+647,7ulIMfVKiXh8ecEpAVHIAY,Q460115,Electrelane,156130,67563,Brighton,reported_place,True,False,,,,,confirmed,Brighton,not_reviewed,,strict,UK515F
+648,4r4F8WTxKS7hsSWVzlu6rY,Q117025304,AlicebanD,156024,39307,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+649,02nZLQtQ4vL5iHyp6atBrh,Q111128234,Calva Louise,155471,88942,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+650,23ytwhG1pzX6DIVWRWvW1r,Q1430984,TesseracT,155442,359654,Milton Keynes,reported_place,True,False,,,,,confirmed,Milton Keynes,not_reviewed,,strict,UK525F
+651,0exhrQcReCdr11oPbOh22M,Q5245773,Deaf Havana,155196,127338,Hunstanton,reported_place,True,False,,Ryan Mellor,,,confirmed,Hunstanton,not_reviewed,,excluded_no_defensible_fua,
+652,59FA7hfd0gJCIVBN0GygHg,Q4050978,The Bluebells,155036,16802,Scotland,reported_place,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+653,0oQLexIBY9SlMhtbSIPFAO,Q2301808,The Alarm,153792,89337,Wales,reported_place,True,False,,,,,evidence_for_missing_claim,Rhyl,not_reviewed,medium,excluded_no_defensible_fua,
+654,0okPaVyeEjh0VJtfBdNPho,Q3997948,Mànran,153473,32943,Scotland,reported_place,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+655,41A6Xdil8qhaD2DcS4X1wA,Q1578573,The Flying Pickets,152643,26495,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+656,4KH4eOg39KeBpnfSgvIteD,Q26260790,Pretty Vicious,152499,61601,Merthyr Tydfil,reported_place,True,False,,,,,confirmed,Merthyr Tydfil,not_reviewed,,excluded_no_defensible_fua,
+657,7F6nxkPQrlh4qWDetjgnpX,Q22909361,The Prototypes,151701,72867,,unresolved_generic_or_missing,True,True,,,,,evidence_for_missing_claim,Brighton,not_reviewed,medium,excluded_no_defensible_fua,
+658,6EQn1KgYQxe0bcheogqRTB,Q1969654,Wax,151687,15562,Manchester,reported_place,True,True,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+659,05MlomiA9La0OiNIAGqECk,Q106920410,Delta Sleep,151180,118215,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Brighton,not_reviewed,medium,excluded_no_defensible_fua,
+660,17Ytfl1DntgvVdragJEqx8,Q7314192,Reprazent,150501,7044,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bristol,not_reviewed,medium,excluded_no_defensible_fua,
+661,7DlD7rLG9MKuvXtTeACzkO,Q105677002,Dry Cleaning,150253,170043,South London,reported_place,True,False,,,,,confirmed,South London,not_reviewed,,strict,UK001F
+662,1nhSLEYdoBHG6cJ8NDwoF1,Q24895505,Fickle Friends,149977,141833,Brighton,reported_place,True,False,,,,,confirmed,Brighton,not_reviewed,,strict,UK515F
+663,2LKrAJVB1842xPDvx4uuwU,Q990686,Bros,149817,83494,Camberley,reported_place,True,False,,,,,source_variation,Camberley,not_reviewed,medium,excluded_no_defensible_fua,
+664,0FOcXqJgJ1oq9XfzYTDZmZ,Q1135582,Super Furry Animals,149540,131452,Cardiff,reported_place,True,False,,,,,confirmed,Cardiff,not_reviewed,,strict,UK009F
+665,2YiWXa7E1raYyY0uQDLpgs,Q204934,Lo Fidelity Allstars,149493,29732,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+666,5H9IFTRxSICj24uxO15ScU,Q124304162,English Teacher,148637,108308,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Leeds,not_reviewed,medium,excluded_no_defensible_fua,
+667,3wRksusBxJ6npu0PryYheF,Q1546385,The Selecter,147657,144513,Coventry,reported_place,True,False,,,,,confirmed,Coventry,not_reviewed,,strict,UK025F
+668,0NbfEPYRgMczimdfM3skmH,Q640008,Sleeper,146769,81522,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+669,0KU55rzxAihPhi27MAuz9O,Q28407726,The Big Moon,146229,117870,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+670,7Hvq85OU8T7Hsd63zNBwaL,Q65070663,black midi,144902,325236,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+671,3VdnwWd3i9OOT0CzbzRZj7,Q65038085,Those Damn Crows,142422,48598,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bridgend,not_reviewed,medium,excluded_no_defensible_fua,
+672,26HCuM5PamldoaHII5Ifxc,Q116783016,Panic Shack,142284,53371,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Cardiff,not_reviewed,medium,excluded_no_defensible_fua,
+673,0N3oP3Si8ihzFUrU6kITZ8,Q1943982,Monaco,140035,32255,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+674,5uSY4FF3dZMCVSkZslKCHi,Q638159,Michael Schenker Group,139857,226255,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+675,4rPZAvpw9ObVO3HFGWSHwt,Q938323,The Firm,138968,42646,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+676,5rIXueJu7zVE2gDZjUM6g8,Q1378050,Pop Will Eat Itself,138949,45364,Stourbridge,reported_place,True,False,,,,,confirmed,Stourbridge,not_reviewed,,strict,UK002F
+677,0sQ1wgSdRpoysgsa1VnI4G,Q3077143,Foreign Beggars,138616,103677,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+678,4nP1Vg2YuLE0Nbr7uK08SM,Q7048384,Nomad,136733,9207,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+679,2jK54ZlZhTF1TxygsVeR05,Q285966,Hawkwind,136226,145361,Ladbroke Grove,reported_place,True,False,,,,,confirmed,Ladbroke Grove,not_reviewed,,strict,UK001F
+680,747P2pvOwW22iRcFS9zQDv,Q728289,The Toy Dolls,135203,105717,Sunderland,reported_place,True,False,,,,,confirmed,Sunderland,not_reviewed,,strict,UK510F
+681,2MYN7OKnlCiZ0wrwp2A1ox,Q851798,Hybrid,134319,59042,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Swansea,not_reviewed,medium,excluded_no_defensible_fua,
+682,22xPtA9BuacbAGzd2Laihm,Q28958305,The Irish Brigade,133806,42959,County Tyrone,reported_place,False,False,,,,,confirmed,County Tyrone,not_reviewed,,excluded_no_defensible_fua,
+683,29wYlrKAdlJOf9ayJIIPpJ,Q1144027,Acoustic Alchemy,133679,68974,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+684,4LdZNE5MHGqvc0N9ivXNF3,Q953993,The Joy Formidable,133646,130580,Mold,reported_place,True,False,,,,,confirmed,Mold,not_reviewed,,strict,UK568F
+685,6mRev5KzKOgQcZjWanwBdd,Q661797,The Escape Club,131312,13509,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+686,39afGThIZjTTMH5enuLXYI,Q2412078,The Icicle Works,131181,50086,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+687,1f6TTocyaqNFvwD4xsrDTh,Q5309306,Drumsound & Bassline Smith,130375,68820,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Derby,not_reviewed,medium,excluded_no_defensible_fua,
+688,4rzWjR3L3M54c6I25NzdM3,Q111050686,Radio Slave,130300,40421,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+689,4lrBMUSk8PiNnCEZfsmPAk,Q38502,The Pineapple Thief,130128,173374,Yeovil,reported_place,True,False,,,,,source_variation,Yeovil,not_reviewed,medium,excluded_no_defensible_fua,
+690,4IeWU3NYBI9mISFVhzXG8f,Q48700714,shame,129743,201828,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+691,4toJT7YydhWcrYNgWJK4hW,Q1421891,Five Star,128764,84034,Romford,reported_place,True,False,,,,,confirmed,Romford,not_reviewed,,strict,UK001F
+692,3wrtQM9ICPPeHwoc1GWiyV,Q25056198,Teleman,128713,59760,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+693,4Rj2COYs5hQsw8rYIxSviz,Q80611,Hidden Orchestra,127742,107943,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Edinburgh,not_reviewed,medium,excluded_no_defensible_fua,
+694,07h7JMfYWswTq4qpinC5q4,Q438314,Altered Images,126082,94902,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+695,76vZk3TWaVcNiP7H7in9fu,Q7572217,Space,125619,46037,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+696,38unGip4o3KhMfqHdHWB7K,Q1067929,Chas & Dave,125459,34026,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+697,2vwI9jlKSgJbne3dlTzaLO,Q547438,Skids,123686,54513,Dunfermline,reported_place,True,True,,,,,confirmed,Dunfermline,not_reviewed,,reviewed_extended,UK007F
+698,1jucBaHU995Lf7ViACscFu,Q16735061,Real Lies,122748,23084,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+699,6UYwzZChuolxsylHcZcBBP,Q1778436,The Boo Radleys,121170,54068,Wallasey,reviewed_override,True,False,,,,,corrected,Wallasey,corrected,,excluded_no_defensible_fua,
+700,17obwOahRWI121iMUZznh2,Q1707816,Savoy Brown,119814,148308,Battersea,reported_place,True,False,,,,,source_variation,Battersea,not_reviewed,medium,strict,UK001F
+701,3Ps27dDfvubd75rh5A0wz9,Q16504388,Honeyz,119707,93205,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+702,1QPWAsWIjRcTfvY5uH8dov,Q502291,Catherine Wheel,119190,81520,Great Yarmouth,reported_place,True,False,,,,,confirmed,Great Yarmouth,not_reviewed,,strict,UK051F
+703,0bUGoPJdCrDnuIQNLxsnBb,Q455663,Marshall Hain,117620,3592,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+704,0DSE3n3008wiKzfd8vNhWy,Q2372456,Sweet Sensation,116293,93792,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+705,5UyRaawCsdiVrro0WWgIVB,Q44590001,Rak-Su,115569,190495,Watford,reported_place,True,False,,,,,confirmed,Watford,not_reviewed,,strict,UK001F
+706,6ZXLmQi3SPQEh8mXNDldRC,Q1473420,The Adventures,115422,17433,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Belfast,not_reviewed,medium,excluded_no_defensible_fua,
+707,2oVmQT6s29pVIKpqJkyxBS,Q55639325,Black Honey,115099,109746,Brighton,reported_place,True,False,,,,,confirmed,Brighton,not_reviewed,,strict,UK515F
+708,1hrQ50kU6hMQBVLatqUqnO,Q943241,Gentle Giant,114925,264530,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+709,3BqAAo5E60L15TcFgWI8xH,Q1404436,Felt,114516,63078,Water Orton,reviewed_override,True,False,,,,,corrected,Water Orton,corrected,medium,excluded_no_defensible_fua,
+710,0BzJFLqchxKNQyEwswwQ40,Q16679631,The KVB,113762,96849,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+711,02zGgCB9SiSPeDYMfwPJXK,Q1533857,Godley & Creme,112480,60417,Manchester,editorial_city_cluster,True,False,,,,,source_variation,Stockport,not_reviewed,medium,strict,UK008F
+712,4hw4TPMyAzHqNBcWtoDrK5,Q9310340,Richard & Linda Thompson,111216,41315,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+713,48CW1rjPSOgZbMsV4LpqoP,Q110892335,Chris Barber's Jazz Band,110937,11455,,unresolved_generic_or_missing,False,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+714,1Ia5iTYHMBsMQfi7Fbcbuw,Q24039212,The Raven Age,110546,102743,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+715,5U16QlMnlSAhkQxBZpLyLO,Q1364657,The Pretty Things,110197,132774,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+716,2cUnvdrMWIMACo3fSxCrWW,Q1254813,Mumm-ra,109420,27210,Bexhill-on-Sea,reported_place,True,False,,,,,source_variation,Bexhill-on-Sea,not_reviewed,medium,strict,UK056F
+717,1BlBZ9jQGOjmj6Zykgg43L,Q924606,4hero,109004,50728,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Dollis Hill,not_reviewed,medium,excluded_no_defensible_fua,
+718,6sizjS3o8Ph8LoA8WzpXGY,Q5145935,Collapsed Lung,105834,918,,unresolved_generic_or_missing,False,False,,,,,evidence_for_missing_claim,Harlow,not_reviewed,medium,excluded_no_defensible_fua,
+719,6lmoqMxughzdlxvQTsUXjF,Q3822260,Ska Cubano,104757,53801,London,reported_place,False,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+720,5akVqMzdZOdbMYbE4vNZWD,Q1072372,Plaid,103115,122177,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+721,42RbQv212uOjyfIXECLKfR,Q508678,Budgie,102853,94464,Cardiff,reported_place,True,False,,,,,confirmed,Cardiff,not_reviewed,,strict,UK009F
+722,7t00AYOoiQrcgNlpTkNer6,Q130315360,King Hannah,102030,63768,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+723,2xPxXPgmZFs7x6xRFpHwkq,Q972093,The Ordinary Boys,101724,31701,Worthing,reported_place,True,False,,,,,confirmed,Worthing,not_reviewed,,strict,UK045F
+724,6dXTZkBBwA1WOLD6OSuA0x,Q1296293,The Overtones,101723,48910,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+725,685XjGzGztyivfR3fAjoxo,Q42886947,Squid,101653,179206,Brighton,reported_place,True,False,,,,,confirmed,Brighton,not_reviewed,,strict,UK515F
+726,3MOw1ev3YQ8liIGmHT3eH6,Q335723,The Wurzels,101561,29929,Somerset,reported_place,True,False,,,,,confirmed,Somerset,not_reviewed,,excluded_no_defensible_fua,
+727,3MlBGzJspD6CjrHRYbR4OQ,Q130504078,The Guest List,100343,46371,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+728,3kdrMtLybQIl93rXJlvF3w,Q1217509,New Young Pony Club,99986,63710,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+729,1dwrMJAKBiLlj0O4R791Xo,Q1382461,Evile,99821,131754,Huddersfield,reported_place,True,False,,,,,confirmed,Huddersfield,not_reviewed,,strict,UK003F
+730,147FGf3bdxV1L0mmVtgaJR,Q2500994,Black Grape,99344,95076,Manchester,editorial_city_cluster,True,True,,,,,source_variation,Salford,not_reviewed,medium,strict,UK008F
+731,0nV7SiEIVtPLTSJ6NwWDGj,Q23023097,Creeper,98969,102884,Southampton,reported_place,True,False,,,,,confirmed,Southampton,not_reviewed,,strict,UK520F
+732,0Uo1d5A6BR1I155GlD9WYo,Q500101,The Wonder Stuff,98365,74322,Stourbridge,reported_place,True,True,,,,,confirmed,Stourbridge,not_reviewed,,strict,UK002F
+733,2L9iHIK8h5HvZe6VXb0aOI,Q1527282,The Flying Lizards,98078,23736,,unresolved_generic_or_missing,True,True,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+734,7iMWWdRNiCJwGOGEIYr02z,Q498460,My Dying Bride,98069,210924,Bradford,reviewed_override,True,False,,,,,confirmed,Bradford,not_reviewed,,strict,UK003F
+735,3oIj2x6uKeZSe9Bprnt4TX,Q133137918,Remember Monday,97605,47560,,unresolved_multiple_places,False,False,,,,,evidence_for_missing_claim,Farnborough,not_reviewed,medium,excluded_no_defensible_fua,
+736,1wCc2Wgga1H8C7u57pcqYk,Q1452593,Freddie & The Dreamers,97117,102268,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+737,71IBhhBhtPLZ8OyVuXOw77,Q15835576,Monuments,97034,180599,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+738,46VosWAvtZsBl7rvxufsWG,Q2301367,Argent,96722,66357,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+739,0nbaBQTlGxUPLQ07N7onwv,Q3269,The Rezillos,96370,63677,Edinburgh,reported_place,True,False,,,,,confirmed,Edinburgh,not_reviewed,,strict,UK007F
+740,1kF0gYnHLUJvFuPdoowO02,Q1493713,Lower Than Atlantis,96324,114550,Watford,reported_place,True,False,,,,,source_variation,Watford,not_reviewed,medium,strict,UK001F
+741,4iWOyexPqcvgycdx7mLUcl,Q39054831,Snapped Ankles,96130,52165,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+742,215tdyVWdDYOjufDKf6UJg,Q2549534,Warning,96100,39680,Harlow,reported_place,False,False,,,,,confirmed,Harlow,not_reviewed,,strict,UK001F
+743,68wK3u9MnoZj5fFOFNTfwy,Q1181285,Death In June,95529,134609,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+744,3ghT43Gj41br25PvBCDS22,Q18162543,Stealing Sheep,95519,29907,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+745,07b9qW7pabKGO29JPWXn9m,Q110821923,Los Bitchos,95326,112931,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+746,2wBpW4bAGYVe0yJcBeCTyd,Q28843403,２８１４,95312,89132,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+747,3Nu9hoMBT4SkDcaNvmK4G1,Q1754885,Magnum,94112,78000,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+748,4wWQkHhmUNlXvhbHRUSqZW,Q1542725,The Vaselines,94006,95866,Glasgow,reported_place,True,True,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+749,59VqwKtnkmMOdYKYRxO5Td,Q1128539,Cook da Books,92697,2321,Liverpool,reported_place,False,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+750,0d49iRrp4iVZggKbcpxnqI,Q1243743,The Quireboys,92662,63481,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+751,1o7zIbVAgDDHKijLVuLASg,Q4043165,Longpigs,91435,53332,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+752,2TRtXTjjmyzK5oUGec1Gv8,Q1142870,Girlschool,90933,103283,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+753,4wsg78KGu80m8Xk37PY2uG,Q1479074,U.K. Subs,90759,80069,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+754,1MMEHyxVfd0Pv4PEHynX9k,Q5439175,Faze Action,90602,10791,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+755,2x9iKuuxMHGDm12dmNfOAh,Q2410218,The Chevin,90538,8737,Otley,reported_place,True,False,,,,,confirmed,Otley,not_reviewed,,strict,UK003F
+756,1MZ8NERIuOS610KBhr6yna,Q1753013,Tygers Of Pan Tang,89626,77762,Whitley Bay,reported_place,True,False,,,,,confirmed,Whitley Bay,not_reviewed,,strict,UK013F
+757,6lONz9iABy1tb7Nl9FAOZG,Q14158638,Jo Boxers,89557,5236,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+758,4YrURxtCHtPBfNDmMNp7IG,Q26905034,Cruel Youth,89434,148564,,unresolved_generic_or_missing,True,True,,,,,evidence_for_missing_claim,United States,not_reviewed,medium,excluded_no_defensible_fua,
+759,0Z5FMozvx15nUSUA6a9kkU,Q21585350,The Comet Is Coming,89284,188120,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+760,1xdB9gS1NrKEYgZUEfoqIw,Q784088,Idlewild,89257,72943,Edinburgh,reported_place,True,False,,,,,confirmed,Edinburgh,not_reviewed,,strict,UK007F
+761,3pvRbmrqOyFxB2Eext4Dki,Q17019747,Sons Of Kemet,88881,163892,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+762,1NCLweIUpq8knzemBwAwoo,Q6334752,KOAN Sound,88384,121601,Bristol,reported_place,True,False,,,,,confirmed,Bristol,not_reviewed,,strict,UK011F
+763,5TUa95aB5Vu2CzwCnZd6t0,Q3990545,TTNG,88106,131854,Oxford,reported_place,True,False,,,,,confirmed,Oxford,not_reviewed,,strict,UK560F
+764,696uMzB97pg2uqfzmK3MvO,Q27058585,The Slow Show,87963,43986,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+765,4AAf6BI1IJxvkqv98mDHin,Q1982683,Bad Company UK,87765,39243,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+766,1nlqYzoK1LAlS8MmnUhfEs,Q2577167,All Angels,87528,25936,,unresolved_generic_or_missing,True,True,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+767,7ubhUvkY7FB68rfzz7DmW4,Q139620902,Florence Black,87365,33670,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+768,2XddLUPFBmTonCFy8uB3uc,Q15052678,Swim Deep,86770,86828,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+769,478peoEkoKPsTgRiVzkvPl,Q740692,Glasvegas,86543,64525,Dalmarnock,reported_place,True,False,,,,,confirmed,Dalmarnock,not_reviewed,,strict,UK004F
+770,1dip2dCkBIylIFyDfZQfFu,Q462960,Gun,85826,42357,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+771,3xrzXKnScjOEoy172vsJMW,Q880812,Blackfield,85702,150969,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Hemel Hempstead,not_reviewed,medium,excluded_no_defensible_fua,
+772,6S3Z6Me30mtdm526H17v8k,Q96384484,Jockstrap,85520,114087,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+773,2LrQtNcBWufq2AjaM6swf7,Q7761824,The Rumble Strips,85506,17312,Tavistock,reported_place,True,False,,,,,confirmed,Tavistock,not_reviewed,,strict,UK516F
+774,4gVommn6B9vUqdsfSwVaiv,Q17300304,Booze & Glory,85412,80939,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+775,40ttEBZPhAHbXH6aUg4GkL,Q1884353,Magnetic Man,83637,58622,London,reported_place,True,False,,,,,confirmed,London,confirmed,medium,strict,UK001F
+776,1AzrlUnOS6dhH0iMV86ctS,Q1747594,Oi Va Voi,83446,64804,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+777,3hsO9B2FiSAfdBddcNKZEV,Q649666,Tenpole Tudor,83020,22883,,unresolved_generic_or_missing,True,True,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+778,4v4qHupYi7eRJfkniHrp4Z,Q43843,Young Guns,82953,92090,High Wycombe,reported_place,True,False,,,,,source_variation,High Wycombe,not_reviewed,medium,excluded_no_defensible_fua,
+779,4qNZw759AdHSMugyDMrIlF,Q24901294,Let's Eat Grandma,81221,113814,Norwich,reported_place,True,False,,,,,confirmed,Norwich,not_reviewed,,strict,UK566F
+780,0U04xAocTetRnA7v3TYQ2i,Q797616,Babe Ruth,80353,26531,Hatfield,reported_place,True,False,,,,,source_variation,Hatfield,not_reviewed,medium,strict,UK001F
+781,7xytG2E40s4GeukvZCGqGP,Q59661769,Massive Wagons,80248,29902,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,City of Lancaster,not_reviewed,medium,excluded_no_defensible_fua,
+782,6DVVsQAnpHdJjb1nYuOQ6g,Q254285,65daysofstatic,79997,147863,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+783,6g8Jqb5JMfv92eB2r0awTN,Q2632762,Arab Strap,79984,87017,Falkirk,reported_place,True,True,,,,,confirmed,Falkirk,not_reviewed,,strict,UK551F
+784,5kH36nIamlV0iSe6ESDWvb,Q25080052,Slowly Rolling Camera,79752,30422,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Cardiff,not_reviewed,medium,excluded_no_defensible_fua,
+785,7bHTSvk96ULRLZPZr1SoCZ,Q15044899,Mallory Knox,79587,81280,Cambridge,reported_place,True,False,,,,,confirmed,Cambridge,not_reviewed,,strict,UK017F
+786,6WVnBgqJfj9Iw9gpBed9fJ,Q1541561,Alien Sex Fiend,79219,163266,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+787,0IzJYdxaNLwrC7diSCu0iY,Q499366,Geordie,79034,31989,Newcastle upon Tyne,reported_place,True,False,,,,,confirmed,Newcastle upon Tyne,not_reviewed,,strict,UK013F
+788,0f2HTJx4jowMoiHBH4GzdU,Q2053844,Brothers In Rhythm,78778,8893,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+789,1Yc03TvBp08WN2oHVuvewX,Q56309814,Destructive Tendencies,77543,21596,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+790,5SRhOM75OnwuXH8BmCxD5a,Q1228418,Discharge,77256,153668,Stoke-on-Trent,reported_place,True,False,,,,,confirmed,Stoke-on-Trent,not_reviewed,,strict,UK027F
+791,4J6CnIqPEtWYn3la2YYj2c,Q39016670,Ibibio Sound Machine,77200,63292,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+792,1U8nnmbuPk1EpoO7MVgIeT,Q57298698,GLXY,77107,26211,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Leicester,not_reviewed,medium,excluded_no_defensible_fua,
+793,2M0T4a1pkOC5nifN9W6e9e,Q1798055,LFO,76989,57583,Leeds,reported_place,True,False,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+794,3CI0BdDDxe6D21RmqTB5fn,Q1357682,Fightstar,76830,84003,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+795,4Xxkt0tSJr1uNxGDZcJLRc,Q23057717,VANT,76495,51789,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+796,6XiSck3QPuXk7ho6zlDz3P,Q3519919,The Bees,76473,43938,Ventnor,reported_place,True,False,,,,,confirmed,Ventnor,not_reviewed,,excluded_no_defensible_fua,
+797,7823Dim2TzjiQQ9wRQxyi9,Q426015,Wizzard,75390,54270,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+798,6D3PbIyyqH2NaqPZSE6X5N,Q18702196,Acrania,75245,88105,,unresolved_generic_or_missing,False,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+799,1iNGtKXGyniqwVhXfbKpk8,Q387754,Re-Flex,75009,9830,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Birmingham,not_reviewed,medium,excluded_no_defensible_fua,
+800,14IKysoZ0qyGRsIiTk1Ase,Q277297,999,74540,57492,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+801,6pM5NZalHT5nD9vDEz2Ukx,Q64604786,Curse of Lono,74421,8834,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+802,7EnAgffrVyerTWH628TJ6f,Q580943,Nitzer Ebb,73454,106978,Chelmsford,reported_place,True,False,,,,,source_variation,Chelmsford,not_reviewed,medium,strict,UK001F
+803,3m8KqUjgKDwmJ9L9uBHMMs,Q378948,Fields Of The Nephilim,73403,150339,Stevenage,reported_place,True,False,,,,,confirmed,Stevenage,not_reviewed,,strict,UK021F
+804,0q74f5UdR3j14Lis4AKKxq,Q22080536,ROAM,73324,61923,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Eastbourne,not_reviewed,medium,excluded_no_defensible_fua,
+805,34nBPbcVc9F9eizQC4a5aT,Q7575150,Spector,73172,52673,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+806,4TvQ6wnXv3aDNv29JH6App,Q2135903,Red Box,72793,8971,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+807,7aUVQRiWaOqZU0JwOlGfWi,Q968313,Chicken Shack,72185,49482,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Stourbridge,not_reviewed,medium,excluded_no_defensible_fua,
+808,0lqPfG8vAR30UX3cWDbCEn,Q131406896,Friedberg,71589,18259,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+809,1khU7sW2d95qMTDnyDfzBT,Q60754147,Talisk,71444,53905,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Glasgow,not_reviewed,medium,excluded_no_defensible_fua,
+810,6Mz4vAfXG0tJgUcOQL6zy5,Q5436929,Fast Food Rockers,71392,14803,Folkestone,reported_place,False,False,,,,,confirmed,Folkestone,not_reviewed,,excluded_no_defensible_fua,
+811,64qK94JPWEI7HovDpzLBej,Q6532821,Let Loose,71261,12222,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+812,0n2Uel3CvQrmMsYLEfpO3s,Q1748178,Nektar,70557,73112,Hamburg,reported_place,True,False,,,,,confirmed,Hamburg,not_reviewed,,excluded_non_uk,
+813,6GUoU3k0b3qF1T06UvyAhk,Q106906676,Lund Quartet,70363,18542,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bristol,not_reviewed,medium,excluded_no_defensible_fua,
+814,5fLbJGzlYux3GBwTifMMvR,Q1141817,Nine Black Alps,69153,20771,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+815,2qe52cWdi4IRtgg14CLInb,Q5254556,Delta 5,68871,43118,Leeds,reported_place,True,False,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+816,3HBxYEtI2i43MzWyTXupVv,Q300307,A,68849,22067,Suffolk,reported_place,True,False,,,,,confirmed,Suffolk,not_reviewed,,excluded_no_defensible_fua,
+817,5Rsu72e1qrjIUtxH6Zmy9K,Q3100438,Gene,68357,46149,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+818,52pNByiBWx6SVMMqqcCA74,Q123560878,The Magic Gang,68131,82851,Brighton,reported_place,True,False,,,,,confirmed,Brighton,not_reviewed,,strict,UK515F
+819,6fD5uxjcSC0aF0FO61e5id,Q136309656,Death Of Guitar Pop,68122,16112,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Essex,not_reviewed,medium,excluded_no_defensible_fua,
+820,5JEhWD9S2znCiQRiGj2OUk,Q1269551,Lords Of The New Church,67975,65749,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+821,7zUgfhtNGSNLMl2ydFse4S,Q795108,B-Movie,67864,18419,Mansfield,reported_place,True,False,,,,,confirmed,Mansfield,not_reviewed,,strict,UK046F
+822,7eD005d7pGOEYD3eWVRecb,Q1397838,Fastway,67660,41478,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+823,1UzKSuyOqKgUupcNNEtnF1,Q956521,Stornoway,67498,54281,Oxford,reported_place,True,False,,,,,confirmed,Oxford,not_reviewed,,strict,UK560F
+824,5ztBFCBEL7OtjdAt98RnD4,Q22312871,Fat White Family,66984,101328,Peckham,reported_place,True,False,,,,,confirmed,Peckham,not_reviewed,,strict,UK001F
+825,4OrrjMGltjy6ojX6034f8u,Q1413921,Steeleye Span,66623,64810,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+826,3wChfsJPsUnjVHXc79wRN1,Q1352141,Shampoo,66590,18368,Plumstead,reported_place,True,False,,,,,confirmed,Plumstead,not_reviewed,,strict,UK001F
+827,7icDkrFloDss50hoqQ3Kkj,Q1993229,Clinic,66575,54069,Crosby,reviewed_override,True,False,,,,,corrected,Crosby,corrected,,excluded_no_defensible_fua,
+828,4YXRO4slasYnty9nb73LrO,Q6898056,Monarchy,66523,28175,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+829,4trP4C2bZ0TqMUxw0tLRAZ,Q111839829,Coach Party,65798,23297,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Isle of Wight,not_reviewed,medium,excluded_no_defensible_fua,
+830,5dEFm1RwaTSXpQSpzpYKF2,Q444431,Blazin' Squad,65260,28124,Chingford,reported_place,True,False,,,,,source_variation,Chingford,not_reviewed,medium,strict,UK001F
+831,5MHQO0sz5J0VX7jjuL2dUg,Q6658445,Liverpool Express,65090,9057,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Liverpool,not_reviewed,medium,excluded_no_defensible_fua,
+832,20X39VOcF5zEpkOx6WrXlY,Q2012126,Total Science,64875,32379,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Blackbird Leys,not_reviewed,medium,excluded_no_defensible_fua,
+833,0BV7lpkyFTbzzML7DuUnpZ,Q6136420,McAlmont & Butler,64384,23609,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+834,40jiZfvsiAi1aIarh5Z3d3,Q7670867,TNGHT,63726,43060,,unresolved_generic_or_missing,True,True,,,,,evidence_for_missing_claim,Montréal,not_reviewed,medium,excluded_no_defensible_fua,
+835,4EfSXeVFbCEYIde3E9k4wr,Q973104,Cockney Rejects,63708,81884,East End of London,reported_place,True,False,,,,,source_variation,East End of London,not_reviewed,medium,strict,UK001F
+836,7a2sloQlmdKSmj3fwMMpg9,Q2412878,The Meteors,63611,84863,,unresolved_generic_or_missing,True,True,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+837,5aBEGOeWQCJfptic9xyaAb,Q2654513,Tones On Tail,63031,80787,Northampton,reported_place,True,False,,,,,confirmed,Northampton,not_reviewed,,strict,UK528F
+838,3oi0s3WIuxBU5oh87n7za2,Q2115954,Psychic TV,62944,88107,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+839,1eSFjbv86usit5ZF5ywtLf,Q127505000,808INK,62895,23996,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+840,0xBhUB0EfzvchYnaIWkdBw,Q19604613,Ward Thomas,62236,47170,Hampshire,reported_place,True,False,,,,,confirmed,Hampshire,not_reviewed,,excluded_no_defensible_fua,
+841,70e4IgnWAQfPPxKnD9jXDr,Q1282674,Eddie & The Hot Rods,61901,41923,Canvey Island,reported_place,True,False,,,,,source_variation,Canvey Island,not_reviewed,medium,excluded_no_defensible_fua,
+842,3nutnJ57QnbWEdCWn2EyWo,Q1671193,Orange Goblin,61406,153342,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+843,55wOEGTc3QKwBJ9gntcOxT,Q1427551,Pentangle,61364,69361,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+844,6l3BRLCpzfC8yxqf9thWAg,Q2683245,Yuck,61077,103291,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+845,2BLpGstUHxDc6vHfBEiaXm,Q1133828,The Move,60997,76938,Birmingham,reported_place,True,True,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+846,37KB5e6cGsN1AQAB9Omm1U,Q1107195,Coil,60925,118774,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+847,4NZM5xKuDpGc4vEHDwGO1Q,Q3011302,DJ Food,60881,53172,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+848,5RFBPz01PqvSQ1QhEgaxOp,Q251289,Carter The Unstoppable Sex Machine,60865,51170,London,reported_place,True,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+849,5YE3Wwk5wqQmFXM5qyaM6u,Q1455057,Spooky Tooth,60855,90633,Carlisle,reported_place,True,False,,,,,source_variation,Carlisle,not_reviewed,medium,excluded_missing_population,
+850,7vrrJ5YlL3I8XUrh1ktGJV,Q483140,Anaal Nathrakh,60506,127543,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+851,5A0MH7JfEBEMySevsmauds,Q729505,Soft Machine,59575,157739,Canterbury,reported_place,True,False,,,,,confirmed,Canterbury,not_reviewed,,excluded_no_defensible_fua,
+852,6EkvDqOOEX08BotcQppKoD,Q1332142,Wolf Gang,59456,60865,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+853,4t7bXPFEPe0pu1ozhdDLOp,Q2581513,The Raincoats,59262,110415,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+854,7AvR99Z6y7N5BWF7VdY3bo,Q5289199,Dollar,59067,24921,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+855,3FIsBWNLmqLvTQnhJLAWUJ,Q60618120,Ex:Re,58725,96459,,unresolved_generic_or_missing,True,False,Ex:Re,,verified_solo_project,https://shop.4ad.com/format/1134848-exre,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+856,0AJUYWKztkg5dnrHDIBv47,Q28961287,MiC LOWRY,58089,51320,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Liverpool,not_reviewed,medium,excluded_no_defensible_fua,
+857,4D5VLxuFvZ058Z5S8YmE47,Q5204582,DC Breaks,57873,47001,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+858,0LpwbxbT8dPiqUnul4ngzu,Q1492599,Gallows,56900,78412,Watford,reported_place,True,False,,,,,confirmed,Watford,not_reviewed,,strict,UK001F
+859,7tI1ZOOgocYZT2O5M8iBz8,Q1186426,Demon,56564,32960,Leek,reported_place,True,False,,,,,confirmed,Leek,not_reviewed,,strict,UK027F
+860,0OE30pXmzCwTxhoAFtCs8u,Q1216293,Die So Fluid,56461,35260,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+861,1Lx9Dy5gi2OLlJBBs7GYO7,Q250319,Benediction,56352,106195,Birmingham,reported_place,True,False,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+862,2k4duorvZ5lTq33ljpT0sc,Q577837,Antimatter,56130,97021,Liverpool,reported_place,True,True,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+863,5dUIQXIt7WeBKpETFZyTFW,Q7205605,Jack Beats,56114,33729,London,reported_place,False,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+864,1UYhxPY1oqFUg1HfF8nV3k,Q1165655,Throbbing Gristle,56065,131943,Kingston upon Hull,reported_place,True,False,,,,,confirmed,Kingston upon Hull,not_reviewed,,strict,UK026F
+865,5A4ebXQf38xWIq0xSWLhsS,Q1533787,Godflesh,55777,105031,Birmingham,reported_place,True,True,,,,,confirmed,Birmingham,not_reviewed,,strict,UK002F
+866,6WEyPcf9ezhNLm1xOBjbwH,Q599433,Crippled Black Phoenix,55554,74210,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bristol,not_reviewed,medium,excluded_no_defensible_fua,
+867,06Rbwc8jaQ1d5fDPZiasE0,Q7726877,The Colourfield,55168,28746,Coventry,reported_place,True,False,,,,,source_variation,Coventry,not_reviewed,medium,strict,UK025F
+868,38bfc5BSVq6sVAssDmdc8N,Q2924565,Breton,55107,29508,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+869,148ujrGRexnhpqhRiw0rDi,Q3154713,IS TROPICAL,54757,43588,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+870,0Sd7X8SxWV0AyDLbvd4uEu,Q924292,Swervedriver,54373,81061,Oxford,reported_place,True,False,,,,,confirmed,Oxford,not_reviewed,,strict,UK560F
+871,47meGvCz0CZklN50dgzjmL,Q65059746,She Drew The Gun,54246,34269,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Wirral,not_reviewed,medium,excluded_no_defensible_fua,
+872,4M2H1fDQR5ygAi7MMOVxAA,Q1078032,The Whip,54058,29678,Oldham,reported_place,True,False,,,,,source_variation,Oldham,not_reviewed,medium,strict,UK008F
+873,78OgxRnIdBCdFBmKhP2Fz2,Q1137836,Skeletal Family,53859,77225,Keighley,reported_place,True,False,,,,,confirmed,Keighley,not_reviewed,,strict,UK003F
+874,3jNwnthjUjHYvjyvRGfWuQ,Q4992961,Terrorvision,53778,36238,Keighley,reported_place,True,False,,,,,confirmed,Keighley,not_reviewed,,strict,UK003F
+875,25w2vpqq7dYleBAqMx7Ijx,Q153566,Zoot Woman,53078,29473,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Reading,not_reviewed,medium,excluded_no_defensible_fua,
+876,5mGqZFvzU9FRNkcI3Y0A2V,Q4928657,Blu Mar Ten,53063,27393,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+877,0JseT2AZzVMKsBlrAywFcO,Q4752397,Anavae,52164,29336,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+878,6KNqvxgfYVRSzgAE1j2UT5,Q109450602,Declan Welsh and The Decadent West,51958,28947,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+879,3xA9AB0f4BVjsSlyQc12iE,Q1761282,Mclusky,51917,50828,Cardiff,reported_place,True,False,,,,,confirmed,Cardiff,not_reviewed,,strict,UK009F
+880,1HyT0AtzTH5lVzlm8yQgbI,Q4959091,Breabach,51761,20677,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+881,5JQljNQvDpk1hhKpJHpwNU,Q57545813,Klimeks,51676,31584,,unresolved_generic_or_missing,True,False,Klimeks,,,,evidence_for_missing_claim,Peterborough,not_reviewed,medium,excluded_no_defensible_fua,
+882,7dtYyLTWjuZGOcweC3eD2f,Q926799,Strawbs,51671,56523,,unresolved_generic_or_missing,True,True,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+883,4WM2JNPCcZ7f6M72C0bTyM,Q63203779,Empathy Test,51330,38799,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+884,0pobPzcYFoVSprUnwY2Bio,Q4039563,Goldie Lookin Chain,51269,37598,Newport,reported_place,True,False,,,,,confirmed,Newport,not_reviewed,,strict,UK558F
+885,5vTCEZ15eybRnoqUAra4Ys,Q19689005,Black Tongue,50504,96043,Kingston upon Hull,reported_place,False,False,,,,,confirmed,Kingston upon Hull,not_reviewed,,strict,UK026F
+886,32ttgKG3BxUVYxlBdmLBMi,Q134238905,Dolores Forever,50315,20474,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+887,0UnBsBrom4chs5rnjRBtIK,Q4048553,Rosetta Stone,50256,78261,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+888,4vhgCDK6RHCBN6P3jPQlZX,Q305788,Abbacadabra,49799,5344,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+889,6ahlwhwCBtwhSeDO5vYMh5,Q5458717,Flesh For Lulu,49698,33594,Brixton,reported_place,True,False,,,,,source_variation,Brixton,not_reviewed,medium,strict,UK001F
+890,7aLNBjOlzOCyuFmytbbeYM,Q96318732,Matthews' Southern Comfort,49578,10689,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+891,2b2c6xP76y8HCLiovv7kIZ,Q124372645,Kill The Lights,48704,30730,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bridgend,not_reviewed,medium,excluded_no_defensible_fua,
+892,02frazNrWgZCxUEf4UTfHt,Q752170,Van Der Graaf Generator,48618,154738,Manchester,reported_place,True,False,,,,,confirmed,Manchester,not_reviewed,,strict,UK008F
+893,6ZHfuZhV3q15jxpOY8S1m6,Q129566045,Balancing Act,48276,12544,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Manchester,not_reviewed,medium,excluded_no_defensible_fua,
+894,0j7wLGDwHdUSPLkxCH3GBQ,Q113103524,A Blaze of Feather,48229,34261,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+895,6L48AOtGmQL1ELLoKML7cS,Q531934,Angel Witch,48153,107188,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+896,7cfhZmKaLWzNLwHDxzugUH,Q4166250,Little Comets,47976,80242,Tyne and Wear,reported_place,True,False,,,,,confirmed,Tyne and Wear,not_reviewed,,excluded_no_defensible_fua,
+897,12X85dtebfc7JTZ8iMBT2o,Q1890473,Osibisa,47843,47531,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+898,64vNIhiqTanqaY1VJucSAS,Q1330725,U.K.,47600,62279,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+899,07vC6cutbett8UknXnqxsu,Q23018832,Ulrika Spacek,46731,36028,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Reading,not_reviewed,medium,excluded_no_defensible_fua,
+900,0jyH4jtanxaysaxwDVhR6f,Q2264804,Seefeel,46679,44055,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+901,4H0zGQILA7vJKl0ot2OYBf,Q924862,Brodsky Quartet,46624,7254,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Middlesbrough,not_reviewed,medium,excluded_no_defensible_fua,
+902,0DkpQq8B7ZAKebZEjlzVmd,Q1754027,The Vibrators,46560,75847,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+903,3A9BLI8S2rNSxXS3QsMkOY,Q130300851,She's In Parties,46512,10376,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+904,0i2IEcWvtHUBYPkYWwCgjC,Q939534,Trashcan Sinatras,46209,26676,Irvine,reported_place,True,False,,,,,confirmed,Irvine,not_reviewed,,excluded_no_defensible_fua,
+905,3bqOGIOIvLc9JsAIS7OfEb,Q7076197,Oceanic,46135,3833,Wallasey,reviewed_override,False,False,,,,,resolved,Wallasey,resolved,medium,excluded_no_defensible_fua,
+906,0BdsizQXvwb1BPeEKqfuVs,Q97587415,Ímar,45827,15182,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+907,11tiA94VlUZOUTVCdQYw3a,Q19872238,Conan,45815,82354,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+908,4tyCvqG48h4LdcbFfWBjR9,Q4372,The Wedding Present,45749,65575,Leeds,reported_place,True,False,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+909,4xM0Rz2FbjZevoVLVJUgEQ,Q1668695,The Big Pink,45735,39674,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+910,2kS4yz85MaZlxp2VaS3BEe,Q1024747,Cabaret Voltaire,45473,118625,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+911,3CSQtK60sg2jNNxnpThSN1,Q2476571,Grim Reaper,45246,102546,Droitwich Spa,reported_place,True,False,,,,,source_variation,Droitwich Spa,not_reviewed,medium,excluded_no_defensible_fua,
+912,5MGxwE9JG5IA6uqswrgNL6,Q4876102,Beak>,45055,92050,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bristol,not_reviewed,medium,excluded_no_defensible_fua,
+913,4tXmMY3u0qbzec7aocHPPt,Q130775275,Thy Slaughter,44871,15187,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+914,6hlQVaiKiA8Y9K12cTQPrF,Q5203219,D*Minds,44572,4577,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bristol,not_reviewed,medium,excluded_no_defensible_fua,
+915,7h0muodpQ1q5o3RajwownN,Q1492853,Gama Bomb,44268,83436,Newry,reported_place,True,False,,,,,confirmed,Newry,not_reviewed,,excluded_no_defensible_fua,
+916,10aXVE8RSUCeMzaFvBnZ2i,Q2005871,Pitchshifter,43987,48946,Nottingham,reported_place,True,False,,,,,confirmed,Nottingham,not_reviewed,,strict,UK029F
+917,7fRzvXVDS5fOLD91WQwE6q,Q47501791,Phil Campbell and the Bastard Sons,43860,47440,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Pontypridd,not_reviewed,medium,excluded_no_defensible_fua,
+918,07PXLHOMh4k77DLNE0EolG,Q5403291,Ether,43789,3646,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Blackwood,not_reviewed,medium,excluded_no_defensible_fua,
+919,7KiK3DokuIW5BVZu5Y5kph,Q6888844,Modern Romance,43441,12292,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+920,7sx3r4lMo079vO7lIi0fng,Q14158905,Lanterns on the Lake,43202,38093,Newcastle upon Tyne,reported_place,True,False,,,,,confirmed,Newcastle upon Tyne,not_reviewed,,strict,UK013F
+921,2LpdhgwN0mYKMjnzrBQU8H,Q377770,The Crazy World Of Arthur Brown,43146,16217,London,reported_place,False,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+922,7FWu3peCUoaSGOc4PwxwTH,Q6413105,Kings Of The City,43136,6557,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+923,43lLY3aEg3yQz8sYhyvdn5,Q6601851,Alisha's Attic,42752,19496,London,reported_place,True,True,,,,,confirmed,London,not_reviewed,,strict,UK001F
+924,2vygNfdnPBXah21ZrqhxYk,Q300348,A Certain Ratio,42710,46261,Manchester,reported_place,True,False,,,,,source_variation,Manchester,not_reviewed,medium,strict,UK008F
+925,3Sr1muUE6DYihFufoHpnfc,Q493700,The Rifles,42702,74510,Chingford,reported_place,True,False,,,,,confirmed,Chingford,not_reviewed,,strict,UK001F
+926,07eIrj0b3z5mgvtkDmWoxo,Q105883290,Heavy Lungs,42610,33237,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bristol,not_reviewed,medium,excluded_no_defensible_fua,
+927,0tQ2Q4y9iUkKszxXyB14ZH,Q2164036,Young Marble Giants,42598,62664,Cardiff,reported_place,True,False,,,,,confirmed,Cardiff,not_reviewed,,strict,UK009F
+928,5O7ziOtiFUyRMBJN1J4Tpv,Q1050878,Cathedral,42528,96540,Coventry,reported_place,True,False,,,,,confirmed,Coventry,not_reviewed,,strict,UK025F
+929,4tqcqE9n9vHWbIT8ryEA1v,Q702998,The Arrows,42469,7187,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+930,1M684BN2C8BO9WwB0xeXJo,Q124131161,Wings of Desire,41995,6904,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+931,71lhIVHJ24x9hEcwFSWuOf,Q1417965,Onslaught,41973,106888,Bristol,reported_place,True,False,,,,,confirmed,Bristol,not_reviewed,,strict,UK011F
+932,7GsdZ6T45uXudJ8Wsko9sB,Q743137,The Associates,41622,50912,Dundee,reported_place,True,False,,,,,confirmed,Dundee,not_reviewed,,strict,UK550F
+933,1uS4cYRRZRtauASIM9RxBG,Q250009,Mesh,41618,38152,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Bristol,not_reviewed,medium,excluded_no_defensible_fua,
+934,3uHCTHxtg3IVAvhyrYsZvI,Q7361393,Rolo Tomassi,41494,78649,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+935,7Ks1xbMXEQjy9aQObTJdId,Q20127907,Lonely The Brave,40908,47704,Cambridge,reported_place,True,False,,,,,confirmed,Cambridge,not_reviewed,,strict,UK017F
+936,7oEVPoHXaj73ddUCTNlO9E,Q105085574,Gen and the Degenerates,40842,15062,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+937,1svaANJTE5KrG16fTGDqOs,Q1850284,The Puppini Sisters,40797,69632,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+938,76MojWoWNPzzKdrEspy5sl,Q106879795,NIMMO,40726,14459,,unresolved_generic_or_missing,False,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+939,1Ag6UM6dow2OH9V06mxzV5,Q1529069,Mekons,40549,27778,Leeds,reported_place,True,True,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+940,2CLWZP9ZwueC8Yx9ORbxlW,Q471241,bis,40316,13258,Glasgow,reported_place,True,False,,,,,source_variation,Glasgow,not_reviewed,medium,strict,UK004F
+941,3UvsX37JzJrmhTea2t3Wei,Q1948294,Morning Runner,40259,8121,Reading,reported_place,True,False,,,,,confirmed,Reading,not_reviewed,,strict,UK552F
+942,5uO1Dms6wMs4J3sSdcKEMh,Q1124940,One Minute Silence,39696,41759,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Dublin,not_reviewed,medium,excluded_no_defensible_fua,
+943,4HVopeHcb4aGTBsfIRrRcQ,Q63242079,InsideInfo,39084,25281,,unresolved_generic_or_missing,False,False,InsideInfo,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+944,1daC6WKGAm52YZbL5G7zYg,Q6317600,Plump DJs,39025,39640,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+945,7mDQwcnDUGuSoggxbUtVc1,Q1762436,The Rakes,38909,55169,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+946,6ixeWfTvnU1VOVPEVP5Bcq,Q1575233,Red Lorry Yellow Lorry,38041,51142,Leeds,reported_place,True,False,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+947,5Lel5d14oFwC4XbKDv2AKW,Q11893563,Hallucinogen,37698,66590,,unresolved_generic_or_missing,True,False,Hallucinogen,,verified_solo_project,https://hallucinogenmusic.bandcamp.com/album/twisted,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+948,75Kh0eqgzo9f43Dan1JzSV,Q1688137,Slow Club,37665,57600,Sheffield,reported_place,True,False,,,,,confirmed,Sheffield,not_reviewed,,strict,UK010F
+949,33Ztukerf3He8FeKk5acn8,Q3542601,Two Lone Swordsmen,37114,40442,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+950,5z96yaS2s1USscDldCCDgw,Q521396,Angelic Upstarts,37083,52277,South Shields,reported_place,True,False,,,,,confirmed,South Shields,not_reviewed,,strict,UK013F
+951,1F7QDWyZTLGzkyGLgFjEhU,Q93962241,Pigs Pigs Pigs Pigs Pigs Pigs Pigs,37035,72472,Newcastle upon Tyne,reported_place,True,False,,,,,confirmed,Newcastle upon Tyne,not_reviewed,,strict,UK013F
+952,1WFsBUAgQmrGQQEUyFKS60,Q5404233,Savages,36562,130669,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+953,1lbp4Rrpi6ug3cGZF9LWXq,Q5275840,Digital Dog,36424,907,,unresolved_generic_or_missing,False,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+954,0YtA5DdO2df8zIxpVdktqg,Q365321,The 411,36002,38204,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+955,2mHQfi32bOrYcD42cazcmh,Q2000167,Peter and the Test Tube Babies,35963,46920,Peacehaven,reported_place,True,False,,,,,confirmed,Peacehaven,not_reviewed,,strict,UK515F
+956,1cFIgop2t8jZzlM7TVePLY,Q3410949,Puressence,35668,14385,Failsworth,reported_place,True,False,,,,,confirmed,Failsworth,not_reviewed,,strict,UK008F
+957,64Qk682XX2D0jk14ioYDGx,Q6907168,Moodswings,35615,2398,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+958,4jBSa0eitusIKxQHjAgsyd,Q122627,Coverdale/Page,35540,90121,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+959,6vxyuUNiILvDzBfLxgu0KT,Q3494280,[spunge],35282,21846,Tewkesbury,reported_place,True,False,,,,,confirmed,Tewkesbury,not_reviewed,,strict,UK571F
+960,61NdtTZaI4ZaMVNySovN0b,Q16251607,Grade 2,35157,28578,Ryde,reported_place,True,False,,,,,confirmed,Ryde,not_reviewed,,excluded_no_defensible_fua,
+961,6OzpbdankE26K03oeoHhPN,Q1564341,Sky,35087,12841,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+962,1K1m6K2IZOcbyabxB2jXjg,Q4045817,One Eskimo,35030,11103,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+963,3SRTWBeGhX3o5DCQ2zzTdI,Q372843,Dubstar,34962,17970,Newcastle upon Tyne,reported_place,True,False,,,,,confirmed,Newcastle upon Tyne,not_reviewed,,strict,UK013F
+964,1ukEEwzjucRtFTxiw2DrDZ,Q78534002,Goat Girl,34711,81408,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+965,4unGdyZQTgdMSRqmsZsJZ1,Q7077080,Octopus,34584,2173,Shotts,reported_place,True,False,,,,,confirmed,Shotts,not_reviewed,,excluded_no_defensible_fua,
+966,63yEaRONzlJVu1ozymo4Fk,Q7774898,The Wild Swans,34532,17544,Liverpool,reported_place,True,False,,,,,confirmed,Liverpool,not_reviewed,,strict,UK006F
+967,48QP1FCIq76VufzDPShGi5,Q140317314,Auger,34522,11957,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Northern England,not_reviewed,medium,excluded_no_defensible_fua,
+968,39aYm70XPfUpkMIKSfeeig,Q3523258,The Wake,34392,26671,Glasgow,reported_place,True,False,,,,,confirmed,Glasgow,not_reviewed,,strict,UK004F
+969,52aKFP2BnAa28POINNExhE,Q116609986,Rumahoy,34135,24027,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Auchtermuchty,not_reviewed,medium,excluded_no_defensible_fua,
+970,2z846SqjChnjieVgTfRq3X,Q24887435,The Gesualdo Six,34122,15910,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Cambridge,not_reviewed,medium,excluded_no_defensible_fua,
+971,5YFIVhzlaYH9Yadjw9gSUx,Q137757793,James and the Cold Gun,34074,12359,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+972,40PsC6cWe7ZQdOUTqF5JgD,Q2976627,Classix Nouveaux,34070,31887,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+973,7vF3DcPluq6lZI36VniagW,Q739657,Current 93,33791,83424,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+974,48US3n5ecZ1TS4RjzsdWrm,Q131406600,Baba Ali,33455,11533,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+975,5B9MfAU2KZlyvsofev6XXR,Q3197517,Kissing The Pink,33343,10782,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+976,5MCl6mca6ZixPR36dHH9Sd,Q113878754,Low Island,31768,21054,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Oxford,not_reviewed,medium,excluded_no_defensible_fua,
+977,7mu52yh5bBhhJOyVndAEZW,Q3680523,Cleopatra,31723,33076,Manchester,reported_place,True,False,,,,,source_variation,Manchester,not_reviewed,medium,strict,UK008F
+978,1pMIULCflTFyzyv5vT1OzU,Q132200349,dearALICE,31267,28780,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,South Korea & the United Kingdom,not_reviewed,medium,excluded_no_defensible_fua,
+979,3tDg9XbUbQS0dbaSnFNvvk,Q1814408,Witchfinder General,31258,64357,Stourbridge,reported_place,True,False,,,,,confirmed,Stourbridge,not_reviewed,,strict,UK002F
+980,1stGFX6w6VMHQPDPlBqX74,Q122765662,Sons of Raphael,31229,6089,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+981,0tQzBYPjAardhWpGkqVdNW,Q1500510,The Incredible String Band,31217,60628,Edinburgh,reported_place,True,False,,,,,confirmed,Edinburgh,not_reviewed,,strict,UK007F
+982,6Y1nACvxtuuTjKx2b4Rwmb,Q7923356,Vessels,31211,35493,Leeds,reported_place,True,False,,,,,confirmed,Leeds,not_reviewed,,strict,UK003F
+983,77aUDqXRIvkDNxARfYwoHC,Q7174364,Peter Green Splinter Group,31080,41317,,unresolved_generic_or_missing,False,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+984,3KH6DLHeoFZgVbtKiLXb6L,Q7733724,The Field Mice,31075,29459,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+985,6NCFDKbtkbJhgjQcFicLBi,Q2719617,Rudimentary Peni,31002,42267,London,reported_place,False,False,,,,,source_variation,London,not_reviewed,medium,strict,UK001F
+986,6IN0ZavFCDhKZ2N3NT7E3z,Q30116699,Skarlett Riot,30983,41251,Scunthorpe,reported_place,True,False,,,,,confirmed,Scunthorpe,not_reviewed,,excluded_no_defensible_fua,
+987,65X3sG8LVBQN5033RqB6qn,Q741661,Spinal Tap,30887,59910,United States,reported_place,True,False,,,,,evidence_for_missing_claim,Fictional: England,not_reviewed,medium,excluded_non_uk,
+988,6Q7D1oEccgTc8MAYdMgtIx,Q205356,The Bonzo Dog Band,30851,26310,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+989,1xo5zONg7VWkVmR0I0YO4d,Q2712179,Tigertailz,30839,28199,Cardiff,reported_place,True,False,,,,,confirmed,Cardiff,not_reviewed,,strict,UK009F
+990,1luY92PbdGWRyBRY1ZR7o1,Q3989799,The Unthanks,30493,50728,Tyne and Wear,reviewed_override,True,False,,,,,resolved,Tyne and Wear,resolved,medium,excluded_no_defensible_fua,
+991,0Iv00ucAIqr5KVS7bXGFa9,Q1550383,Ozric Tentacles,30429,97411,Somerset,reported_place,True,False,,,,,confirmed,Somerset,not_reviewed,,excluded_no_defensible_fua,
+992,72o2T9aqYR2PFNYpzYrMmw,Q724783,The Tiger Lillies,30200,68137,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+993,5EtBXjUUyPJmiljpRdN6RJ,Q144942,The Auteurs,30197,22347,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
+994,3BxngwxP94n0itZ8q1hwf9,Q3737249,FM,30171,29860,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+995,2Kq6loh0WNVAGEHlDxxprf,Q505149,Gallagher And Lyle,30115,11245,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,Largs,not_reviewed,medium,excluded_no_defensible_fua,
+996,10yA9Y6h5wbDaX5XuZuA9X,Q5510868,Futurecop!,30022,37012,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+997,6Um25UMHv0fzcEHYGQJPXv,Q7837745,Treetop Flyers,29843,9167,London,reported_place,True,False,,,,,confirmed,London,not_reviewed,,strict,UK001F
+998,1gv1pJZUv6mZIaYRezXE3C,Q89671336,Kenny Ball & His Jazzmen,29795,4422,,unresolved_generic_or_missing,False,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+999,6To7KuC86pBGCtkRUiq80O,Q1144085,Brother Beyond,29759,27195,,unresolved_generic_or_missing,True,False,,,,,unresolved,,not_reviewed,low,excluded_no_defensible_fua,
+1000,30Ns8wCbxSPz2L1tnSypTG,Q29784258,As Lions,29728,23599,,unresolved_generic_or_missing,True,False,,,,,evidence_for_missing_claim,London,not_reviewed,medium,excluded_no_defensible_fua,
