@@ -9,7 +9,12 @@ from matplotlib.ticker import FuncFormatter, MultipleLocator, PercentFormatter
 import pandas as pd
 
 from .config import FUA_POPULATION_YEAR, PROJECT_ROOT
-from .visuals import HOUSE, _finish_chart, _new_chart
+from .visuals import (
+    HOUSE,
+    _colors_for_highlighted_cities,
+    _finish_chart,
+    _new_chart,
+)
 
 
 SCENE_DEPTH_CHART_DIR = PROJECT_ROOT / "artifacts" / "scene_depth"
@@ -102,85 +107,105 @@ def plot_raw_normalized_scene_depth_rank_comparison(
     number: int = 4,
     filename: str = "chart_04_raw_normalized_scene_depth_ranks.png",
 ) -> Path:
-    """Compare raw, population-normalized, and dominant-band-sensitivity ranks."""
+    """Show rank movement across the three analytical views as a slopegraph."""
 
-    plot_data = rankings.sort_values(
-        "all_ten_rank", ascending=False
-    ).reset_index(drop=True)
-    y_positions = list(range(len(plot_data)))
-
-    figure_height = max(6.8, 0.46 * len(plot_data) + 2.2)
-    _, ax = _new_chart(figsize=(10.5, figure_height))
-    for y_position, row in zip(
-        y_positions, plot_data.itertuples(index=False)
-    ):
-        ranks = [
-            row.raw_total_rank,
-            row.all_ten_rank,
-            row.top_excluded_rank,
-        ]
-        ax.plot(
-            [min(ranks), max(ranks)],
-            [y_position, y_position],
-            color=HOUSE["rule"],
-            linewidth=1.2,
-            zorder=1,
-        )
-
-    method_styles = (
-        (
-            "raw_total_rank",
-            "Raw area total",
-            -0.14,
-            "o",
-            HOUSE["page"],
-            HOUSE["ink"],
-        ),
-        (
-            "all_ten_rank",
-            "Primary: population normalized",
-            0,
-            "D",
-            HOUSE["blue"],
-            HOUSE["ink"],
-        ),
-        (
-            "top_excluded_rank",
-            "Sensitivity: largest band removed",
-            0.14,
-            "s",
-            HOUSE["warning_soft"],
-            HOUSE["warning"],
-        ),
+    stages = (
+        ("raw_total_rank", "Raw total"),
+        ("all_ten_rank", "Population normalized\n(primary)"),
+        ("top_excluded_rank", "Largest band removed\n(sensitivity)"),
     )
-    for column, label, offset, marker, fill, edge in method_styles:
-        ax.scatter(
-            plot_data[column],
-            [position + offset for position in y_positions],
-            s=72,
-            marker=marker,
-            color=fill,
-            edgecolor=edge,
-            linewidth=1,
-            label=label,
-            zorder=2,
+    required_columns = {"city", *(column for column, _ in stages)}
+    missing_columns = required_columns.difference(rankings.columns)
+    if missing_columns:
+        raise ValueError(
+            f"Rankings are missing required columns: {sorted(missing_columns)}"
         )
 
-    ax.set_yticks(y_positions, plot_data["city"])
-    ax.set_xticks(range(1, len(plot_data) + 1))
-    ax.set_xlim(0.5, len(plot_data) + 0.5)
-    ax.set_xlabel("Area rank (1 is strongest)")
-    ax.set_ylabel("")
-    ax.grid(axis="x")
-    ax.set_axisbelow(True)
-    ax.legend(frameon=False, loc="upper right")
+    plot_data = rankings.sort_values("all_ten_rank").reset_index(drop=True)
+    expected_ranks = set(range(1, len(plot_data) + 1))
+    for column, _ in stages:
+        if set(plot_data[column]) != expected_ranks:
+            raise ValueError(f"{column} must contain each rank exactly once")
+
+    highlighted_cities = tuple(plot_data.head(3)["city"])
+    city_colors = dict(
+        zip(
+            plot_data["city"],
+            _colors_for_highlighted_cities(
+                plot_data["city"], highlighted_cities
+            ),
+            strict=True,
+        )
+    )
+    x_positions = list(range(len(stages)))
+
+    _, ax = _new_chart(figsize=(12.5, 7.2))
+    for row in plot_data.itertuples(index=False):
+        ranks = [getattr(row, column) for column, _ in stages]
+        color = city_colors[row.city]
+        highlighted = row.city in highlighted_cities
+        ax.plot(
+            x_positions,
+            ranks,
+            color=color,
+            linewidth=2.1 if highlighted else 1.25,
+            alpha=1 if highlighted else 0.72,
+            marker="o",
+            markersize=7 if highlighted else 5.5,
+            markeredgecolor=HOUSE["ink"],
+            markeredgewidth=0.6,
+            zorder=3 if highlighted else 2,
+        )
+        for x_position, rank in zip(x_positions, ranks, strict=True):
+            if x_position == 0:
+                offset, alignment = (-7, 0), "right"
+            elif x_position == x_positions[-1]:
+                offset, alignment = (7, 0), "left"
+            else:
+                offset, alignment = (0, -11), "center"
+            ax.annotate(
+                row.city,
+                (x_position, rank),
+                xytext=offset,
+                textcoords="offset points",
+                ha=alignment,
+                va="center",
+                fontsize=8.2,
+                color=HOUSE["ink_soft"],
+                bbox={
+                    "facecolor": HOUSE["page"],
+                    "edgecolor": "none",
+                    "pad": 0.6,
+                    "alpha": 0.9,
+                },
+                zorder=4,
+            )
+
+    for x_position, (_, label) in zip(x_positions, stages, strict=True):
+        ax.text(
+            x_position,
+            0.18,
+            label,
+            ha="center",
+            va="top",
+            fontsize=10,
+            color=HOUSE["ink"],
+        )
+
+    rank_count = len(plot_data)
+    ax.set_xlim(-0.34, len(stages) - 0.66)
+    ax.set_ylim(rank_count + 0.55, 0)
+    ax.set_xticks([])
+    ax.set_yticks(range(1, rank_count + 1))
+    ax.set_ylabel("Rank (1 is strongest)")
+    ax.spines["bottom"].set_visible(False)
 
     return _finish_chart(
         ax,
         number=number,
         title="Area rank across three selected-catalogue views",
         subtitle=(
-            "Same ten-band catalogue · FUA population denominator in blue and gold · "
+            "Three analytical views, not a time series · Primary top three highlighted · "
             f"Spotify snapshot {snapshot_date}"
         ),
         filename=filename,
