@@ -19,17 +19,35 @@
     </div>
 
     <div id="app" hidden>
-      <nav class="app-nav" aria-label="Main navigation">
-        <a class="app-name" href="#explorer">UK Music Cities</a>
-        <div><a id="nav-explorer" href="#explorer">Explore</a><a id="nav-games" href="#games">Play</a><a id="nav-read" href="https://www.danielpradilla.info/blog/which-british-music-city-punches-furthest-above-its-weight/" target="_blank" rel="noopener noreferrer">Read</a></div>
-      </nav>
+      <header>
+        <div class="dp-navbar">
+          <a class="dp-navbar-brand" href="/projects/">Daniel Pradilla</a>
+          <nav class="dp-navbar-links" aria-label="Site navigation">
+            <a id="nav-explorer" href="#explorer">Explore</a>
+            <a id="nav-games" href="#games">Play</a>
+            <a id="nav-read" href="https://www.danielpradilla.info/blog/which-british-music-city-punches-furthest-above-its-weight/" target="_blank" rel="noopener noreferrer">Read</a>
+            <a href="/blog/">Blog</a>
+            <a href="https://github.com/danielpradilla/uk-music-cities">GitHub</a>
+          </nav>
+          <details class="dp-navbar-menu">
+            <summary aria-label="Menu">&#9776;</summary>
+            <nav aria-label="Site navigation (mobile)">
+              <a id="nav-explorer-mobile" href="#explorer">Explore</a>
+              <a id="nav-games-mobile" href="#games">Play</a>
+              <a id="nav-read-mobile" href="https://www.danielpradilla.info/blog/which-british-music-city-punches-furthest-above-its-weight/" target="_blank" rel="noopener noreferrer">Read</a>
+              <a href="/blog/">Blog</a>
+              <a href="https://github.com/danielpradilla/uk-music-cities">GitHub</a>
+            </nav>
+          </details>
+        </div>
+        <div class="dp-project-header">
+          <h1 id="page-title">UK Music Cities Explorer</h1>
+          <p>Search the popularity-first catalog, map band origins, and compare frozen Spotify reach by place.</p>
+        </div>
+      </header>
       <main id="games-main" hidden></main>
       <main id="explorer-main">
-        <section class="intro" aria-labelledby="page-title">
-          <div class="intro-copy">
-            <h1 id="page-title">UK Music Cities Explorer</h1>
-            <p>Search the popularity-first catalog, map band origins, and compare frozen Spotify reach by place.</p>
-          </div>
+        <section class="intro" aria-label="Band search">
           <div class="search-control">
             <label class="visually-hidden" for="band-search">Search bands or formation places</label>
             <div class="combobox-wrap">
@@ -97,7 +115,7 @@
       </main>
 
       <footer class="site-footer">
-        <div class="footer-inner">
+        <div class="footer-inner footer-content">
           <ul id="footer-freshness" class="freshness-list"></ul>
           <p id="footer-coverage"></p>
           <p id="footer-provenance" class="footer-provenance"></p>
@@ -105,6 +123,14 @@
             <span>Sources</span>
             <ul id="footer-sources"></ul>
           </div>
+        </div>
+        <div class="footer-inner dp-footer">
+          <span>&copy; 2026 Daniel Pradilla</span>
+          <nav aria-label="Footer navigation">
+            <a href="/projects/">Projects</a>
+            <a href="/blog/">Blog</a>
+            <a href="https://github.com/danielpradilla/uk-music-cities">GitHub</a>
+          </nav>
         </div>
       </footer>
     </div>

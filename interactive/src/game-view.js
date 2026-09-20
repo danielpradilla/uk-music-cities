@@ -776,8 +776,8 @@ export function initGames(container, dashboard, outline) {
     document.querySelector(".site-footer").hidden = playing;
     document.querySelector(".skip-link").href = playing ? "#games-main" : "#explorer-main";
     document.querySelector(".skip-link").textContent = playing ? "Skip to game" : "Skip to explorer";
-    document.querySelector("#nav-games").setAttribute("aria-current", playing ? "page" : "false");
-    document.querySelector("#nav-explorer").setAttribute("aria-current", playing ? "false" : "page");
+    document.querySelectorAll("#nav-games, #nav-games-mobile").forEach((link) => link.setAttribute("aria-current", playing ? "page" : "false"));
+    document.querySelectorAll("#nav-explorer, #nav-explorer-mobile").forEach((link) => link.setAttribute("aria-current", playing ? "false" : "page"));
     if (!playing) return;
     const mode = window.location.hash.split("/")[1];
     if (GAMES.some((definition) => definition.id === mode)) {

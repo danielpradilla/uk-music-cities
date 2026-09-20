@@ -1,4 +1,4 @@
-import { normalizeSearch } from "./search.js?v=a7aca63ae0da";
+import { normalizeSearch } from "./search.js?v=329a3fc6b8d3";
 
 export const ROUND_SECONDS = { pin: 18, odd: 12, north: 8 };
 
